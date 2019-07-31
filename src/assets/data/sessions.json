@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Next’19 Recape",
+        "des":"In this session, we will share the top announcement of Google Cloud Next'19 from the week across infrastructure, application development, data management, smart analytics and AI, productivity, partnerships, and more."
+    },
+    {
+        "title":"GCP Certification",
+        "des":"This half-day instructor-led bootcamp helps prospective candidates structure their preparation for the Cloud Certification exam. The session will cover the structure and format of the examination, as well as its relationship to other Google Cloud certifications. Through lectures, quizzes, and discussions, candidates will familiarize themselves with the domain covered by the examination, so as to help them devise a preparation strategy. and will share the qwiklabs access."
+    },
+    {
+        "title":"Google Cloud Fundamentals",
+        "des":"This one-day instructor-led class provides an overview of Google Cloud Platform products and services. Through a combination of presentations, demos, and hands-on labs, participants learn the value of Google Cloud Platform and how to incorporate cloud-based solutions into business strategies."
+    },
+    {
+        "title":"Getting Started With Google Kubernetes",
+        "des":"Learn to containerize workloads in Docker containers, deploy them to Kubernetes clusters provided by Google Container Engine, and scale those workloads to handle increased traffic. You’ll also learn how to continuously deploy new code in a Kubernetes cluster to provide application updates. Bootcamp objectives: This bootcamp teaches participants the following skills:Understand container basics,Containerize an existing application, Understand Kubernetes concepts and principles, Deploy applications to Kubernetes using the CLI, Set up a continuous delivery pipeline using Jenkins"
+    },
+    {
+        "title":"GCP Deployment",
+        "des":"In this session we will have a hands on experience on How to create a Web Application and deploy it on Google Cloud Platform. Access of Qwik Labs demo will be shared in this session."
+    },
+    {
+        "title":"ML with GCP",
+        "des":"We will cover that, 'How to integrate/use Google Cloud APIs with Machine Learning?' in this session. We will also cover the various APIs like Vision API, Speech recognition API, Video Intelligence API, etc provided by Google Cloud Platform."
+    },
+    {
+        "title":"Designing and Implementing Disaster Recovery using GCP",
+        "des":"Disasters and service interrupting events can occur at any time. When things go wrong, it's important to have a robust and well tested disaster Recovery plan. In this session, we cover how you can use GCP as a part of your DR plan, whether you're running prod workloads on GCP, on premises, or on another cloud."
+    }
+]
