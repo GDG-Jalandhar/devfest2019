@@ -2,8 +2,9 @@
   <v-bottom-navigation
     :value="activeBtn"
     grow
+    shift
     app
-    color="teal"
+    color="deep-purple accent-4"
     class="hidden-sm-and-up"
   >
     <v-btn>
