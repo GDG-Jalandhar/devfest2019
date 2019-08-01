@@ -2,6 +2,7 @@
   <v-navigation-drawer
     v-model="drawer"
     app
+    width="300"
     temporary
   >
     
@@ -9,7 +10,7 @@
       <p class="google-font mt-2" style="font-size:130%">DevFest Punjab</p>
     </v-flex>
 
-    <v-list dense nav>
+    <v-list dense nav shaped>
       <v-list-item
         v-for="(link, i) in links"
         :key="i"
