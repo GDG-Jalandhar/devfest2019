@@ -1,5 +1,5 @@
 <template>
-    <v-container class="pa-0">
+    <v-container>
         <v-layout wrap align-center justify-center row fill-height  >
            <v-flex xs12 sm5 md3 lg3 xl3 class="text-xs-center pa-5">
                 <v-img
@@ -17,15 +17,18 @@
                     </v-layout>
                 </v-img>
             </v-flex> 
-            <v-flex xs12 sm7 md8 lg8 xl8 class="pa-5">
+            <v-flex xs12 sm7 md8 lg8 xl8 class="px-5">
                 <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:300%"><b>DevFest  
                     <span style="color: #1a73e8;">Punjab</span>.</b> 
                 </p>
                 <!-- <p class="google-font mb-1 " style="font-weight: 350;color: #616161;font-size:300%"><b>Be a  
                     <span style="color: #1a73e8;">hero</span>.</b> <b> Be a <span style="color: #1a73e8;">GDG</span>.</b>
                 </p> -->
-                <p class="google-font mt-0" style="font-size:180%">GDG Jalandhar <v-icon>mdi-unfold-more-vertical mdi-36px</v-icon> GDG Chandigarh</p>
-                <p class="google-font" style="font-size:110%">DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building and learning about Google’s technologies. </p>
+                <p class="google-font mb-0 mt-0" style="font-size:180%">GDG Jalandhar <v-icon>mdi-unfold-more-vertical mdi-36px</v-icon> GDG Chandigarh</p>
+                <p class="google-font mb-0" style="font-size:110%">DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building and learning about Google’s technologies. </p>
+                <p class="google-font my-0" style="font-size:110%;color:#424242">
+                    Date | Time | Venue
+                </p> 
                 <p class="google-font" style="font-size:110%;color:#9e9e9e">
                     <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">
                         #{{item}} &nbsp;
