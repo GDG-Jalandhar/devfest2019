@@ -7,129 +7,49 @@
                 <p class="google-font mt-0" style="font-size:120%">If you’re interested in being showcased throughout <b>{{chapterDetails.ChapterName}}</b>, contact <a style="color:#1565C0;text-decoration: none;" :href="`mailto:${chapterDetails.ChapterEmail}`">{{chapterDetails.ChapterEmail}}</a> to discuss sponsorship opportunities.</p>
             </v-flex>
 
-            <v-flex xs12>
-                <v-container
-                    pa-0
-                    grid-list-md
-                >
-                    <base-subheading>On Instagram</base-subheading>
-                    <v-layout wrap>
-                        <v-flex
-                            v-for="(itemp,i) in partnerData" :key="i"
-                            xs4 md2
-                            class="red"
-                        >
-                            <base-card
-                                tag="a"
-                                :href="itemp.link"
-                                height="88"
-                                color="grey lighten-2"
-                                >
+            <!-- <a v-bind:href="itemp.link">
+                <img :src="getImgUrl(itemp.img)" style="height:4em" alt="" srcset="">
+            </a> -->
+
+            <v-flex xs12 class="px-5">
+                <v-layout row wrap class="px-2" v-for="(itemp,i) in partnerData" :key="i">
+                    <v-flex xs12 class="mx-1 mt-5" v-if="itemp.length>0">
+                        <p class="google-font mb-0" style="font-size:130%">{{i}}</p>
+                    </v-flex>
+                    <v-flex xs6 sm4 md6 lg2 v-for="(item,j) in itemp" :key="j" class="client-logo ma-1 mb-5" >
+                        <a v-bind:href="item.link" target="_blank" v-if="itemp.length>0"  >
+                            <v-tooltip bottom>
+                            <template v-slot:activator="{ on }">
                                 <v-img
-                                    v-if="itemp.img"
-                                    height="100%"
-                                    class="pa-1"
-                                    :src="getImgUrl(itemp.img)"
-                                    :lazy-src="getImgUrl(itemp.img)"
-                                />
-                            </base-card>
-                        </v-flex>
-                    </v-layout>
-                </v-container>
-            </v-flex>
-
-            <v-flex xs12 class="pa-4">
-                <v-layout row wrap class="">
-                    <v-flex xs6 md2 v-for="(itemp,i) in partnerData" :key="i" class="pa-1">
-                        <v-card class="px-auto" style="border-radius:4px;border-width: 0px; border-style: solid;min-height:8vh;max-height:8vh;">
-                            <a v-bind:href="itemp.link" target="_blank" >
-                                <v-tooltip bottom>
-                                <template v-slot:activator="{ on }">
-                                    <v-img
-                                    :src="getImgUrl(itemp.img)"
-                                    :lazy-src="getImgUrl(itemp.img)"
-                                    aspect-ratio="3.0"
-                                    cover
-                                    width="80%"
-                                    class="white my-auto"
-                                    v-on="on"
+                                :src="getImgUrl(item.img)"
+                                :lazy-src="getImgUrl(item.img)"
+                                class="white"
+                                contain
+                                style="height:4em"
+                                v-on="on"
+                                >
+                                    <v-layout
+                                        slot="placeholder"
+                                        fill-height
+                                        align-center
+                                        justify-center
+                                        ma-0
                                     >
-                                        <v-layout
-                                            slot="placeholder"
-                                            fill-height
-                                            align-center
-                                            justify-center
-                                            ma-0
-                                        >
-                                            <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                                        </v-layout>
-                                    </v-img>
-                                </template>
-                                <span class="google-font">{{itemp.name}}</span>
-                                </v-tooltip>
-                            </a>
-                        </v-card>
+                                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                    </v-layout>
+                                </v-img>
+                            </template>
+                            <span class="google-font">{{item.name}}</span>
+                            </v-tooltip>
+                        </a>
                     </v-flex>
                 </v-layout>
             </v-flex>
 
-            <v-flex xs12 md12 class="mt-2">
-                <p class="google-font my-2" style="font-size:110%">General Partners</p>
-                
+      
 
-                <v-layout row wrap class="transparent">
-                    <v-flex xs12 sm7 class="elevation-0 transparent">
-                        <v-card class="elevation-0 pa-0 ma-0 transparent">
-                            <v-container grid-list-sm fluid class="pa-0 ma-0">
-                                <v-layout row wrap class="ma-0 pa-0">
-                                    <v-flex
-                                        v-for="(itemp,i) in partnerData" :key="i"
-                                        xs6
-                                        md3
-                                        sm4
-                                        d-flex
-                                        class="pa-0 white elevation-0" 
-                                    >
-                                    <!-- style="border-radius:5px;border-color:#e0e0e0;border-width: 1px; border-style: solid;" -->
-                                    <v-card flat tile class="d-flex pa-2 ma-1 elevation-1" style="border-radius:4px;border-width: 0px; border-style: solid;">
-                                        
-                                        <a v-bind:href="itemp.link" target="_blank" >
-                                            <v-tooltip bottom>
-                                            <template v-slot:activator="{ on }">
-                                            <v-img
-                                            :src="getImgUrl(itemp.img)"
-                                            :lazy-src="getImgUrl(itemp.img)"
-                                            aspect-ratio="3.0"
-                                            class="white"
-                                            v-on="on"
-                                            >
-                                                <v-layout
-                                                    slot="placeholder"
-                                                    fill-height
-                                                    align-center
-                                                    justify-center
-                                                    ma-0
-                                                >
-                                                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                                                </v-layout>
-                                            </v-img>
-                                            </template>
-                                            <span class="google-font">{{itemp.name}}</span>
-                                            </v-tooltip>
-                                        </a>
-                                        
-                                    </v-card>
-                                    </v-flex>
-
-                                </v-layout>
-                            </v-container>
-                        </v-card>
-                    </v-flex>
-                </v-layout>
-
-            </v-flex>
-
-            <v-flex xs12 md12 class="mt-3">
+           
+            <!-- <v-flex xs12 md12 class="mt-3">
                 <p class="google-font my-2" style="font-size:110%">Template Partner</p>
 
                 <v-layout class="transparent" >
@@ -178,7 +98,7 @@
                     </v-flex>
                 </v-layout>
 
-            </v-flex>
+            </v-flex> -->
         </v-layout>
     </v-container>
 </template>
@@ -200,3 +120,13 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.client-logo{
+    padding: 20px 10px;
+    border-radius: 7px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+}
+
+</style>
