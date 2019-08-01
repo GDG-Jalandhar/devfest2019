@@ -1,18 +1,91 @@
-[
-    {
-        "name":"GDG",
-        "link":"https://developers.google.com/groups",
-        "img":"gdglogo.png"
-    },
-    {
-        "name":"WomenTechmakers",
-        "link":"https://www.womentechmakers.com/",
-        "img":"wtm.png"
-    },
-    {
-        "name":"GDG[x]",
-        "link":"https://github.com/gdg-x",
-        "img":"gdg-x.svg"
-    }
+{
+    "In collaboration with":[
+        {
+            "name":"GDG Jalandhar",
+            "link":"https://www.womentechmakers.com/",
+            "img":"gdgjalandhar.png"
+        },
+        {
+            "name":"GDG Chandigarh",
+            "link":"https://github.com/gdg-x",
+            "img":"gdgchd.png"
+        }
+    ],
 
-]
+    "Official Partner":[
+        {
+            "name":"Google",
+            "link":"https://google.com/groups",
+            "img":"google.svg"
+        },
+        {
+            "name":"GDG[x]",
+            "link":"https://github.com/gdg-x",
+            "img":"gdg-x.svg"
+        }
+    ],
+    "Global Initiative":[
+        {
+            "name":"Google Developers",
+            "link":"https://developers.google.com/groups",
+            "img":"googledevs.png"
+        },
+        {
+            "name":"WomenTechmakers",
+            "link":"https://www.womentechmakers.com/",
+            "img":"wtm.svg"
+        }
+    ],
+    "CommunityPartners":[
+        {
+            "name":"JetBrains",
+            "link":"https://www.womentechmakers.com/",
+            "img":"jetbrains.png"
+        }
+    ],
+    "PlatinumSponsors":[
+        {
+            "name":"GDG",
+            "link":"https://developers.google.com/groups",
+            "img":"gdglogo.png"
+        },
+        {
+            "name":"WomenTechmakers",
+            "link":"https://www.womentechmakers.com/",
+            "img":"wtm.png"
+        },
+        {
+            "name":"GDG[x]",
+            "link":"https://github.com/gdg-x",
+            "img":"gdg-x.svg"
+        }
+    ],
+    "Gold Sponsors":[
+        
+    ],
+    "BronzeSponsors":[
+        {
+            "name":"GDG",
+            "link":"https://developers.google.com/groups",
+            "img":"gdglogo.png"
+        },
+        {
+            "name":"WomenTechmakers",
+            "link":"https://www.womentechmakers.com/",
+            "img":"wtm.png"
+        },
+        {
+            "name":"GDG[x]",
+            "link":"https://github.com/gdg-x",
+            "img":"gdg-x.svg"
+        }
+    ],
+    "Template Creator":[
+        {
+            "name":"GDG Jalandhar",
+            "link":"https://developers.google.com/groups",
+            "img":"gdgjalandhar.png"
+        }
+    ]    
+
+}
