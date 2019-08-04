@@ -22,15 +22,11 @@
         {{ link.text }}
     </v-btn>
 
-    <v-btn icon>
-      <v-icon>mdi-heart</v-icon>
-    </v-btn>
+     <share/>
 
-    <v-btn icon>
-      <v-icon>mdi-magnify</v-icon>
-    </v-btn>
-
-     
+       <v-btn icon v-on:click="shareMe">
+          <v-icon>mdi-share-variant</v-icon>
+        </v-btn>
 
     <v-menu
       left
@@ -56,11 +52,15 @@
 </template>
 
 <script>
+import share from '@/components/common/share'
 import {
     mapGetters,
     mapMutations
   } from 'vuex'
 export default {
+    components:{
+      share
+    },
     computed: {
       ...mapGetters(['links'])
     },
@@ -70,6 +70,18 @@ export default {
         e.stopPropagation()
         if (item.to || !item.href) return
         this.$vuetify.goTo(item.href)
+      },
+      shareMe(e){
+        if(navigator.share){
+          navigator.share({
+            title:"Website",
+            url:'gdgjalandhar.com'
+          }).then(()=>{
+            console.log('Thanks for shareing')
+          }).catch(e=>{
+            console.log(e)
+          })
+        }
       }
     }
 }

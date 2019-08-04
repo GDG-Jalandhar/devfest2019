@@ -18,7 +18,7 @@
                 
                 <v-hover>
                 <div slot-scope="{ hover }"
-                    style="border-radius: 5px; border:1px solid white"
+                    style="border-radius: 5px; border:1px    solid white"
                     :class="`elevation-${hover ? 2 : 0}`"
                     v-on:click="showSpeakerDetails"
                     class="text-xs-center ma-1 pa-1 py-3 my-0" >

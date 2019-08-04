@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <CoreToolbar/>
+    <!-- v-if="!$route.meta.hideNavigation" -->
+    <CoreToolbar />
     <CoreDrawer/>
     <CoreView class="mt-3"/>
     <CoreBottonNav/>

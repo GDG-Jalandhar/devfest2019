@@ -1,0 +1,53 @@
+[
+    {
+        "startTime":"09:30 AM",
+        "topic":"Registration",
+        "des":"Register yourself and confirm your participation on the Help-desks."
+    },
+    {
+        "startTime":"10:00 AM",
+        "topic":"Welcome Keynote",
+        "des":"Brief intro about the organization, event, agenda, etc."
+    },
+    {
+        "startTime":"10:30 AM",
+        "topic":"Next’19 Recape / Announcement",
+        "des":"In this session, we will share the top announcement of Google Cloud Next'19 from the week across infrastructure, application development, data management, smart analytics and AI, productivity, partnerships, and more."
+    },
+    {
+        "startTime":"11:00 AM",
+        "topic":"GCP 101 & Cloud ML",
+        "des":"This half-day instructor-led bootcamp helps prospective candidates structure their preparation for the Cloud Certification exam. The session will cover the structure and format of the examination, as well as its relationship to other Google Cloud certifications."
+    },
+    {
+        "startTime":"11:50 AM",
+        "topic":"Google Cloud Storage Service",
+        "des":"This one-day instructor-led class provides an overview of Google Cloud Platform products and services. Through a combination of presentations, demos, and hands-on labs, participants learn the value of Google Cloud Platform and how to incorporate cloud-based solutions into business strategies."
+    },
+    {
+        "startTime":"12:30 PM",
+        "topic":"Lunch & Networking",
+        "des":"Re-fill the energy level to enjoy some awesome workshops post-lunch."
+    },
+    {
+        "startTime":"01:30 PM",
+        "topic":"#IamRemarkable Session",
+        "des":"The 90 minute workshop will highlight to participants the importance of self promotion in their careers and provide them with the tools to start developing this skill."
+    },
+    {
+        "startTime":"03:00 PM",
+        "topic":"Getting Started With Google Kubernetes",
+        "des":"Learn to containerize workloads in Docker containers, deploy them to Kubernetes clusters provided by Google Container Engine, and scale those workloads to handle increased traffic. You’ll also learn how to continuously deploy new code in a Kubernetes cluster to provide application updates."
+    },
+    {
+        "startTime":"03:30 PM",
+        "topic":"Designing and Implementing Disaster Recovery using GCP",
+        "des":"Disasters and service interrupting events can occur at any time. When things go wrong, it's important to have a robust and well tested disaster Recovery plan. In this session, we cover how you can use GCP as a part of your DR plan, whether you're running prod workloads on GCP, on premises, or on another cloud."
+    },
+    {
+        "startTime":"04:00 PM",
+        "topic":"Closing Note",
+        "des":"Bye!! Thanks for coming.."
+    }
+
+]
