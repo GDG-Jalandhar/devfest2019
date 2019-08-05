@@ -3,7 +3,7 @@
     <!-- v-if="!$route.meta.hideNavigation" -->
     <CoreToolbar />
     <CoreDrawer/>
-    <CoreView class="mt-3"/>
+    <CoreView class="mt-0"/>
     <CoreBottonNav/>
     <CoreFooter class="pa-0"/>
 
