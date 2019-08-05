@@ -127,7 +127,7 @@ export default {
 .client-logo{
     padding: 20px 20px;
     border-radius: 7px;
-    /* border: 1px solid #ebebeb; */
+    border: 1px solid #ebebeb;
     text-align: center;
 }
 
