@@ -21,13 +21,13 @@
       </v-layout>
     </v-container>
 
-    <!-- <v-container fluid >
+    <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
+        <v-flex xs12 md10 class="pa-5">
           <organizingTeam/>
         </v-flex>
       </v-layout>
-    </v-container> -->
+    </v-container>
 
    
 
