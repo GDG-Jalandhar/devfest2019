@@ -6,7 +6,7 @@
   >
     <v-app-bar-nav-icon @click="toggleDrawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
 
-    <v-toolbar-title class="google-font">DevFest Punjab 2019</v-toolbar-title>
+    <v-toolbar-title class="google-font pa-0">DevFest Punjab 2019</v-toolbar-title>
 
     <v-spacer></v-spacer>
 
@@ -22,7 +22,7 @@
         {{ link.text }}
     </v-btn>
 
-     <share/>
+     <!-- <share/> -->
 
        <v-btn icon v-on:click="shareMe">
           <v-icon>mdi-share-variant</v-icon>
