@@ -32,12 +32,12 @@
           class="headline google-font white"
           primary-title
         > 
-          <p class="google-font">{{data.jsonData.title}}</p>
+          <p class="google-font">{{data.vdata.title}}</p>
         </v-card-title>
 
         <v-card-text class="">
           <p class="google-font mb-1" style="font-size:130%"><b>Description:</b></p>
-          <p class="google-font mb-0" style="font-size:120%">{{data.jsonData.des}}</p>
+          <p class="google-font mb-0" style="font-size:120%">{{data.vdata.description}}</p>
 
         </v-card-text>
 
@@ -62,7 +62,7 @@
   export default {
     props:{
         data:{
-            jsonData:[]
+            vdata:[]
         }
     },
     data () {
