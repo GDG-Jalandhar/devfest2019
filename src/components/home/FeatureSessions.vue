@@ -18,8 +18,8 @@
                     class="ma-1 pa-3 my-0" >
                     <img src="https://www.gstatic.com/images/branding/product/1x/google_cloud_48dp.png" class="mb-0" width="30vh">
                     <p class="mt-0 mb-0 google-font" style="font-size:130%">{{item.title}}</p>
-                    <p class="mt-1 mb-0 google-font">{{item.des | summery(90)}}</p>
-                    <SessionDialog :data="{jsonData: item}" />
+                    <p class="mt-1 mb-0 google-font">{{item.description | summery(90)}}</p>
+                    <SessionDialog :data="{vdata: item}" />
                 </div>
                 </v-hover>
             </v-flex>
