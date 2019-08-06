@@ -24,8 +24,8 @@
                     class="text-xs-center ma-1 pa-1 py-3 my-0" >
                     <v-avatar size="100">
                         <v-img
-                        :src="getImgUrl(item.profileImage)"
-                        :lazy-src="getImgUrl(item.profileImage)">
+                        :src="getImgUrl(item.image)"
+                        :lazy-src="getImgUrl(item.image)">
 
                             <v-layout
                                 slot="placeholder"
@@ -42,21 +42,8 @@
                     <p class="mt-3 mb-0 google-font" style="font-size:130%">{{item.name}}</p>
                     <p class="mt-1 mb-0 google-font">{{item.designation}}</p>
 
-                    <v-btn small class="mt-0 mx-0" text icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
-                        <v-icon small style="color:#1da1f2">mdi-twitter</v-icon>
-                    </v-btn>
-
-                    <v-btn class="mt-0 mx-0" small text icon v-if="(item.linkedin).length>0" :href="item.linkedin" target="_blank">
-                        <v-icon small style="color:#0077b5">mdi-linkedin</v-icon>
-                    </v-btn>
-
-                    <v-btn class="mt-0 mx-0" small text icon v-if="(item.github).length>0" :href="item.github" target="_blank">
-                        <v-icon small style="color:#333">mdi-github-circle</v-icon>
-                    </v-btn>
-                    <v-btn class="mt-0 mx-0" small text icon v-if="(item.website).length>0" :href="item.website" target="_blank">
-                        <v-icon small style="color:#333">mdi-link</v-icon>
-                    </v-btn>
-                    <!-- <SpeakerDetailsPopUp :data="{popState:popUpState}"/> -->
+                    <speakerSocialInfo :data="{vdata:item.social}"/>
+                    <speakerDetails :data="{vdata:item}"/>
                     
                 </div>
                 </v-hover>
@@ -75,8 +62,12 @@
 
 <script>
 import SpeakerDetails from '@/assets/data/speaker.json'
+import speakerSocialInfo from '@/components/common/SpeakerSocialInfo'
+import speakerDetails from '@/components/common/SpeakerDetails'
 export default {
     components:{
+        speakerSocialInfo,
+        speakerDetails
     },
     data() {
         return {
