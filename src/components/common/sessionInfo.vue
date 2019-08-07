@@ -21,7 +21,6 @@
           class="px-5 white google-font"
           primary-title
         >
-            asd
            <!-- <v-avatar size="80">
               <v-img
               :src="getImgUrl(data.vdata.image)"
