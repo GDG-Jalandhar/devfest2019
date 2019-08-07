@@ -1,56 +1,74 @@
 [
-    {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+   {
+        "name":"Kamal Vaid",
+        "designation":"Organizer, GDG Chandigarh & GDE (AoG)",
+        "image":"",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/cammykamal",
+            "linkedin":"https://www.linkedin.com/in/kamal-vaid/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name":"Vrijraj Singh",
+        "designation":"Organizer, GDG Jalandhar & GDE (Web Technologies)",
+        "image":"",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/VrijrajSingh",
+            "linkedin":"https://www.linkedin.com/in/vrijraj/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name":"Varsha Jaiswal",
+        "designation":"Co-Organizer, GDG Jalandhar & WTM Ambassador",
+        "image":"",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/varsha2716",
+            "linkedin":"https://www.linkedin.com/in/varsha2716/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name":"Sonakshi Shukla",
+        "designation":"WTM Ambassador, GDG Jalandhar",
+        "image":"",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/Sonakshishukla1",
+            "linkedin":"https://www.linkedin.com/in/sonakshi15/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name":"Tushar Srivastava",
+        "designation":"Co-Organizer, GDG Chandigarh",
+        "image":"",
+        "social":{
+            "facebook":"",
+            "twitter":"",
+            "linkedin":"https://www.linkedin.com/in/tushar-srivastava-305a05148/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Name",
-        "designation":"Front End Developer",
-        "twitter":"https://twitter.com/vrijrajsingh",
-        "linkedin":"https://www.linkedin.com/in/vrijraj",
-        "github":"https://github.com/Vrijraj",
-        "profileImage":"",
-        "website":""
+        "name":"Pooja Guleria",
+        "designation":"WTM Ambassador, GDG Chandigarh",
+        "image":"",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/PoojaGuleria13",
+            "linkedin":"https://www.linkedin.com/in/pooja-guleria-8a321a150/",
+            "github":"",
+            "website":""
+        }
     }
 ]
