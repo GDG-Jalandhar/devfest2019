@@ -1,7 +1,7 @@
 [
     {
         "id":"201",
-        "title":"ML - nikita",
+        "title":"Lightening Talk on ML",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall 1",
         "tag":{
@@ -15,7 +15,7 @@
     },
     {
         "id":"202",
-        "title":"Web security - spra",
+        "title":"Web Security",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall 1",
         "tag": {
@@ -30,7 +30,7 @@
     },
     {
         "id":"203",
-        "title":"Machine Learning",
+        "title":"Deep Dive with Machine Learning",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -44,7 +44,7 @@
     },
     {
         "id":"204",
-        "title":"Ninja",
+        "title":"How to be a Ninja Developer",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -58,7 +58,7 @@
     },
     {
         "id":"205",
-        "title":"startup - prajyot",
+        "title":"Let's Chat on Business and Startups",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -72,7 +72,7 @@
     },
     {
         "id":"206",
-        "title":"aog jal",
+        "title":"AoG with IoT",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -86,7 +86,7 @@
         "speakers":[106]
     },{
         "id":"207",
-        "title":"cloud - rush",
+        "title":"Dirty Hands with Cloud",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -100,7 +100,7 @@
         "speakers":[107]
     },{
         "id":"208",
-        "title":"cloud aag",
+        "title":" cdsd",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -115,7 +115,7 @@
     },
     {
         "id":"209",
-        "title":"angular",
+        "title":"Learning Angular",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -145,7 +145,7 @@
     },
     {
         "id":"211",
-        "title":"Kotlin",
+        "title":"Kotlin Everywhere",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
