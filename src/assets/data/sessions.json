@@ -180,7 +180,7 @@
         "place":"Hall",
         "tag": {
             "name":"",
-            "color":"blue"
+            "color":"red"
         },
         "timeDuration": "60",
         "subtype":"Workshop",
