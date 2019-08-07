@@ -6,7 +6,7 @@
         "place":"Hall 1",
         "tag":{
             "name":"ML",
-            "color":"black"
+            "color":"brown"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -20,7 +20,7 @@
         "place":"Hall 1",
         "tag": {
             "name":"Web",
-            "color":"blue"
+            "color":"red"
         },
         "timeDuration": "45",
         "subtype":"presentation",
@@ -35,7 +35,7 @@
         "place":"Hall",
         "tag": {
             "name":"ML",
-            "color":"black"
+            "color":"brown"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -48,8 +48,8 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Non-Tech",
-            "color":"blue"
+            "name":"Insights",
+            "color":"Black"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
@@ -62,8 +62,8 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Business",
-            "color":"red"
+            "name":"Insights",
+            "color":"black"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
@@ -77,7 +77,7 @@
         "place":"Hall",
         "tag": {
             "name":"Assistant",
-            "color":"blue"
+            "color":"green"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -120,7 +120,7 @@
         "place":"Hall",
         "tag": {
             "name":"Web",
-            "color":"blue"
+            "color":"red"
         },
         "timeDuration": "45",
         "subtype":"presentation",
@@ -135,7 +135,7 @@
         "place":"Hall",
         "tag": {
             "name":"Keynote",
-            "color":"blue"
+            "color":"violet"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -150,7 +150,7 @@
         "place":"Hall",
         "tag": {
             "name":"Mobile",
-            "color":"blue"
+            "color":"yellow"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
@@ -165,7 +165,7 @@
         "place":"Hall",
         "tag": {
             "name":"Web",
-            "color":"blue"
+            "color":"red"
         },
         "timeDuration": "60",
         "subtype":"Presentation",
@@ -179,8 +179,8 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"",
-            "color":"red"
+            "name":"Insights",
+            "color":"black"
         },
         "timeDuration": "60",
         "subtype":"Workshop",
@@ -194,8 +194,8 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"",
-            "color":"blue"
+            "name":"Insights",
+            "color":"black"
         },
         "timeDuration": "30",
         "subtype":"Workshop",
@@ -210,7 +210,7 @@
         "place":"Hall",
         "tag": {
             "name":"Keynote",
-            "color":"blue"
+            "color":"violet"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -224,8 +224,8 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"",
-            "color":"blue"
+            "name":"Keynote",
+            "color":"violet"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
