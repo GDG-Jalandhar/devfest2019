@@ -4,7 +4,7 @@
     <CoreToolbar />
     <CoreDrawer/>
     <CoreView class="mt-0"/>
-    <CoreBottonNav/>
+    <!-- <CoreBottonNav/> -->
     <CoreFooter class="pa-0"/>
 
   </v-app>

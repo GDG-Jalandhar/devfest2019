@@ -12,7 +12,8 @@ export default new Vuex.Store({
       { text: 'Speakers', to: '/speakers', icon:'mdi-account-switch'},
       { text: 'Team', to: '/team', icon:'mdi-account-settings'},
       { text: 'About', to: '/about', icon: 'mdi-note-multiple-outline'},
-      { text: 'Contact', to: '/contact', icon:'mdi-contacts'}
+      // { text: 'Contact', to: '/contact', icon:'mdi-contacts'},
+      { text: 'Community Guidelines', to: '/community-guidelines', icon:'mdi-format-align-justify'}
     ]
   },
   getters:{

@@ -7,24 +7,36 @@
     color="deep-purple accent-4"
     class="hidden-sm-and-up"
   >
-    <v-btn>
+    <v-btn
+      value="Home"
+      router
+      to="/">
         <span>Home</span>
         <v-icon>mdi-home</v-icon>
     </v-btn>
 
-    <v-btn>
-      <span>Recents</span>
-      <v-icon>mdi-history</v-icon>
+    <v-btn 
+        value="Schdule"
+        router
+        to="/schedule">
+      <span>Schedule</span>
+      <v-icon>mdi-format-float-left</v-icon>
     </v-btn>
 
-    <v-btn>
-      <span>Favorites</span>
-      <v-icon>mdi-mixer</v-icon>
+    <v-btn
+        value="Speakers"
+        router
+        to="/speakers">
+      <span>Speakers</span>
+      <v-icon>mdi-account-switch</v-icon>
     </v-btn>
 
-    <v-btn>
-      <span>Nearby</span>
-      <v-icon>mdi-access-point</v-icon>
+    <v-btn
+    value="Team"
+        router
+        to="/team">
+      <span>Team</span>
+      <v-icon>mdi-account-settings</v-icon>
     </v-btn>
   </v-bottom-navigation>
 </template>
