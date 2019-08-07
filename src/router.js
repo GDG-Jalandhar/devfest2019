@@ -38,6 +38,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: () => import('./views/Contact.vue')
+    },
+    {
+      path:'/community-guidelines',
+      name:'community-guidelines',
+      component: () => import('./views/CommunityGuidelines.vue')
     }
   ]
 })
