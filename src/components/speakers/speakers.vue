@@ -29,7 +29,7 @@
                                 </v-img>
                             </v-avatar>
                             <p class="mt-3 mb-0 google-font" style="font-size:130%">{{item.name}}</p>
-                            <p class="mt-1 mb-0 google-font">{{item.designation}}</p>
+                            <p class="mt-1 mb-0 google-font">{{item.company.name}}</p>
 
                             <speakerSocialInfo :data="{vdata:item.social}"/>
                             <speakerDetails :data="{vdata: item}"/>
