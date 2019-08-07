@@ -3,13 +3,13 @@
         "id":"201",
         "title":"ML - nikita",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
-        "place":"Hall",
+        "place":"Hall 1",
         "tag":{
             "name":"ML",
             "color":"black"
         },
-        "timeDuration": "40",
-        "subtype":"presentation",
+        "timeDuration": "30",
+        "subtype":"Presentation",
         "complexity":"",
         "speakers":[101]
     },
@@ -17,12 +17,12 @@
         "id":"202",
         "title":"Web security - spra",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
-        "place":"Hall",
+        "place":"Hall 1",
         "tag": {
-            "name":"Mobile",
+            "name":"Web",
             "color":"blue"
         },
-        "timeDuration": "20",
+        "timeDuration": "45",
         "subtype":"presentation",
         "language":"",
         "complexity":"",
@@ -30,7 +30,7 @@
     },
     {
         "id":"203",
-        "title":"ML - sabya",
+        "title":"Machine Learning",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
@@ -38,7 +38,7 @@
             "color":"black"
         },
         "timeDuration": "30",
-        "subtype":"presentation",
+        "subtype":"Presentation",
         "complexity":"",
         "speakers":[103]
     },
@@ -48,11 +48,11 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Mobile",
+            "name":"Non-Tech",
             "color":"blue"
         },
-        "timeDuration": "60",
-        "subtype":"workshop",
+        "timeDuration": "40",
+        "subtype":"Presentation",
         "complexity":"",
         "speakers":[104]
     },
@@ -62,11 +62,11 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Web",
+            "name":"Business",
             "color":"red"
         },
-        "timeDuration": "45",
-        "subtype":"workshop",
+        "timeDuration": "40",
+        "subtype":"Presentation",
         "complexity":"",
         "speakers":[105]
     },
@@ -76,11 +76,11 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Mobile",
+            "name":"Assistant",
             "color":"blue"
         },
-        "timeDuration": "20",
-        "subtype":"presentation",
+        "timeDuration": "30",
+        "subtype":"Presentation",
         "language":"",
         "complexity":"",
         "speakers":[106]
@@ -90,10 +90,10 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Mobile",
+            "name":"Cloud",
             "color":"blue"
         },
-        "timeDuration": "20",
+        "timeDuration": "45",
         "subtype":"presentation",
         "language":"",
         "complexity":"",
@@ -104,11 +104,11 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Mobile",
+            "name":"Cloud",
             "color":"blue"
         },
-        "timeDuration": "20",
-        "subtype":"presentation",
+        "timeDuration": "40",
+        "subtype":"Presentation",
         "language":"",
         "complexity":"",
         "speakers":[108]
@@ -119,13 +119,118 @@
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
-            "name":"Mobile",
+            "name":"Web",
             "color":"blue"
         },
-        "timeDuration": "20",
+        "timeDuration": "45",
         "subtype":"presentation",
         "language":"",
         "complexity":"",
         "speakers":[109]
+    },
+    {
+        "id":"210",
+        "title":"Keynote on Community Introduction",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "place":"Hall",
+        "tag": {
+            "name":"Keynote",
+            "color":"blue"
+        },
+        "timeDuration": "30",
+        "subtype":"Presentation",
+        "language":"",
+        "complexity":"",
+        "speakers":[110]
+    },
+    {
+        "id":"211",
+        "title":"Kotlin",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "place":"Hall",
+        "tag": {
+            "name":"Mobile",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "language":"",
+        "complexity":"",
+        "speakers":[111]
+    },
+    {
+        "id":"212",
+        "title":"Firebase for Web",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "place":"Hall",
+        "tag": {
+            "name":"Web",
+            "color":"blue"
+        },
+        "timeDuration": "60",
+        "subtype":"Presentation",
+        "language":"",
+        "complexity":"",
+        "speakers":[112]
+    },
+    {
+        "id":"213",
+        "title":"#IamRemarkable Workshop",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "place":"Hall",
+        "tag": {
+            "name":"",
+            "color":"blue"
+        },
+        "timeDuration": "60",
+        "subtype":"Workshop",
+        "language":"",
+        "complexity":"",
+        "speakers":[113]
+    },
+    {
+        "id":"214",
+        "title":"Women Oriented Session",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "place":"Hall",
+        "tag": {
+            "name":"",
+            "color":"blue"
+        },
+        "timeDuration": "30",
+        "subtype":"Workshop",
+        "language":"",
+        "complexity":"",
+        "speakers":[114]
+    },
+    {
+        "id":"215",
+        "title":"Welcome Keynote",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "place":"Hall",
+        "tag": {
+            "name":"Keynote",
+            "color":"blue"
+        },
+        "timeDuration": "30",
+        "subtype":"Presentation",
+        "language":"",
+        "complexity":"",
+        "speakers":[115]
+    },
+    {
+        "id":"216",
+        "title":"Closing Keynote",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "place":"Hall",
+        "tag": {
+            "name":"",
+            "color":"blue"
+        },
+        "timeDuration": "30",
+        "subtype":"Presentation",
+        "language":"",
+        "complexity":"",
+        "speakers":[116]
     }
 ]
