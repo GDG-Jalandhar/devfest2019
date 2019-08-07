@@ -1,0 +1,37 @@
+[
+    {
+        "date":"2014-10-24",
+        "dateReadable":"October 24",
+        "tracks":[
+            {
+                "title":"Android",
+                "color":""
+            },
+            {
+                "title":"Cloud & Web",
+                "color":""
+            },
+            {
+                "title":"ML",
+                "color":""
+            }
+        ],
+        "timeslots":[
+            {
+                "startTime":"10:00",
+                "endTime":"10:45",
+                "sessionId":[123,324]
+            },
+            {
+                "startTime":"11:00",
+                "endTime":"11:45",
+                "sessionId":[123,3344]
+            },
+            {
+                "startTime":"12:00",
+                "endTime":"12:45",
+                "sessionId":[323,3524]
+            }
+        ]
+    }
+]
