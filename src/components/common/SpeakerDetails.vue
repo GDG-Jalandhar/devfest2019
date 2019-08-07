@@ -76,11 +76,11 @@
                         <v-chip :color="item.tag.color" label outlined class="mt-1 mb-0" x-small>{{item.tag.name}}</v-chip></v-list-item-subtitle>
                     </v-list-item-content>
 
-                    <v-list-item-action>
+                    <!-- <v-list-item-action>
                        <v-btn small text icon color="grey darken-1">
                         <v-icon >mdi-information-outline</v-icon>
                       </v-btn>
-                    </v-list-item-action>
+                    </v-list-item-action> -->
                     
                 </v-list-item>
             </v-list>
