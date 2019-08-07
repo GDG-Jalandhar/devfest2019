@@ -201,7 +201,7 @@
         "subtype":"Workshop",
         "language":"",
         "complexity":"",
-        "speakers":[114]
+        "speakers":[114,116]
     },
     {
         "id":"215",
@@ -216,7 +216,7 @@
         "subtype":"Presentation",
         "language":"",
         "complexity":"",
-        "speakers":[115]
+        "speakers":[114,115]
     },
     {
         "id":"216",
@@ -231,6 +231,6 @@
         "subtype":"Presentation",
         "language":"",
         "complexity":"",
-        "speakers":[116]
+        "speakers":[113,116]
     }
 ]
