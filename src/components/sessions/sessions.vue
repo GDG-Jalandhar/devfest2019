@@ -7,7 +7,7 @@
               <v-layout row wrap>
                   <v-flex xs12 xs6 sm4 md3 lg3 v-for="(item,index) in sessionsData" :key="item">
                     <div style="border-radius: 5px; border:1px solid #e0e0e0;min-height:180px" class="ma-1 pa-5">
-                        <p class="google-font" style="font-size:120%">{{item.title}}</p>
+                        <p class="google-font mb-1" style="font-size:120%">{{item.title}}</p>
                         <p class="google-font">{{item.description | summery(90)}}</p>
                     </div>
                   </v-flex>
