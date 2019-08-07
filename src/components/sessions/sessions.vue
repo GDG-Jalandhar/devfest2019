@@ -3,12 +3,12 @@
     <v-container class=" px-3" >
         <v-layout wrap align-center justify-center row fill-heights>
 
-            <v-flex xs12 sm12 md12 lg12 xl12 order-xs2 order-md1 class="pa-5">
-              <v-layout row wrap>
-                  <v-flex xs12 xs6 sm4 md3 lg3 v-for="(item,index) in sessionsData" :key="item">
+            <v-flex xs12 sm12 md12 lg12 xl12 class="pa-5">
+              <v-layout row wrap class="pa-3">
+                  <v-flex xs12 sm4 md4 lg3 v-for="(item,index) in sessionsData" :key="index">
                     <div style="border-radius: 5px; border:1px solid #e0e0e0;min-height:180px" class="ma-1 pa-5">
-                        <p class="google-font mb-1" style="font-size:120%">{{item.title}}</p>
-                        <p class="google-font">{{item.description | summery(90)}}</p>
+                        <v-chip :color="item.tag.color" label outlined class="mt-1 mb-0" small>{{item.tag.name}}</v-chip>
+                        <sessionDialog class="mx-0 mb-0 pa-0" :data="{vdata:item}" />
                     </div>
                   </v-flex>
               </v-layout>
@@ -23,10 +23,15 @@
 
 <script>
 import sessionsData from '@/assets/data/sessions.json'
+import sessionDialog from '@/components/sessions/sessionDialog'
 export default {
+    components:{
+        sessionDialog
+    },
     data() {
         return {
-            sessionsData:sessionsData
+            sessionsData:sessionsData,
+            sessionDialog:sessionDialog
         }
     },
     filters:{
