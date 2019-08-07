@@ -254,9 +254,9 @@
     {
         "id":"113",
         "name":"Varsha Jaiswal",
-        "designation":"",
+        "designation":"#IamRemarkable Facilitator & GDG-WTM Lead & Software Engineer",
         "company":{
-            "name":"",
+            "name":"Edfora Infotech",
             "url":""
         },
         "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
@@ -266,8 +266,8 @@
         "sessionId": "113",
         "social":{
             "facebook":"",
-            "twitter":"",
-            "linkedin":"",
+            "twitter":"https://twitter.com/varsha2716",
+            "linkedin":"https://www.linkedin.com/in/varsha2716/",
             "github":"",
             "website":""
         }
@@ -275,9 +275,9 @@
     {
         "id":"114",
         "name":"Sonakshi Shukla",
-        "designation":"",
+        "designation":"WTM Ambassador",
         "company":{
-            "name":"",
+            "name":"Women Techmakers",
             "url":""
         },
         "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
@@ -287,8 +287,8 @@
         "sessionId": "114",
         "social":{
             "facebook":"",
-            "twitter":"",
-            "linkedin":"",
+            "twitter":"https://twitter.com/Sonakshishukla1",
+            "linkedin":"https://www.linkedin.com/in/sonakshi15/",
             "github":"",
             "website":""
         }
@@ -296,9 +296,9 @@
     {
         "id":"115",
         "name":"Tushar Srivastava",
-        "designation":"",
+        "designation":"Co-Organizer, GDG Chandigarh & Lead Engineer",
         "company":{
-            "name":"",
+            "name":"Samsung R&D",
             "url":""
         },
         "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
@@ -309,7 +309,7 @@
         "social":{
             "facebook":"",
             "twitter":"",
-            "linkedin":"",
+            "linkedin":"https://www.linkedin.com/in/tushar-srivastava-305a05148/",
             "github":"",
             "website":""
         }
@@ -317,9 +317,9 @@
     {
         "id":"116",
         "name":"Pooja Guleria",
-        "designation":"",
+        "designation":"WTM Ambassador & Software Developer",
         "company":{
-            "name":"",
+            "name":"Nagarro",
             "url":""
         },
         "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
@@ -329,8 +329,8 @@
         "sessionId": "216",
         "social":{
             "facebook":"",
-            "twitter":"",
-            "linkedin":"",
+            "twitter":"https://twitter.com/PoojaGuleria13",
+            "linkedin":"https://www.linkedin.com/in/pooja-guleria-8a321a150/",
             "github":"",
             "website":""
         }
