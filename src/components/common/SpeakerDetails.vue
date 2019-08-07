@@ -39,7 +39,7 @@
               </v-img>
           </v-avatar>
           <span class="ml-4 my-5">
-            <p class="my-0">{{data.vdata.name}} | {{data.vdata.id}}</p>
+            <p class="my-0">{{data.vdata.name}}</p>
             <p class="my-0" style="font-size:70%">{{data.vdata.company.name}}</p>
           </span>
           
@@ -48,7 +48,8 @@
         <v-card-text>
           <p class="google-font my-0" style="font-size:110%">{{data.vdata.city}}, {{data.vdata.country}}</p>
           <p class="google-font my-0" style="font-size:110%">{{data.vdata.designation}}</p>
-          <p class="google-font my-0" style="font-size:110%"><a :href="data.vdata.company.url" target="_blank">{{data.vdata.company.name}}</a></p>
+          <p class="google-font my-0" v-if="data.vdata.company.url" style="font-size:110%"><a :href="data.vdata.company.url" target="_blank">{{data.vdata.company.name}}</a></p>
+          <p class="google-font my-0" v-else>{{data.vdata.company.name}}</p>
 
           <p class="google-font my-4" style="font-size:110%">
             {{data.vdata.bio}}

@@ -18,19 +18,21 @@
         class="ml-0 google-font hidden-sm-and-down mr-2"
         style="text-transform: capitalize;" 
         @click="onClick($event, link)"
+        v-if="link.visible"
       >
         {{ link.text }}
     </v-btn>
 
-     <!-- <share/> -->
+    <!-- <share/> -->
 
-       <v-btn icon v-on:click="shareMe">
-          <v-icon>mdi-share-variant</v-icon>
-        </v-btn>
+    <v-btn icon v-on:click="shareMe" class="hidden-sm-and-up">
+      <v-icon>mdi-share-variant</v-icon>
+    </v-btn>
 
-    <v-menu
+    <!-- <v-menu
       left
       bottom
+       v-if="$vuetify.breakpoint.smAndUp"
     >
       <template v-slot:activator="{ on }">
         <v-btn icon v-on="on">
@@ -47,7 +49,7 @@
           <v-list-item-title>Option {{ n }}</v-list-item-title>
         </v-list-item>
       </v-list>
-    </v-menu>
+    </v-menu> -->
   </v-app-bar>
 </template>
 
