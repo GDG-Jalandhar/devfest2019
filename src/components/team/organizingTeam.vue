@@ -12,7 +12,7 @@
                         :key="item.name"                        
                     >
                         <v-list-item-avatar>
-                            <img :src="getImgUrl(item.profileImage)">
+                            <img :src="getImgUrl(item.profileImage)" width="100%">
                         </v-list-item-avatar>
 
                         <v-list-item-content>
@@ -20,21 +20,15 @@
                             <v-list-item-subtitle><span class="google-font">{{item.designation}}</span></v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 
-                                <v-btn class="mt-0 mx-0" small icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
-                                    <v-icon small style="color:#1da1f2">fab fa-twitter</v-icon>
+                                <v-btn class="mt-0 mx-0" x-small icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
+                                    <v-icon x-small style="color:#BDBDBD">fab fa-twitter</v-icon>
                                 </v-btn>
 
-                                <v-btn class="mt-0 mx-0" small icon v-if="(item.linkedin).length>0" :href="item.linkedin" target="_blank">
-                                    <v-icon small style="color:#0077b5">fab fa-linkedin-in</v-icon>
+                                <v-btn class="mt-0 mx-0" x-small icon v-if="(item.facebook).length>0" :href="item.facebook" target="_blank">
+                                    <v-icon x-small style="color:#BDBDBD">fab fa-facebook</v-icon>
                                 </v-btn>
 
-                                <v-btn class="mt-0 mx-0" small icon v-if="(item.github).length>0" :href="item.github" target="_blank">
-                                    <v-icon small style="color:#333">fab fa-github</v-icon>
-                                </v-btn>
-                                <!-- <v-btn class="mt-0 mx-0" small icon v-if="(item.website).length>0" :href="item.website" target="_blank">
-                                    <v-icon style="color:#333">link</v-icon>
-                                </v-btn> -->
-
+                               
                             </v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
