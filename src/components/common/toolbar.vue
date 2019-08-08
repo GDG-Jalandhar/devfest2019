@@ -76,8 +76,8 @@ export default {
       shareMe(e){
         if(navigator.share){
           navigator.share({
-            title:"Website",
-            url:'gdgjalandhar.com'
+            title:"DevFest Punjab 2019",
+            url:''
           }).then(()=>{
             console.log('Thanks for shareing')
           }).catch(e=>{
