@@ -1,5 +1,5 @@
 <template>
-    <v-container class="mb-0 pb-0">
+    <v-container fluid class="mb-0 pb-0">
         <v-layout wrap align-center justify-center row fill-height>
             <v-flex xs12 sm5 md6 lg6 xl6 class="pa-5">
                <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%"><b>On the edge of  

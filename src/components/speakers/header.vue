@@ -1,8 +1,8 @@
 <template>
-    <v-container class="grey lighten-5 px-3" style="border:1px solid #9e9e9e;border-radius:7px">
+    <v-container class="px-5" >
         <v-layout wrap align-center justify-center row fill-heights>
 
-            <v-flex xs12 sm5 md6 lg6 xl6 order-xs2 order-md1 class="pa-5">
+            <v-flex xs12 sm5 md6 lg4 xl4 order-xs2 order-md1 class="pa-5">
                <p class="google-font mb-1 hidden-sm-and-down" style="font-weight: 350;color: #616161;font-size:200%"><b>Our   
                     <span style="color: #1a73e8;">Speakers</span></b> 
                 </p>
@@ -13,10 +13,10 @@
                 <p class="google-font mt-2">* Last Date for apply: 15th Sept 2019</p>
             </v-flex> 
 
-            <v-flex xs12 sm7 md6 lg6 xl6 order-xs1 order-md2 class="">
+            <v-flex xs12 sm7 md6 lg8 xl8 order-xs1 order-md2 class="">
                     <v-img
                         aspect-ratio="1"
-                        style="border:1px solid #9e9e9e;border-top-right-radius:7px;border-bottom-right-radius:7px"
+                        style="border:1px solid #e0e0e0;border-top-right-radius:20px;border-bottom-right-radius:40%;"
                         class="white--text"
                         max-height="400"
                         gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"

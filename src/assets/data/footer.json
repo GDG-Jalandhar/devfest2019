@@ -2,7 +2,11 @@
     "AboutSession":[
         {
             "LinkName":"GDG Jalandhar",
-            "Link":"/"
+            "Link":"https://meetup.com/GDG-Jalandhar/"
+        },
+        {
+            "LinkName":"GDG Chandigarh",
+            "Link":"https://www.meetup.com/GDG-chandigarh/"
         },
         {
             "LinkName":"Google Developers Groups",
@@ -11,20 +15,16 @@
         {
             "LinkName":"WomenTechamkers",
             "Link":"https://www.womentechmakers.com/"
-        },
-        {
-            "LinkName":"Become a Member",
-            "Link":"https://www.meetup.com/GDG-Jalandhar/"
         }
     ],
     "ChapterResourcesSession":[
         {
             "LinkName" : "Become a Sponsor",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
+            "Link" : "mailto:devfestpunjab@gmail.com"
         },
         {
             "LinkName" : "Call for Speaker",
-            "Link" : "mailto:gdgjalandhar@gmail.com"
+            "Link" : "mailto:devfestpunjab@gmail.com"
         },
         {
             "LinkName" : "Media Kit",
@@ -57,6 +57,10 @@
         {
             "LinkName" : "Terms & Servies",
             "Link" : "https://docs.google.com/document/d/14g3fv9NItiB8Hd-YGYyVYd2N4LRxe6Bx3syWse_wsiA/edit?usp=sharing"
+        },
+        {
+            "LinkName" : "Community Guidelines",
+            "Link" : "/community-guidelines"
         }
     ]
 }

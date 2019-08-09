@@ -1,5 +1,5 @@
 <template>
-    <v-container class="mb-0 pb-0">
+    <v-container fluid class="mb-0 pb-0">
         <v-layout wrap align-start justify-start row fill-height class="pa-5">
             <v-flex xs12>
                 <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%"><b>Featured
@@ -16,9 +16,7 @@
                     style="border-radius: 5px; border:1px solid #e0e0e0;min-height:180px"
                     :class="`elevation-${hover ? 0 : 0}`"
                     class="ma-1 pa-3 my-0" >
-                    <!-- <img src="https://www.gstatic.com/images/branding/product/1x/google_cloud_48dp.png" class="mb-0" width="30vh"> -->
-                    <p class="mt-0 mb-0 google-font" style="font-size:130%">{{item.title}}</p>
-                    <p class="mt-1 mb-0 google-font">{{item.description | summery(90)}}</p>
+                    <v-chip :color="item.tag.color" label outlined class="mt-1 mb-0" small>{{item.tag.name}}</v-chip>
                     <SessionDialog :data="{vdata: item}" />
                 </div>
                 </v-hover>
@@ -32,7 +30,7 @@
 
 <script>
 import SessionDeails from '@/assets/data/sessions.json'
-import SessionDialog from '@/components/common/SessionDialog'
+import SessionDialog from '@/components/common/sessionDialog'
 export default {
     components:{
         SessionDialog

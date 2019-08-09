@@ -1,6 +1,6 @@
 <template>
     <!-- style="border:1px solid #9e9e9e;border-radius:7px" -->
-    <v-container class="px-3" >
+    <v-container class="px-2" >
         <v-layout wrap align-center justify-center row fill-heights>
 
             <v-flex xs12 sm12 md12 lg12 xl12 order-xs2 order-md1 class="px-5 pt-5 mx-3">

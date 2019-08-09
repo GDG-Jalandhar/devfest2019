@@ -5,15 +5,28 @@
       width="700"
     >
       <template v-slot:activator="{ on }">
-        <v-btn
-          color="red lighten-2"
-          dark
-          text
-          small
-          v-on="on"
-        >
-          See More
-        </v-btn>
+        <div v-on="on" style="cursor: pointer;">
+          <v-avatar size="100">
+              <v-img
+              :src="getImgUrl(data.vdata.image)"
+              :lazy-src="getImgUrl(data.vdata.image)">
+
+                  <v-layout
+                      slot="placeholder"
+                      fill-height
+                      align-center
+                      justify-center
+                      ma-0
+                  >
+                      <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                  </v-layout>
+              
+              </v-img>
+          </v-avatar>
+          <p class="mt-3 mb-0 google-font" style="font-size:110%">{{data.vdata.name}}</p>
+          <p class="mt-1 mb-0 google-font" style="font-size:80%">{{data.vdata.company.name}}</p>
+          <socialMediaDetails :data="{vdata:data.vdata.social}"/>
+        </div>
       </template>
 
       <v-card color="px-5">
@@ -39,8 +52,8 @@
               </v-img>
           </v-avatar>
           <span class="ml-4 my-5">
-            <p class="my-0">{{data.vdata.name}}</p>
-            <p class="my-0" style="font-size:70%">{{data.vdata.company.name}}</p>
+            <p class="my-0" style="font-size:80%">{{data.vdata.name}}</p>
+            <p class="my-0" style="font-size:60%">{{data.vdata.company.name}}</p>
           </span>
           
         </v-card-title>
@@ -55,7 +68,7 @@
             {{data.vdata.bio}}
           </p>
           <p class="my-0 google-font" style="font-size:120%"><b>Social Info</b></p>
-          <speakerSocialInfo :data="{vdata:data.vdata.social}"/>
+          <socialMediaDetails :data="{vdata:data.vdata.social}"/>
           
           <p class="my-0 google-font mt-4" v-if="SessionsData.length>0" style="font-size:120%">
             <b>Sessions:</b>
@@ -110,11 +123,11 @@
 </template>
 
 <script>
-import speakerSocialInfo from '@/components/common/SpeakerSocialInfo'
+import socialMediaDetails from '@/components/common/socialMedia'
 import SessionDeails from '@/assets/data/sessions.json'
   export default {
     components:{
-      speakerSocialInfo
+      socialMediaDetails
     },
     props:{
       data:{

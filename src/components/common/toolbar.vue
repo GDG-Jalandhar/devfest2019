@@ -23,7 +23,7 @@
         {{ link.text }}
     </v-btn>
 
-    <!-- <share/> -->
+    <share/>
 
     <v-btn icon v-on:click="shareMe" class="hidden-sm-and-up">
       <v-icon>mdi-share-variant</v-icon>

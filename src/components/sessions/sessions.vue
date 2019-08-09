@@ -23,7 +23,7 @@
 
 <script>
 import sessionsData from '@/assets/data/sessions.json'
-import sessionDialog from '@/components/sessions/sessionDialog'
+import sessionDialog from '@/components/common/sessionDialog'
 export default {
     components:{
         sessionDialog

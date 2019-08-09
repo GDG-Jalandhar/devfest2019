@@ -1,5 +1,5 @@
 <template>
-    <v-container class="my-4">
+    <v-container fluid class="my-4">
         <v-layout wrap align-center justify-center row fill-height  >
            <v-flex xs12 sm5 md3 lg4 xl4 class="text-xs-center ">
                 <v-img

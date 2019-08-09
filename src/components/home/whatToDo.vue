@@ -1,6 +1,7 @@
 <template>
-    <v-container class="" >
-        <v-layout wrap align-center justify-center row fill-height class="hidden-sm-and-down ma-2" style="border:1px solid #9e9e9e;border-radius:8px">
+    <v-container fluid class="" >
+        <!-- border:1px solid #e0e0e0;border-radius:8px -->
+        <v-layout wrap align-center justify-center row fill-height class="hidden-sm-and-down ma-2" style="">
             <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
                 <v-hover v-slot:default="{ hover }">
                     <v-card class="pa-3" :elevation="hover ? 0 : 0" style="min-height:200px">
@@ -12,7 +13,7 @@
             </v-flex> 
             <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
                 <v-hover v-slot:default="{ hover }">
-                    <v-card class="pa-3" :elevation="hover ? 2 : 0">
+                    <v-card class="pa-3" :elevation="hover ? 0 : 0">
                         <v-icon size="50px">mdi-lightbulb-on</v-icon>
                         <p class="google-font my-0" style="font-size:150%;color:#424242">Showcases</p>
                         <p class="google-font" style="font-size:100%;color:#9e9e9e">Demo zone with the latest of Google tech: GCP, Firebase, VR, IoT - all in one place</p>
@@ -21,7 +22,7 @@
             </v-flex> 
             <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
                 <v-hover v-slot:default="{ hover }">
-                    <v-card class="pa-3" :elevation="hover ? 2 : 0">
+                    <v-card class="pa-3" :elevation="hover ? 0 : 0">
                         <v-icon size="50px">mdi-account-switch</v-icon>
                         <p class="google-font my-0" style="font-size:150%;color:#424242">Workshops</p>
                         <p class="google-font" style="font-size:100%;color:#9e9e9e">Workshops to get your hands dirty and create a working prototype right during the conference</p>
@@ -30,7 +31,7 @@
             </v-flex> 
             <v-flex xs12 sm5 md3 lg3 xl3 class="text-center pa-5">
                 <v-hover v-slot:default="{ hover }">
-                    <v-card class="pa-3" :elevation="hover ? 2 : 0">
+                    <v-card class="pa-3" :elevation="hover ? 0 : 0">
                         <v-icon size="50px">mdi-lock-pattern</v-icon>
                         <p class="google-font my-0" style="font-size:150%;color:#424242">Networking</p>
                         <p class="google-font" style="font-size:100%;color:#9e9e9e">Work hard and enjoy DevFest is the best place to meet new people</p>

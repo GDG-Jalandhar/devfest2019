@@ -23,7 +23,7 @@
     {
         "name":"Yatin Nayyar",
         "designation":"GDG",
-        "twitter":"",
+        "twitter":"#",
         "facebook":"sdf",
         "profileImage":""
     },
@@ -58,15 +58,15 @@
     {
         "name":"Ayush Sharma",
         "designation":"GDG",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Priyanka Sharma",
         "designation":"DSC",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
@@ -79,64 +79,64 @@
     {
         "name":"Neha Sharma",
         "designation":"GirlScript",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Shreya Gupta",
         "designation":"GirlScript",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Shubhank Saxena",
         "designation":"DSC",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Anushka Beri",
         "designation":"GirlScript",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Deepak Gupta",
         "designation":"DSC",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Smile Gupta",
         "designation":"GirlScript",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Siddharth",
         "designation":"DSC",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Arsh",
         "designation":"DSC",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
         "name":"Pranavi",
         "designation":"GirlScript",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
     },
     {
@@ -151,55 +151,6 @@
         "designation":"GDG",
         "twitter":"https://www.twitter.com/yashpathack",
         "facebook":"https://www.facebook.com/YashPathack",
-        "profileImage":""
-    },
-    {
-        "name":"",
-        "designation":"",
-        "twitter":"",
-        "facebook":"",
-        "profileImage":""
-    },
-    {
-        "name":"",
-        "designation":"",
-        "twitter":"",
-        "facebook":"",
-        "profileImage":""
-    },
-    {
-        "name":"",
-        "designation":"",
-        "twitter":"",
-        "facebook":"",
-        "profileImage":""
-    },
-    {
-        "name":"",
-        "designation":"",
-        "twitter":"",
-        "facebook":"",
-        "profileImage":""
-    },
-    {
-        "name":"",
-        "designation":"",
-        "twitter":"",
-        "facebook":"",
-        "profileImage":""
-    },
-    {
-        "name":"",
-        "designation":"",
-        "twitter":"",
-        "facebook":"",
-        "profileImage":""
-    },
-    {
-        "name":"",
-        "designation":"",
-        "twitter":"",
-        "facebook":"",
         "profileImage":""
     }
 ]
