@@ -11,13 +11,13 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-0 hidden-sm-and-up" >
+    <!-- <v-container fluid class="my-0 py-0 hidden-sm-and-up" >
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
           <mobileAnnouncement />
         </v-flex>
       </v-layout>
-    </v-container>
+    </v-container> -->
 
     <!-- mobileAnnouncement -->
 
