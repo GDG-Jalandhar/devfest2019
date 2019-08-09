@@ -13,10 +13,8 @@
       <v-card class="px-5 google-font" >
         <v-card-title
           class="headline google-font"
-          primary-title
         >
-          What's New?
-          
+          What's New in #DevFestPunjab?          
         </v-card-title>
 
         <v-card-text class="">
