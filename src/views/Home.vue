@@ -3,8 +3,25 @@
     <!-- <comingSoon/> -->
     <!-- <card /> -->
 
+    <v-container fluid class="my-0 py-0 hidden-sm-and-up" >
+      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+        <v-flex xs12 md10 >
+          <HomeStartScreenMobileView />
+        </v-flex>
+      </v-layout>
+    </v-container>
 
-    <v-container fluid class="my-0 py-3">
+    <v-container fluid class="my-0 py-0 hidden-sm-and-up" >
+      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+        <v-flex xs12 md10 >
+          <mobileAnnouncement />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <!-- mobileAnnouncement -->
+
+    <v-container fluid class="my-0 py-5 hidden-sm-and-down">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
           <HomeStartScreen />
@@ -12,7 +29,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="hidden-sm-and-down ">
+    <v-container fluid class="hidden-sm-and-down grey lighten-4 py-5">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class="">
           <stats />
@@ -55,59 +72,7 @@
 
     <!-- FeatureSpeakers -->
 
-    
-    <!-- <v-container fluid style="background-color:#F9F9F9" >
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-          <whatWeDo />
-        </v-flex>
-      </v-layout>
-    </v-container>
-
-    <v-container fluid style="background-color:#4C4A78" >
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-          <AboutGDGChapter />
-        </v-flex>
-      </v-layout>
-    </v-container>
-
-    <v-container fluid >
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-          <eventshowcase />
-        </v-flex>
-      </v-layout>
-    </v-container>
   
-    <v-container fluid class="py-5" style="background-color:#F9F9F9">
-      <v-layout wrap align-start justify-start row fill-height>
-        <v-flex xs12 md10 offset-md1 offset-lg1 >
-          <p class="google-font mb-2" style="font-size:150%">Our Feature Event & Meetup</p>
-        </v-flex>
-        <v-flex xs12 md10 offset-md1 offset-lg1 >
-          <featureEvent />
-        </v-flex>
-      </v-layout>
-    </v-container> -->
-    
-     <!-- <v-container fluid >
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10>
-          <wtmInfo />
-        </v-flex>
-      </v-layout>
-    </v-container> -->
-
-    <!-- <v-container fluid >
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10>
-          <partners />
-        </v-flex>
-      </v-layout>
-    </v-container> -->
-
-    
 
 
   </v-content>
@@ -123,7 +88,8 @@
   import partners from '@/components/home/partners'
   import card from '@/components/common/card'
   import comingSoon from '@/components/common/comingSoon'
-  // import whatWeDo from '@/components/home/whatWeDo'
+  import HomeStartScreenMobileView from '@/components/home/HomeStartScreenMobileView'
+  import mobileAnnouncement from '@/components/home/mobile-announcement'
   // import AboutGDGChapter from '@/components/home/AboutGDGChapter'
   // import eventshowcase from '@/components/home/eventshowcase'
   // // import wtmInfo from '@/components/home/wtmInfo'
@@ -139,7 +105,9 @@
       FeatureSpeakers,
       FeatureSessions,
       partners,
-      card
+      card,
+      HomeStartScreenMobileView,
+      mobileAnnouncement
       // whatWeDo,
       // AboutGDGChapter,
       // eventshowcase,

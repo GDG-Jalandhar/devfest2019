@@ -3,9 +3,9 @@
     <!-- v-if="!$route.meta.hideNavigation" -->
     <CoreToolbar />
     <CoreDrawer/>
-    <CoreView class="mt-0"/>
-    <!-- <CoreBottonNav/> -->
+    <CoreView />
     <CoreFooter class="pa-0"/>
+    <!-- <CoreBottonNav/> -->
 
   </v-app>
 </template>

@@ -1,11 +1,13 @@
 <template>
-    <v-container class="my-4">
-        <v-layout wrap align-center justify-center row fill-height  >
-           <v-flex xs12 sm5 md3 lg4 xl4 class="text-xs-center ">
+    <v-container class="my-0 " style="">
+        <v-layout wrap align-center justify-center row fill-height>
+            <v-flex xs12 class="px-5 mx-5 mb-3" >
                 <v-img
                     :src="require('@/assets/img/devfest-logo.jpg')"
                     :lazy-src="require('@/assets/img/devfest-logo.jpg')"
-                    width="100%">
+                    width="100%"
+                    style="border-radius:8px"
+                    class="elevation-0">
                     <v-layout
                         slot="placeholder"
                         fill-height
@@ -16,8 +18,8 @@
                         <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                     </v-layout>
                 </v-img>
-            </v-flex> 
-            <v-flex xs12 sm7 md8 lg8 xl8 class="px-5">
+            </v-flex>
+            <v-flex xs12 class="px-5" >
                 <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%"><b>DevFest  
                     <span style="color: #1a73e8;">Punjab</span>.</b> 
                 </p>
@@ -34,12 +36,13 @@
                 </p>
 
                 <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Request for an Invitation</v-btn>
-
                 &nbsp;
 
                 <v-btn :href="chapterDetails.GDGProgramWebsite" target="_blank" rounded color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outlined  class="ml-0" dark>Learn More</v-btn>
 
             </v-flex>
+
+        
         </v-layout>
 
     </v-container>
