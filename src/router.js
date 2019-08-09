@@ -48,6 +48,11 @@ export default new Router({
       path:'/community-guidelines',
       name:'community-guidelines',
       component: () => import('./views/CommunityGuidelines.vue')
+    },
+    {
+      path:'/sponsors',
+      name:'sponsors',
+      component: () => import('./views/Sponsors.vue')
     }
   ]
 })
