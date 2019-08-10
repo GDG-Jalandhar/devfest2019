@@ -8,8 +8,14 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
+    { path: '*', redirect: '/' },
     {
       path: '/',
+      name: 'home',
+      component: Home
+    },
+    {
+      path: '/home',
       name: 'home',
       component: Home
     },
