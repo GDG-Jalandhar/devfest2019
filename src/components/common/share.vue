@@ -58,7 +58,7 @@
             <v-flex xs12 class="">
               <p class="google-font mb-1 px-4" style="font-size:120%"><b>Announcements</b></p>
             </v-flex>
-            <v-flex xs12 sm6 md4 v-for="(item,i) in updatesData" :key="i" class="">
+            <v-flex xs12 sm6 md4 v-for="(item,i) in updatesData" :key="i" class="px-1">
               <div style="border-radius: 5px; border:1px solid #e0e0e0;" class="ma-1 pa-4">
                 <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
                 <a :href="item.link" style="text-decoration:none;" target="_blank">Link</a>
