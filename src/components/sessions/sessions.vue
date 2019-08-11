@@ -69,11 +69,7 @@
                   </v-flex>
               </v-layout>
             </v-flex> 
-
-           
         </v-layout>
-
-
     </v-container>
 </template>
 
@@ -118,7 +114,7 @@ export default {
         },
         FilterData(){
             if(this.SelectedItem.length>0){
-                var asData = []
+                let asData = []
                 this.SelectedItem.map(val=>{
                     this.sessionsData.filter(res=>{
                         if(res.tag.name == val){
