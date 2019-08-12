@@ -83,8 +83,7 @@ export default {
         return {
             sessionsData:sessionsData,
             items:[],
-            SelectedItem:[],
-            mainData: sessionsData
+            SelectedItem:[]
         }
     },
     computed: {

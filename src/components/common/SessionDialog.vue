@@ -68,8 +68,6 @@
 <script>
 import SpeakersDetails from '@/assets/data/speaker.json'
   export default {
-    components:{
-    },
     props:{
       data:{
         vdata:[]
@@ -79,9 +77,7 @@ import SpeakersDetails from '@/assets/data/speaker.json'
       return {
         dialog: false,
         SpeakersDetails:SpeakersDetails,
-        SpeakersData:[],
-        tempData:[],
-        tagsData:[]
+        SpeakersData:[]
       }
     },
     mounted(){
@@ -99,15 +95,6 @@ import SpeakersDetails from '@/assets/data/speaker.json'
               return require('@/assets/img/speakers/'+pic)
           }else{
               return require('@/assets/img/common/avatar.png')
-          }
-      },
-      getCharString(data){
-          var splitArr = data.split(" ")
-          if(splitArr.length>1){
-              return (splitArr[0].substring(0,1)+''+splitArr[1].substring(0,1)).toUpperCase()
-          }
-          else{
-              return (splitArr[0].substring(0,1)).toUpperCase()
           }
       },
     },
