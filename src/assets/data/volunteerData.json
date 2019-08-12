@@ -4,7 +4,7 @@
         "designation":"DSC",
         "twitter":"https://twitter.com/patidarparas13",
         "facebook":"https://www.facebook.com/paras.patidar.923",
-        "profileImage":""
+        "profileImage":"par.jpg"
     },
     {
         "name":"Siv Ram Shastri",
@@ -25,14 +25,14 @@
         "designation":"DSC",
         "twitter":"https://www.twitter.com/haxonicofficial",
         "facebook":"https://www.facebook.com/haxonic1337",
-        "profileImage":""
+        "profileImage":"bhasker.jpg"
     },
     {
         "name":"Simran Gujrati",
         "designation":"DSC-Lead",
         "twitter":"https://twitter.com/simrangujrati12",
         "facebook":"https://www.facebook.com/simi.gujrati",
-        "profileImage":""
+        "profileImage":"simran.jpg"
     },
     {
         "name":"Ayush Sharma",
@@ -116,13 +116,13 @@
         "designation":"DSC",
         "twitter":"https://twitter.com/ArjunInventor",
         "facebook":"https://facebook.com/arjun.inventor",
-        "profileImage":""
+        "profileImage":"arjun.jpg"
     },
     {
         "name":"Yash Pathak",
         "designation":"GDG",
         "twitter":"https://www.twitter.com/yashpathack",
         "facebook":"https://www.facebook.com/YashPathack",
-        "profileImage":""
+        "profileImage":"yash.jpg"
     }
 ]
