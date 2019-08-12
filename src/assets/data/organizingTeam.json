@@ -1,156 +1,80 @@
 [
-    {
-        "name":"Rohan Singh",
-        "designation":"GDG",
-        "twitter":"https://twitter.com/@rohankalhans",
-        "facebook":"https://facebook.com/rohanovation",
-        "profileImage":""
+   {
+        "name":"Kamal Vaid",
+        "designation":"Organizer, GDG Chandigarh & GDE (AoG)",
+        "image":"",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/cammykamal",
+            "linkedin":"https://www.linkedin.com/in/kamal-vaid/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Paras Patidar",
-        "designation":"DSC",
-        "twitter":"https://twitter.com/patidarparas13",
-        "facebook":"https://www.facebook.com/paras.patidar.923",
-        "profileImage":""
+        "name":"Vrijraj Singh",
+        "designation":"Organizer, GDG Jalandhar & GDE (Web Technologies)",
+        "image":"",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/VrijrajSingh",
+            "linkedin":"https://www.linkedin.com/in/vrijraj/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Siv Ram Shastri",
-        "designation":"GirlScript",
-        "twitter":"https://twitter.com/prince_shivaram?s=09",
-        "facebook":"https://www.facebook.com/jonnalagadda.shivaram",
-        "profileImage":""
+        "name":"Varsha Jaiswal",
+        "designation":"Co-Organizer, GDG Jalandhar & WTM Ambassador",
+        "image":"",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/varsha2716",
+            "linkedin":"https://www.linkedin.com/in/varsha2716/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Yatin Nayyar",
-        "designation":"GDG",
-        "twitter":"#",
-        "facebook":"sdf",
-        "profileImage":""
+        "name":"Sonakshi Shukla",
+        "designation":"WTM Ambassador, GDG Jalandhar",
+        "image":"",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/Sonakshishukla1",
+            "linkedin":"https://www.linkedin.com/in/sonakshi15/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Bhaskar Kumar",
-        "designation":"DSC",
-        "twitter":"https://www.twitter.com/haxonicofficial",
-        "facebook":"https://www.facebook.com/haxonic1337",
-        "profileImage":""
+        "name":"Tushar Srivastava",
+        "designation":"Co-Organizer, GDG Chandigarh",
+        "image":"",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "social":{
+            "facebook":"",
+            "twitter":"",
+            "linkedin":"https://www.linkedin.com/in/tushar-srivastava-305a05148/",
+            "github":"",
+            "website":""
+        }
     },
     {
-        "name":"Shubhangi Gupta",
-        "designation":"GDG",
-        "twitter":"http://twitter.com/shubhangigr8",
-        "facebook":"http://facebook.com/shubhangigr8",
-        "profileImage":""
-    },
-    {
-        "name":"Simran Gujrati",
-        "designation":"DSC",
-        "twitter":"https://twitter.com/simrangujrati12",
-        "facebook":"https://www.facebook.com/simi.gujrati",
-        "profileImage":""
-    },
-    {
-        "name":"Priya Upadhyay",
-        "designation":"GDG",
-        "twitter":"https://twitter.com/pu1413",
-        "facebook":"https://www.facebook.com/profile.php?id=100004497618337",
-        "profileImage":""
-    },
-    {
-        "name":"Ayush Sharma",
-        "designation":"GDG",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Priyanka Sharma",
-        "designation":"DSC",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Pramod Mahato",
-        "designation":"GDG",
-        "twitter":"https://twitter.com/1997_pramod",
-        "facebook":"https://facebook.com/pramod.mahato.14",
-        "profileImage":""
-    },
-    {
-        "name":"Neha Sharma",
-        "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Shreya Gupta",
-        "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Shubhank Saxena",
-        "designation":"DSC",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Anushka Beri",
-        "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Deepak Gupta",
-        "designation":"DSC",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Smile Gupta",
-        "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Siddharth",
-        "designation":"DSC",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Arsh",
-        "designation":"DSC",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Pranavi",
-        "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Anjun S Kumar",
-        "designation":"DSC",
-        "twitter":"https://twitter.com/ArjunInventor",
-        "facebook":"https://facebook.com/arjun.inventor",
-        "profileImage":""
-    },
-    {
-        "name":"Yash Pathak",
-        "designation":"GDG",
-        "twitter":"https://www.twitter.com/yashpathack",
-        "facebook":"https://www.facebook.com/YashPathack",
-        "profileImage":""
+        "name":"Pooja Guleria",
+        "designation":"WTM Ambassador, GDG Chandigarh",
+        "image":"",
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/PoojaGuleria13",
+            "linkedin":"https://www.linkedin.com/in/pooja-guleria-8a321a150/",
+            "github":"",
+            "website":""
+        }
     }
 ]
