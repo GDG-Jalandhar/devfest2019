@@ -15,6 +15,14 @@
     <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
+          <organizingTeam/>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid >
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10>
           <coreTeam/>
         </v-flex>
       </v-layout>
@@ -23,13 +31,10 @@
     <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <organizingTeam/>
+          <volunteer/>
         </v-flex>
       </v-layout>
     </v-container>
-
-   
-
 
   </v-content>
   
@@ -37,11 +42,13 @@
 
 <script>
 import coreTeam from '@/components/team/coreTeam'
+import volunteer from '@components/team/volunteer'
 import organizingTeam from '@/components/team/organizingTeam'
   export default {
     components: {
       coreTeam,
-      organizingTeam
+      organizingTeam,
+      volunteer
     },
     data() {
       return {
