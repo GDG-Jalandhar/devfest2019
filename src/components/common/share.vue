@@ -12,13 +12,14 @@
 
       <v-card class="px-5 google-font" >
         <v-card-title
-          class="headline google-font"
+          class="google-font"
+          style="font-size:120%"
         >
           What's New in #DevFestPunjab?          
         </v-card-title>
 
         <v-card-text class="">
-          <p class="google-font" style="font-size:80%">Version: 1.0.0</p>
+          <p class="google-font mt-0" style="font-size:80%">Version: 1.0.0</p>
           
           <v-layout row wrap class="mb-3">
             <v-flex xs12 class="">
@@ -61,7 +62,7 @@
             <v-flex xs12 sm6 md4 v-for="(item,i) in updatesData" :key="i" class="px-1">
               <div style="border-radius: 5px; border:1px solid #e0e0e0;" class="ma-1 pa-4">
                 <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
-                <a :href="item.link" style="text-decoration:none;" target="_blank">Link</a>
+                <a :href="item.link" style="text-decoration:none;" target="_blank">See More</a>
               </div>
             </v-flex>
           </v-layout>
@@ -85,6 +86,7 @@
 </template>
 
 <script>
+import accouncementData from '@/assets/data/announcement.json'
   export default {
     data () {
       return {
@@ -98,23 +100,7 @@
             "img":'https://assistant.google.com/static/images/molecule/Molecule-Formation-stop.png'
           }
         ],
-        updatesData:[
-          {
-            "title":"Call For Speakers",
-            "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam odit consequuntur velit nostrum ad illum enim, placeat sequi beatae dolor ullam repudiandae possimus eos atque magnam ut et porro!",
-            "link":""
-          },
-          {
-            "title":"Speakers Update",
-            "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam odit consequuntur velit nostrum ad illum enim, placeat sequi beatae dolor ullam repudiandae possimus eos atque magnam ut et porro!",
-            "link":""
-          },
-          {
-            "title":"Speakers Update",
-            "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam odit consequuntur velit nostrum ad illum enim, placeat sequi beatae dolor ullam repudiandae possimus eos atque magnam ut et porro!",
-            "link":""
-          }
-        ]
+        updatesData:accouncementData
       }
     },
   }
