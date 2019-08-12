@@ -1,5 +1,5 @@
 # DevFest Punjab 2019 
-[![Build Status](https://travis-ci.org/GDG-Jalandhar/devfest2019.svg?branch=master)](https://travis-ci.org/GDG-Jalandhar/devfest2019)
+<!-- [![Build Status](https://travis-ci.org/GDG-Jalandhar/devfest2019.svg?branch=master)](https://travis-ci.org/GDG-Jalandhar/devfest2019) -->
 
 DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building and learning about Google’s technologies.
 
