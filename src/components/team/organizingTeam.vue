@@ -21,23 +21,6 @@ export default {
             showLoader: true,
             showData:false,
         }
-    },
-    mounted(){
-        
-    },
-    methods:{
-        getImgUrl(pic) {
-            if(pic.length>0){
-                return require('@/assets/img/team/'+pic)
-            }else{
-                return require('@/assets/img/common/avatar.png')
-            }
-        },
-    },
-    filters:{
-        summery: (val,num)=>{
-            return val.substring(0,num)+".."
-        }
     }
 }
 </script>
