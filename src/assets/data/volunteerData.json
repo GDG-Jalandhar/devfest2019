@@ -1,5 +1,40 @@
 [
     {
+        "name":"Simran Gujrati",
+        "designation":"DSC-Lead",
+        "twitter":"https://twitter.com/simrangujrati12",
+        "facebook":"https://www.facebook.com/simi.gujrati",
+        "profileImage":"simran.jpg"
+    },
+    {
+        "name":"Deepak Gupta",
+        "designation":"DSC Lead",
+        "twitter":"#",
+        "facebook":"#",
+        "profileImage":""
+    },
+    {
+        "name":"Arsh Goyal",
+        "designation":"DSC Lead",
+        "twitter":"#",
+        "facebook":"#",
+        "profileImage":""
+    },
+    {
+        "name":"Shubhank Saxena",
+        "designation":"DSC Lead",
+        "twitter":"#",
+        "facebook":"#",
+        "profileImage":""
+    },
+    {
+        "name":"Siddharth",
+        "designation":"DSC Lead",
+        "twitter":"#",
+        "facebook":"#",
+        "profileImage":""
+    },
+    {
         "name":"Paras Patidar",
         "designation":"DSC",
         "twitter":"https://twitter.com/patidarparas13",
@@ -7,11 +42,25 @@
         "profileImage":"par.jpg"
     },
     {
-        "name":"Siv Ram Shastri",
-        "designation":"GirlScript",
-        "twitter":"https://twitter.com/prince_shivaram?s=09",
-        "facebook":"https://www.facebook.com/jonnalagadda.shivaram",
+        "name":"Anjun S Kumar",
+        "designation":"DSC",
+        "twitter":"https://twitter.com/ArjunInventor",
+        "facebook":"https://facebook.com/arjun.inventor",
+        "profileImage":"arjun.jpg"
+    },
+    {
+        "name":"Priyanka Sharma",
+        "designation":"DSC",
+        "twitter":"#",
+        "facebook":"#",
         "profileImage":""
+    },
+    {
+        "name":"Yash Pathak",
+        "designation":"GDG",
+        "twitter":"https://www.twitter.com/yashpathack",
+        "facebook":"https://www.facebook.com/YashPathack",
+        "profileImage":"yash.jpg"
     },
     {
         "name":"Yatin Nayyar",
@@ -28,13 +77,6 @@
         "profileImage":"bhasker.jpg"
     },
     {
-        "name":"Simran Gujrati",
-        "designation":"DSC-Lead",
-        "twitter":"https://twitter.com/simrangujrati12",
-        "facebook":"https://www.facebook.com/simi.gujrati",
-        "profileImage":"simran.jpg"
-    },
-    {
         "name":"Ayush Sharma",
         "designation":"GDG",
         "twitter":"#",
@@ -42,29 +84,29 @@
         "profileImage":""
     },
     {
-        "name":"Priyanka Sharma",
-        "designation":"DSC",
+        "name":"Priya Upadhyay",
+        "designation":"GDG",
+        "twitter":"https://twitter.com/pu1413",
+        "facebook":"https://www.facebook.com/profile.php?id=100004497618337",
+        "profileImage":"priya.jpg"
+    },
+    {
+        "name":"Neha Sharma",
+        "designation":"GirlScript Punjab",
         "twitter":"#",
         "facebook":"#",
         "profileImage":""
     },
     {
-        "name":"Neha Sharma",
-        "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
+        "name":"Siv Ram Shastri",
+        "designation":"GirlScript Jalandhar",
+        "twitter":"https://twitter.com/prince_shivaram?s=09",
+        "facebook":"https://www.facebook.com/jonnalagadda.shivaram",
         "profileImage":""
     },
     {
         "name":"Shreya Gupta",
         "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Shubhank Saxena",
-        "designation":"DSC",
         "twitter":"#",
         "facebook":"#",
         "profileImage":""
@@ -77,29 +119,8 @@
         "profileImage":""
     },
     {
-        "name":"Deepak Gupta",
-        "designation":"DSC Lead",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
         "name":"Smile Gupta",
-        "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Siddharth",
-        "designation":"DSC",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
-    },
-    {
-        "name":"Arsh",
-        "designation":"DSC Lead",
+        "designation":"GirlScript Jalandhar",
         "twitter":"#",
         "facebook":"#",
         "profileImage":""
@@ -110,19 +131,5 @@
         "twitter":"#",
         "facebook":"#",
         "profileImage":""
-    },
-    {
-        "name":"Anjun S Kumar",
-        "designation":"DSC",
-        "twitter":"https://twitter.com/ArjunInventor",
-        "facebook":"https://facebook.com/arjun.inventor",
-        "profileImage":"arjun.jpg"
-    },
-    {
-        "name":"Yash Pathak",
-        "designation":"GDG",
-        "twitter":"https://www.twitter.com/yashpathack",
-        "facebook":"https://www.facebook.com/YashPathack",
-        "profileImage":"yash.jpg"
     }
 ]
