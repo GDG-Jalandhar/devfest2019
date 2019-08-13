@@ -210,7 +210,7 @@
         "place":"Hall",
         "tag": {
             "name":"Keynote",
-            "color":"violet"
+            "color":"pink"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -225,7 +225,7 @@
         "place":"Hall",
         "tag": {
             "name":"Keynote",
-            "color":"violet"
+            "color":"pink"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
