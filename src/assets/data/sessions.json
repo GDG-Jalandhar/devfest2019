@@ -49,7 +49,7 @@
         "place":"Hall",
         "tag": {
             "name":"Insights",
-            "color":"Black"
+            "color":"black"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
@@ -130,12 +130,12 @@
     },
     {
         "id":"210",
-        "title":"Keynote on Community Introduction",
+        "title":"Community Introduction",
         "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
         "place":"Hall",
         "tag": {
             "name":"Keynote",
-            "color":"violet"
+            "color":"deepskyblue"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -210,7 +210,7 @@
         "place":"Hall",
         "tag": {
             "name":"Keynote",
-            "color":"pink"
+            "color":"deepskyblue"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
@@ -225,7 +225,7 @@
         "place":"Hall",
         "tag": {
             "name":"Keynote",
-            "color":"pink"
+            "color":"deepskyblue"
         },
         "timeDuration": "30",
         "subtype":"Presentation",
