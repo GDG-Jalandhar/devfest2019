@@ -27,6 +27,11 @@
             "name" : "Meetup",
             "link" : "https://www.meetup.com/GDG-Jalandhar/",
             "icon" : "fab fa-meetup"
+        },
+        {
+            "name" : "Instagram",
+            "link" : "http://instagram.com/gdgjalandhar",
+            "icon" : "fab fa-instagram"
         }
     ],
     "wtmWebsite":"https://www.womentechmakers.com/",
