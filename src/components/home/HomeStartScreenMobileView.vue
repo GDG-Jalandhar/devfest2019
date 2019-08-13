@@ -1,6 +1,7 @@
 <template>
   <v-card
-    class="mx-auto my-1 elevation-0"
+    flat
+    class="mx-auto my-1 "
     max-width="374"
     height="90%"
   >
@@ -26,8 +27,8 @@
       <v-chip-group
         small
       >
-        <v-chip outlined>#DevFestPunjab</v-chip>
-        <v-chip outlined>#DevFest</v-chip>
+        <v-chip >#DevFestPunjab</v-chip>
+        <v-chip >#DevFest</v-chip>
         <!-- <v-chip small outlined>#GDGJalandhar</v-chip>
         <v-chip small outlined>#GDGChandigarh</v-chip> -->
       </v-chip-group>

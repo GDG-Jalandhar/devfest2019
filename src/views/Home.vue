@@ -2,7 +2,6 @@
   <v-content class="pa-0">
     <!-- <comingSoon/> -->
     <!-- <card /> -->
-
     <v-container fluid class="my-0 py-0 hidden-sm-and-up" >
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
@@ -86,7 +85,6 @@
   import FeatureSpeakers from '@/components/home/FeatureSpeakers'
   import FeatureSessions from '@/components/home/FeatureSessions'
   import partners from '@/components/home/partners'
-  // import card from '@/components/common/card'
   // import comingSoon from '@/components/common/comingSoon'
   import HomeStartScreenMobileView from '@/components/home/HomeStartScreenMobileView'
   // import mobileAnnouncement from '@/components/home/mobile-announcement'

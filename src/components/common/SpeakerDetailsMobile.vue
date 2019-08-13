@@ -32,24 +32,41 @@
       </template>
 
       <v-card color="" >
-        <v-toolbar class="grey lighten-4 elevation-0" >
+        <!-- <v-toolbar 
+            flat
+            class="grey lighten-4" >
           <v-btn icon  @click="dialog = false">
             <v-icon>mdi-keyboard-backspace</v-icon>
           </v-btn>
           <v-toolbar-title>Back</v-toolbar-title>
           <v-spacer></v-spacer>
          
-        </v-toolbar>
+        </v-toolbar> -->
         <v-card-title
-          class="px-5 py-5 grey lighten-4 google-font"
+          class="px-5 grey lighten-4 google-font"
           primary-title
           :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
-          style="background-position:right top"
+          style="background-position:right top;padding-top:20%;"
         >
           &nbsp;&nbsp;&nbsp;&nbsp;
         </v-card-title>
 
-        <v-card-text class="px-5">
+        <v-card-text class="px-5 pb-5" style="margin-top: -80px;" >
+         
+            <v-fab-transition>
+                <v-btn
+                absolute
+                dark
+                fab
+                bottom
+                fixed
+                right
+                @click="dialog = false"
+                color="indigo"
+                >
+                <v-icon>mdi-keyboard-return</v-icon>
+                </v-btn>
+            </v-fab-transition>
           <v-layout row wrap class="my-3">
             <v-flex xs12 md4 class="text-center pa-2">
               <v-avatar size="150">
@@ -118,9 +135,6 @@
                 </v-list-item>
             </v-list>
           </v-flex>
-         
-
-   
 
         </v-card-text>
 
