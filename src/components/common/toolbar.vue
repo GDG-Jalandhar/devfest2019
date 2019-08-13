@@ -79,9 +79,9 @@ export default {
             title:"DevFest Punjab 2019",
             url:''
           }).then(()=>{
-            console.log('Thanks for shareing')
+            // console.log('Thanks for sharing')
           }).catch(e=>{
-            console.log(e)
+            // console.log(e)
           })
         }
       }

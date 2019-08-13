@@ -86,10 +86,10 @@
   import FeatureSpeakers from '@/components/home/FeatureSpeakers'
   import FeatureSessions from '@/components/home/FeatureSessions'
   import partners from '@/components/home/partners'
-  import card from '@/components/common/card'
-  import comingSoon from '@/components/common/comingSoon'
+  // import card from '@/components/common/card'
+  // import comingSoon from '@/components/common/comingSoon'
   import HomeStartScreenMobileView from '@/components/home/HomeStartScreenMobileView'
-  import mobileAnnouncement from '@/components/home/mobile-announcement'
+  // import mobileAnnouncement from '@/components/home/mobile-announcement'
   // import AboutGDGChapter from '@/components/home/AboutGDGChapter'
   // import eventshowcase from '@/components/home/eventshowcase'
   // // import wtmInfo from '@/components/home/wtmInfo'
@@ -101,13 +101,13 @@
       HomeStartScreen,
       whatToDo,
       stats,
-      comingSoon,
+      // comingSoon,
       FeatureSpeakers,
       FeatureSessions,
       partners,
-      card,
+      // card,
       HomeStartScreenMobileView,
-      mobileAnnouncement
+      // mobileAnnouncement,
       // whatWeDo,
       // AboutGDGChapter,
       // eventshowcase,

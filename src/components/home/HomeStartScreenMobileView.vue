@@ -13,7 +13,7 @@
     <v-card-title class="google-font">GDG DevFest Punjab 2019</v-card-title>
     <v-card-text>
       <div class="my-0 subtitle-1 black--text google-font">
-        GDG Jalandhar <> GDG Chandigarh
+        GDG Jalandhar & GDG Chandigarh
       </div>
 
       <div class="google-font">DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building and learning about Google’s technologies.</div>

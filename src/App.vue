@@ -40,7 +40,7 @@
 
 import CoreToolbar from '@/components/common/toolbar'
 import CoreView from '@/components/common/view'
-import CoreBottonNav from '@/components/common/bottomNav'
+// import CoreBottonNav from '@/components/common/bottomNav'
 import CoreDrawer from '@/components/common/drawer'
 import CoreFooter from '@/components/common/footer'
 
@@ -49,7 +49,7 @@ export default {
   components: {
     CoreToolbar,
     CoreView,
-    CoreBottonNav,
+    // CoreBottonNav,
     CoreFooter,
     CoreDrawer
   },
