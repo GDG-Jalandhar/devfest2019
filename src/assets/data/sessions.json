@@ -115,17 +115,17 @@
     },
     {
         "id":"209",
-        "title":"Learning Angular",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "title":"Migrating to TypeScript at scale",
+        "description":"Big changes at big organizations are hard to manage and tricky to maintain, this talk is to tell you how I brought TypeScript to Naukri",
         "place":"Hall",
         "tag": {
             "name":"Web",
             "color":"red"
         },
         "timeDuration": "45",
-        "subtype":"presentation",
+        "subtype":"Presentation",
         "language":"",
-        "complexity":"",
+        "complexity":"Intermediate",
         "speakers":[109]
     },
     {

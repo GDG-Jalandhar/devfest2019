@@ -175,7 +175,7 @@
             "name":"Naukri.com",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio":"Ashok is a Tech Enthusiast and an amazing speaker. He is not only an Engineer, but also an Entreprenuer. His love for Angular and Web related technologies are the key to be a Google Developer Expert. Though he has very busy schedule, he manages the time to travel across the length and breadth, and write the experiences.",
         "city":"New Delhi",
         "country":"India",
         "image":"ashok.jpg",
@@ -184,8 +184,9 @@
             "facebook":"",
             "twitter":"https://twitter.com/_avishwakarma",
             "linkedin":"https://www.linkedin.com/in/ashokvishwakarmaa/",
-            "github":"",
-            "website":"https://ashok.pro"
+            "github":"https://github.com/ashokvishwakarma",
+            "website":"https://ashok.pro",
+            "medium": "https://medium.com/@avishwakarma"
         }
     },
     {
