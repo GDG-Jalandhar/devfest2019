@@ -2,6 +2,7 @@
   <div class="text-center">
     <v-dialog
       v-model="dialog"
+      hide-on-leave
       width="700"
     >
       <template v-slot:activator="{ on }">
@@ -29,48 +30,57 @@
         </div>
       </template>
 
-      <v-card color="px-5">
+      <v-card color="" >
         <v-card-title
-          class="px-5 white google-font"
+          class="px-5 py-5 grey lighten-4 google-font"
           primary-title
+          :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
+          style="background-position:right top"
         >
-           <v-avatar size="80">
-              <v-img
-              :src="getImgUrl(data.vdata.image)"
-              :lazy-src="getImgUrl(data.vdata.image)">
-
-                  <v-layout
-                      slot="placeholder"
-                      fill-height
-                      align-center
-                      justify-center
-                      ma-0
-                  >
-                      <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                  </v-layout>
-              
-              </v-img>
-          </v-avatar>
-          <span class="ml-4 my-5">
-            <p class="my-0" style="font-size:80%">{{data.vdata.name}}</p>
-            <p class="my-0" style="font-size:60%">{{data.vdata.company.name}}</p>
-          </span>
-          
+          &nbsp;&nbsp;&nbsp;&nbsp;
         </v-card-title>
 
-        <v-card-text>
-          <p class="google-font my-0" style="font-size:110%">{{data.vdata.city}}, {{data.vdata.country}}</p>
-          <p class="google-font my-0" style="font-size:110%">{{data.vdata.designation}}</p>
-          <p class="google-font my-0" v-if="data.vdata.company.url" style="font-size:110%"><a :href="data.vdata.company.url" target="_blank">{{data.vdata.company.name}}</a></p>
-          <p class="google-font my-0" v-else>{{data.vdata.company.name}}</p>
+        <v-card-text class="px-5">
+          <v-layout row wrap class="my-3">
+            <v-flex xs12 md4 class="text-center pa-2">
+              <v-avatar size="100">
+                <v-img
+                :src="getImgUrl(data.vdata.image)"
+                :lazy-src="getImgUrl(data.vdata.image)">
 
-          <p class="google-font my-4" style="font-size:110%">
-            {{data.vdata.bio}}
-          </p>
-          <p class="my-0 google-font" style="font-size:120%"><b>Social Info</b></p>
-          <socialMediaDetails :data="{vdata:data.vdata.social}"/>
+                    <v-layout
+                        slot="placeholder"
+                        fill-height
+                        align-center
+                        justify-center
+                        ma-0
+                    >
+                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                    </v-layout>
+                </v-img>
+            </v-avatar>
+            <p class="my-0 mt-3" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
+            <p class="my-0" style="font-size:100%">{{data.vdata.company.name}}</p>
+
+            <!-- <p class="my-0 google-font" style="font-size:120%"><b>Social Info</b></p> -->
+            <socialMediaDetails :data="{vdata:data.vdata.social}"/>
+            </v-flex>
+
+            <v-flex xs12 md8 class="pa-2">
+              <p class="google-font my-0" style="font-size:110%;color:#424242">{{data.vdata.city}}, {{data.vdata.country}}</p>
+              <p class="google-font my-0" style="font-size:110%">{{data.vdata.designation}}</p>
+              <p class="google-font my-0" v-if="data.vdata.company.url" style="font-size:110%"><a :href="data.vdata.company.url" target="_blank">{{data.vdata.company.name}}</a></p>
+              <p class="google-font my-0" v-else>{{data.vdata.company.name}}</p>
+
+              <p class="google-font my-4" style="font-size:110%">
+                {{data.vdata.bio}}
+              </p>
+            </v-flex>
+          </v-layout>
           
-          <p class="my-0 google-font mt-4" v-if="SessionsData.length>0" style="font-size:120%">
+          
+          
+          <p class="my-0 google-font mt-2" v-if="SessionsData.length>0" style="font-size:120%">
             <b>Sessions:</b>
           </p>
        
