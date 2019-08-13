@@ -100,8 +100,8 @@
         "speakers":[107]
     },{
         "id":"208",
-        "title":" cdsd",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "title":"Scale your Web Application on Compute Engine",
+        "description":"A session with a demo explaining the multi-tier web app on Compute Engine. It will cover the information related to: IAAS Market stats, choosing right compute services, Multi-tier application with their role, Load Testing, Demo on autoscaling, etc.",
         "place":"Hall",
         "tag": {
             "name":"Cloud",
@@ -110,7 +110,7 @@
         "timeDuration": "40",
         "subtype":"Presentation",
         "language":"",
-        "complexity":"",
+        "complexity":"Intermediate",
         "speakers":[108]
     },
     {
