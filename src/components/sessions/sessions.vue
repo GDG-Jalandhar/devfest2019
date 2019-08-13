@@ -82,10 +82,8 @@ export default {
     data() {
         return {
             sessionsData:sessionsData,
-            sessionDialog:sessionDialog,
             items:[],
-            SelectedItem:[],
-            mainData: sessionsData
+            SelectedItem:[]
         }
     },
     computed: {

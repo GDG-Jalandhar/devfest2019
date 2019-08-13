@@ -85,7 +85,7 @@ import socialMediaDetails from '@/components/common/socialMedia'
     methods:{
       getImgUrl(pic) {
           if(pic.length>0){
-              return require('@/assets/img/speakers/'+pic)
+              return require('@/assets/img/team/'+pic)
           }else{
               return require('@/assets/img/common/avatar.png')
           }

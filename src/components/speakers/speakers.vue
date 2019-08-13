@@ -24,15 +24,6 @@ export default {
         return {
             speakerData: speakerData
         }
-    },
-    methods:{
-        getImgUrl(pic) {
-            if(pic.length>0){
-                return require('@/assets/img/speakers/'+pic)
-            }else{
-                return require('@/assets/img/common/avatar.png')
-            }
-        },
     }
 }
 </script>

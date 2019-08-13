@@ -32,9 +32,7 @@ export default {
     },
     data() {
         return {
-            SessionDeails: SessionDeails,
-            showLoader: true,
-            showData:false,
+            SessionDeails: SessionDeails
         }
     }
 }

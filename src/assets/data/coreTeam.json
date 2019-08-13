@@ -4,34 +4,34 @@
         "designation":"GDG",
         "twitter":"https://twitter.com/@rohankalhans",
         "facebook":"https://facebook.com/rohanovation",
-        "profileImage":""
+        "profileImage":"rohan.jpg"
     },
     {
         "name":"Bhaskar Kumar",
         "designation":"DSC",
         "twitter":"https://www.twitter.com/haxonicofficial",
         "facebook":"https://www.facebook.com/haxonic1337",
-        "profileImage":""
+        "profileImage":"bhasker.jpg"
     },
     {
         "name":"Shubhangi Gupta",
         "designation":"GDG",
         "twitter":"http://twitter.com/shubhangigr8",
         "facebook":"http://facebook.com/shubhangigr8",
-        "profileImage":""
+        "profileImage":"shubhangi.jpg"
     },
     {
         "name":"Priya Upadhyay",
         "designation":"GDG",
         "twitter":"https://twitter.com/pu1413",
         "facebook":"https://www.facebook.com/profile.php?id=100004497618337",
-        "profileImage":""
+        "profileImage":"priya.jpg"
     },
     {
         "name":"Pramod Mahato",
         "designation":"GDG",
         "twitter":"https://twitter.com/1997_pramod",
         "facebook":"https://facebook.com/pramod.mahato.14",
-        "profileImage":""
+        "profileImage":"pramod.jpeg"
     }
 ]
