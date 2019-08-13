@@ -30,7 +30,7 @@
                         <li class="google-font">Nationality</li>
                     </ul>
 
-                    <span class="google-font" style="font-size:100%">The above is not an exhaustive list -- we do not tolerate harassment of event spanarticipants in any form. </span>
+                    <span class="google-font" style="font-size:100%">The above is not an exhaustive list -- we do not tolerate harassment of event panarticipants in any form. </span>
                 </p>
 
                 <p class="google-font" style="font-size:120%">Sexual language and imagery is not appropriate for any event venue, including talks. Event participants violating these rules may be expelled from the event, and event banned from future events at the discretion of the event organizers/management. </p>

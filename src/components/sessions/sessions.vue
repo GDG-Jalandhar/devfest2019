@@ -1,5 +1,4 @@
 <template>
-    <!-- style="border:1px solid #9e9e9e;border-radius:7px" -->
     <v-container class=" px-3" >
         <v-layout wrap align-center justify-center row fill-heights>
 
@@ -126,11 +125,6 @@ export default {
             }else{
                 return this.sessionsData
             }
-        }
-    },
-    filters:{
-        summery: (val,num)=>{
-            return val.substring(0,num)+".."
         }
     },
     mounted(){

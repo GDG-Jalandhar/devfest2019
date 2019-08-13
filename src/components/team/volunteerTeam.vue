@@ -3,7 +3,6 @@
         <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0">
             <v-flex xs12 class="mb-3 px-5">
                 <p class="google-font mb-1" style="font-size:130%;color:#1a73e8">Volunteer Details</p>
-                <!-- <v-divider></v-divider> -->
             </v-flex>
             <v-flex xs12 md3 lg3 v-for="(item,i) in TeamDetails" :key="i" class="px-5">
                 <v-list three-line class="py-0 ma-0">
@@ -53,9 +52,7 @@ import TeamDetails from '@/assets/data/volunteerData.json'
 export default {
     data(){
         return {
-            TeamDetails: TeamDetails,
-            showLoader: true,
-            showData:false,
+            TeamDetails: TeamDetails
         }
     },
     mounted(){

@@ -5,8 +5,6 @@
                 <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%"><b>Featured
                     <span style="color: #1a73e8;">Sessions</span> </b> 
                 </p>
-
-                
                 <p class="google-font mt-1">Hone your skills. Ask technical questions. Get inspired. This year’s program is packed with breakouts, keynotes, spotlights, panels, and bootcamps. See More</p>
             </v-flex>
             <v-flex xs12 sm3 md3 lg3 v-for="(item,i) in SessionDeails.slice(0, 4)" :key="i" class="" >
@@ -22,9 +20,6 @@
                 </v-hover>
             </v-flex>
         </v-layout>
-
-
-
     </v-container>
 </template>
 
@@ -40,16 +35,6 @@ export default {
             SessionDeails: SessionDeails,
             showLoader: true,
             showData:false,
-        }
-    },
-    mounted(){
-        
-    },
-    methods:{
-    },
-    filters:{
-        summery: (val,num)=>{
-            return val.substring(0,num)+".."
         }
     }
 }
