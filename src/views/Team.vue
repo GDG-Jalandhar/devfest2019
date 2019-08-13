@@ -42,11 +42,7 @@
 
 <script>
 import coreTeam from '@/components/team/coreTeam'
-<<<<<<< HEAD
-import volunteer from '@/components/team/volunteer'
-=======
 import volunteerDetails from '@/components/team/volunteerTeam'
->>>>>>> 84f8400e227ef4b79f886685989acd9cecde9155
 import organizingTeam from '@/components/team/organizingTeam'
   export default {
     components: {
