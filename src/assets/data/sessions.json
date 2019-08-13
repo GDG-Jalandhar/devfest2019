@@ -161,7 +161,7 @@
     {
         "id":"212",
         "title":"Firebase for Web",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description":" This session will focus on the concepts of Firebase and how it can be used for web. It will be a workshop/codelab on How to make a web app using Firebase with Vanila JavaScript.",
         "place":"Hall",
         "tag": {
             "name":"Web",
@@ -170,7 +170,7 @@
         "timeDuration": "60",
         "subtype":"Presentation",
         "language":"",
-        "complexity":"",
+        "complexity":"Beginner",
         "speakers":[112]
     },
     {

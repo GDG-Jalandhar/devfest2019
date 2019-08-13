@@ -16,13 +16,14 @@
         "name":"Vrijraj Singh",
         "designation":"Organizer, GDG Jalandhar & GDE (Web Technologies)",
         "image":"vrij.jpg",
-        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "bio":"Vrijraj is a front-end developer by profession and an outstanding person in daily life. Thinking out of the box is what he believes in doing. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. He is always eager to learn new technologies and develop new things based on it.",
         "social":{
-            "facebook":"",
+            "facebook":"https://www.facebook.com/vrijrajsingh",
             "twitter":"https://twitter.com/VrijrajSingh",
             "linkedin":"https://www.linkedin.com/in/vrijraj/",
             "github":"https://github.com/vrijraj",
-            "website":"https://vrijraj.xyz/"
+            "website":"https://vrijraj.xyz/",
+            "medium": "https://medium.com/@vrijraj"
         }
     },
     {

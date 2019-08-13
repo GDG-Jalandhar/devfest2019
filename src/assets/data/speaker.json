@@ -249,18 +249,18 @@
             "name":"Qart Fashion",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio":"Vrijraj is a front-end developer by profession and an outstanding person in daily life. Thinking out of the box is what he believes in doing. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. He is always eager to learn new technologies and develop new things based on it.",
         "city":"Gurugram",
         "country":"India",
         "image":"vrij.jpg",
         "sessionId": [212],
         "social":{
-            "facebook":"",
+            "facebook":"https://www.facebook.com/vrijrajsingh",
             "twitter":"https://twitter.com/VrijrajSingh",
             "linkedin":"https://www.linkedin.com/in/vrijraj/",
-            "github":"",
-            "website":"",
-            "medium": ""
+            "github":"https://github.com/vrijraj",
+            "website":"https://vrijraj.xyz/",
+            "medium": "https://medium.com/@vrijraj"
         }
     },
     {
