@@ -29,13 +29,14 @@
         "name":"Varsha Jaiswal",
         "designation":"Co-Organizer, GDG Jalandhar & WTM Ambassador",
         "image":"varsha.jpg",
-        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "bio":"Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Despite busy schedules, she never misses any chance to travel and eat.",
         "social":{
-            "facebook":"",
+            "facebook":"https://www.facebook.com/varsha2716",
             "twitter":"https://twitter.com/varsha2716",
             "linkedin":"https://www.linkedin.com/in/varsha2716/",
-            "github":"",
-            "website":""
+            "github":"https://github.com/Varsha-Jaiswal",
+            "website":"http://varsha-jaiswal.firebaseapp.com/",
+            "medium": "https://medium.com/@varsha2716"
         }
     },
     {
