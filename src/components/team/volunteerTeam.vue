@@ -4,7 +4,7 @@
             <v-flex xs12 class="mb-3 px-5">
                 <p class="google-font mb-1" style="font-size:130%;color:#1a73e8">Volunteer Details</p>
             </v-flex>
-            <v-flex xs12 md3 lg3 v-for="(item,i) in TeamDetails" :key="i" class="px-5">
+            <v-flex xs12 md3 lg3 v-for="(item,i) in ShuffleData(TeamDetails)" :key="i" class="px-5">
                 <v-list three-line class="py-0 ma-0">
                     <template >
                     <v-list-item
@@ -66,6 +66,20 @@ export default {
                 return require('@/assets/img/common/avatar.png')
             }
         },
+        ShuffleData(TeamDetails) {
+      let currentIndex = TeamDetails.length,
+        temporaryValue,
+        randomIndex;
+      while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        temporaryValue = TeamDetails[currentIndex];
+        TeamDetails[currentIndex] = TeamDetails[randomIndex];
+        TeamDetails[randomIndex] = temporaryValue;
+      }
+      return TeamDetails;
+    },
         getCharString(data){
           var splitArr = data.split(" ")
           if(splitArr.length>1){

@@ -3,7 +3,7 @@
         <v-layout wrap align-center justify-center row fill-height>
             <v-flex xs12 class="px-5">
                 <v-layout row wrap class="pa-0">
-                    <v-flex xs6 sm3 md3 lg2 v-for="(item,i) in speakerData" :key="i" 
+                    <v-flex xs6 sm3 md3 lg2 v-for="(item,i) in ShuffleData(speakerData)" :key="i" 
                     class="pa-1" style="text-align:center">
                         <speakerDetails :data="{vdata: item}"/>                    
                     </v-flex>    
@@ -24,6 +24,22 @@ export default {
         return {
             speakerData: speakerData
         }
+    },
+    methods: {
+        ShuffleData(speakerData) {
+      let currentIndex = speakerData.length,
+        temporaryValue,
+        randomIndex;
+      while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        temporaryValue = speakerData[currentIndex];
+        speakerData[currentIndex] = speakerData[randomIndex];
+        speakerData[randomIndex] = temporaryValue;
+      }
+      return speakerData;
+    }
     }
 }
 </script>
