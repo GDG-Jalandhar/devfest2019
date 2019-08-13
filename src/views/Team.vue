@@ -42,7 +42,7 @@
 
 <script>
 import coreTeam from '@/components/team/coreTeam'
-import volunteer from '@components/team/volunteer'
+import volunteer from '@/components/team/volunteer'
 import organizingTeam from '@/components/team/organizingTeam'
   export default {
     components: {

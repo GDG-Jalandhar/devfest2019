@@ -28,7 +28,7 @@
 
 <script>
 import SessionDeails from '@/assets/data/sessions.json'
-import SessionDialog from '@/components/common/SessionDialog'
+import SessionDialog from '@/components/common/sessionDialog'
 export default {
     components:{
         SessionDialog
