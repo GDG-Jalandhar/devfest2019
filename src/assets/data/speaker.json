@@ -107,21 +107,21 @@
     {
         "id":"106",
         "name":"Jaldeep Asodariya",
-        "designation":"Event Manager, GDG Ahm & Sr. Android Developer",
+        "designation":"Event Organizer, GDG Ahmedabad & Sr. Android Developer",
         "company":{
-            "name":"Mind Inventory",
+            "name":"MindInventory",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio":"aldeep is very much interested in IoT (Internet of Things) and Android Things. He has good hands over to develop Google Assistant Applications as well as he has proficient knowledge in NodeJS. In the spare time, Jaldeep likes to watch Google Technology videos and enlarge photography skills.",
         "city":"Ahmedabad",
         "country":"India",
         "image":"jaldeep.jpg",
         "sessionId": [206],
         "social":{
-            "facebook":"",
+            "facebook":"https://www.facebook.com/jdjaldeep",
             "twitter":"https://twitter.com/JaldeepAsodariy",
             "linkedin":"https://www.linkedin.com/in/jaldeepasodariya/",
-            "github":"",
+            "github":"https://github.com/JaldeepAsodariya",
             "website":""
         }
     },

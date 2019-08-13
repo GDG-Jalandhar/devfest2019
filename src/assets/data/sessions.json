@@ -72,8 +72,8 @@
     },
     {
         "id":"206",
-        "title":"AoG with IoT",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "title":"Hey Google, Turn on the light",
+        "description":"It will cover 1) How to start with Android Things, Flash OS on development board and Connect devices with NXP Pico i.MX7D board, 2) Control home appliances using Android mobile & Google Assistant application. You will be learn about Android Things, control home appliances with Google Assistant, and many more.",
         "place":"Hall",
         "tag": {
             "name":"Assistant",
@@ -82,7 +82,7 @@
         "timeDuration": "30",
         "subtype":"Presentation",
         "language":"",
-        "complexity":"",
+        "complexity":"Intermediate",
         "speakers":[106]
     },{
         "id":"207",
