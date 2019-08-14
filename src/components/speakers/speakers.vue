@@ -30,19 +30,17 @@ export default {
     },
     methods: {
         ShuffleData(speakerData) {
-      let currentIndex = speakerData.length,
-        temporaryValue,
-        randomIndex;
-      while (0 !== currentIndex) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
+            let currentIndex = speakerData.length, temporaryValue, randomIndex;
+            while (0 !== currentIndex) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex -= 1;
 
-        temporaryValue = speakerData[currentIndex];
-        speakerData[currentIndex] = speakerData[randomIndex];
-        speakerData[randomIndex] = temporaryValue;
-      }
-      return speakerData;
-    }
+                temporaryValue = speakerData[currentIndex];
+                speakerData[currentIndex] = speakerData[randomIndex];
+                speakerData[randomIndex] = temporaryValue;
+            }
+            return speakerData;
+        }
     }
 }
 </script>
