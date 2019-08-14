@@ -30,8 +30,8 @@
     },
     {
         "id":"203",
-        "title":"Deep Dive with Machine Learning",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "title":"Impacts of Depthwise CNN on Embedded Systems for early stage chronic disease detections",
+        "description":"Depth wise separable Convolutional Neural Network is an important class of CNN. Significant applications of these type of CNN’s are MobileNet, Xception which are proposed by Google. ",
         "place":"Hall",
         "tag": {
             "name":"ML",
@@ -39,7 +39,7 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Intermediate",
         "speakers":[103]
     },
     {
