@@ -60,18 +60,14 @@
                 </v-img>
             </v-avatar>
             <p class="my-0 mt-3" style="font-size:130%;color:#424242">{{data.vdata.name}}</p>
-            <p class="my-0" style="font-size:100%">{{data.vdata.company.name}}</p>
-
-            <!-- <p class="my-0 google-font" style="font-size:120%"><b>Social Info</b></p> -->
+            <p class="my-0" v-if="data.vdata.company.url" style="font-size:110%"><a :href="data.vdata.company.url" target="_blank">{{data.vdata.company.name}}</a></p>
+            <p class="my-0" v-else>{{data.vdata.company.name}}</p>
             <socialMediaDetails :data="{vdata:data.vdata.social}"/>
             </v-flex>
 
             <v-flex xs12 md8 class="pa-2">
               <p class="google-font my-0" style="font-size:110%;color:#424242">{{data.vdata.city}}, {{data.vdata.country}}</p>
               <p class="google-font my-0" style="font-size:110%">{{data.vdata.designation}}</p>
-              <p class="google-font my-0" v-if="data.vdata.company.url" style="font-size:110%"><a :href="data.vdata.company.url" target="_blank">{{data.vdata.company.name}}</a></p>
-              <p class="google-font my-0" v-else>{{data.vdata.company.name}}</p>
-
               <p class="google-font my-4" style="font-size:110%">
                 {{data.vdata.bio}}
               </p>
@@ -99,19 +95,10 @@
                           <br>
                         <v-chip :color="item.tag.color" label outlined class="mt-1 mb-0" x-small>{{item.tag.name}}</v-chip></v-list-item-subtitle>
                     </v-list-item-content>
-
-                    <!-- <v-list-item-action>
-                       <v-btn small text icon color="grey darken-1">
-                        <v-icon >mdi-information-outline</v-icon>
-                      </v-btn>
-                    </v-list-item-action> -->
                     
                 </v-list-item>
             </v-list>
           </v-flex>
-         
-
-   
 
         </v-card-text>
 

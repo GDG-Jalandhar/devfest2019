@@ -58,15 +58,15 @@
     {
         "name":"Tushar Srivastava",
         "designation":"Co-Organizer, GDG Chandigarh",
-        "image":"",
-        "bio":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempora temporibus cupiditate ex eaque quis magnam, inventore libero, suscipit ea autem, quasi doloremque quas tenetur labore velit. Natus, commodi corrupti!",
+        "image":"tushar.jpg",
+        "bio":"Tushar is an Android developer by profession having 5+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers, writing blogs. He is an YouTuber in his spare time.",
         "social":{
-            "facebook":"",
+            "facebook":"https://www.facebook.com/tshrsri",
             "twitter":"https://twitter.com/tshrsri",
             "linkedin":"https://www.linkedin.com/in/tushar-srivastava-305a05148/",
-            "github":"",
+            "github":"https://github.com/TusharSri",
             "website":"",
-            "medium": ""
+            "medium": "https://medium.com/@tusharsri"
         }
     },
     {

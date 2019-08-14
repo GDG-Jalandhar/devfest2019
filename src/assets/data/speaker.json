@@ -110,6 +110,28 @@
         }
     },
     {
+        "id":"110",
+        "name":"Siddhant Agarwal",
+        "designation":"Program Co-Ordinator",
+        "company":{
+            "name":"Google",
+            "url":""
+        },
+        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "city":"Bangalore",
+        "country":"India",
+        "image":"sid.jpg",
+        "sessionId": [210],
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/sidagarwal04",
+            "linkedin":"https://www.linkedin.com/in/siddhantagarwal/",
+            "github":"",
+            "website":"",
+            "medium": ""
+        }
+    },
+    {
         "id":"106",
         "name":"Jaldeep Asodariya",
         "designation":"Event Organizer, GDG Ahmedabad & Sr. Android Developer",
@@ -195,28 +217,6 @@
             "github":"https://github.com/ashokvishwakarma",
             "website":"https://ashok.pro",
             "medium": "https://medium.com/@avishwakarma"
-        }
-    },
-    {
-        "id":"110",
-        "name":"Siddhant Agarwal",
-        "designation":"Program Co-Ordinator",
-        "company":{
-            "name":"Google",
-            "url":""
-        },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
-        "city":"Bangalore",
-        "country":"India",
-        "image":"sid.jpg",
-        "sessionId": [210],
-        "social":{
-            "facebook":"",
-            "twitter":"https://twitter.com/sidagarwal04",
-            "linkedin":"https://www.linkedin.com/in/siddhantagarwal/",
-            "github":"",
-            "website":"",
-            "medium": ""
         }
     },
     {
@@ -315,18 +315,18 @@
             "name":"Samsung R&D",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio":"Tushar is an Android developer by profession having 5+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers, writing blogs. He is an YouTuber in his spare time.",
         "city":"Gurugram",
         "country":"India",
-        "image":"",
+        "image":"tushar.jpg",
         "sessionId": [215],
         "social":{
-            "facebook":"",
+            "facebook":"https://www.facebook.com/tshrsri",
             "twitter":"https://twitter.com/tshrsri",
             "linkedin":"https://www.linkedin.com/in/tushar-srivastava-305a05148/",
-            "github":"",
+            "github":"https://github.com/TusharSri",
             "website":"",
-            "medium": ""
+            "medium": "https://medium.com/@tusharsri"
         }
     },
     {
