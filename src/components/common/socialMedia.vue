@@ -7,10 +7,6 @@
         <v-btn small class="mt-0 mx-0" icon v-if="data.vdata.linkedin" :href="data.vdata.linkedin" target="_blank">
             <v-icon small style="color:#0077b5">fab fa-linkedin-in</v-icon>
         </v-btn>
-
-        <v-btn small class="mt-0 mx-0" icon v-if="data.vdata.facebook" :href="data.vdata.facebook" target="_blank">
-            <v-icon small style="color:#1da1f2">fab fa-facebook</v-icon>
-        </v-btn>
         
         <v-btn small class="mt-0 mx-0" icon v-if="data.vdata.github" :href="data.vdata.github" target="_blank">
             <v-icon small style="color:#333">fab fa-github</v-icon>
