@@ -132,8 +132,7 @@ export default {
                 })
                 return asData
             }else{
-                // return this.ShuffleData(this.sessionsData)
-                return this.sessionsData
+                return this.ShuffleData(this.sessionsData)
             }
         }
     },
