@@ -5,9 +5,9 @@
                 <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%"><b>Featured
                     <span style="color: #1a73e8;">Sessions</span> </b> 
                 </p>
-                <p class="google-font mt-1">Hone your skills. Ask technical questions. Get inspired. This year’s program is packed with breakouts, keynotes, spotlights, panels, and bootcamps. See More</p>
+                <p class="google-font mt-1">Hone your skills. Ask technical questions. Get inspired. This year’s program is packed with breakouts, keynotes, spotlights, panels, and bootcamps. <router-link to="/sessions">See More</router-link></p>
             </v-flex>
-            <v-flex xs12 sm3 md3 lg3 v-for="(item,i) in SessionDeails.slice(0, 4)" :key="i" class="" >
+            <v-flex xs12 sm3 md3 lg3 v-for="(item,i) in SessionDetails.slice(0, 4)" :key="i" class="" >
                 <!-- style="text-align:center;border: 1px solid #e0e0e0;min-height:250px;border-radius:7px" -->
                 <v-hover>
                 <div slot-scope="{ hover }"
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import SessionDeails from '@/assets/data/sessions.json'
+import SessionDetails from '@/assets/data/sessions.json'
 import SessionDialog from '@/components/common/sessionDialog'
 export default {
     components:{
@@ -32,7 +32,7 @@ export default {
     },
     data() {
         return {
-            SessionDeails: SessionDeails
+            SessionDetails: SessionDetails
         }
     }
 }
