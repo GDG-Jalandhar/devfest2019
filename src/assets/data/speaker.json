@@ -7,13 +7,13 @@
             "name":"Google",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio": "",
         "city":"Bangalore",
         "country":"India",
         "image":"nikita.jpg",
         "sessionId": [201],
         "social":{
-            "facebook":"asd",
+            "facebook":"",
             "twitter":"https://twitter.com/Nikkitagandhi",
             "linkedin":"https://www.linkedin.com/in/nikita-gandhi01/",
             "github":"",
@@ -29,7 +29,7 @@
             "name":"Google",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio": "",
         "city":"Bangalore",
         "country":"India",
         "image":"pra.jpg",
@@ -51,7 +51,7 @@
             "name":"Twelit Med Pvt. Ltd.",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio": "",
         "city":"Kolkata",
         "country":"India",
         "image":"sab.png",
@@ -73,7 +73,7 @@
             "name":"Simform",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio": "",
         "city":"Ahmedabad",
         "country":"India",
         "image":"paresh.jpg",
@@ -95,7 +95,7 @@
             "name":"Androcid",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio": "",
         "city":"Goa",
         "country":"India",
         "image":"",
@@ -117,7 +117,7 @@
             "name":"Google",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio":"",
         "city":"Bangalore",
         "country":"India",
         "image":"sid.jpg",
@@ -161,7 +161,7 @@
             "name":"Instinct Media",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio":"",
         "city":"Mumbai",
         "country":"India",
         "image":"rush.jpg",
@@ -227,7 +227,7 @@
             "name":"Infosys",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio":"",
         "city":"Chandigarh",
         "country":"India",
         "image":"",
@@ -293,7 +293,7 @@
             "name":"Women Techmakers",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio": "",
         "city":"",
         "country":"India",
         "image":"sonakshi.jpg",
@@ -337,7 +337,7 @@
             "name":"Nagarro",
             "url":""
         },
-        "bio":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "bio": "",
         "city":"Gurugram",
         "country":"India",
         "image":"",
