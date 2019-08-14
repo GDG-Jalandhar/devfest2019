@@ -1,12 +1,14 @@
 [
     {
+        "title": "Registrations Coming Soon",
+        "link": "https://www.meetup.com/GDG-Jalandhar/events/263546577/"
+    },
+    {
         "title":"Call For Speakers",
-        "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam odit consequuntur velit nostrum ad illum enim, placeat sequi beatae dolor ullam repudiandae possimus eos atque magnam ut et porro!",
         "link":"https://devfestpunjab.page.link/call-for-speakers"
     },
     {
         "title":"Call For Sponsorship",
-        "des":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quibusdam odit consequuntur velit nostrum ad illum enim, placeat sequi beatae dolor ullam repudiandae possimus eos atque magnam ut et porro!",
         "link":"https://devfestpunjab.page.link/sposnorship-brochure"
     }
 ]
