@@ -110,14 +110,13 @@ export default {
             })
         },
         ShuffleData(sessionsData) {
-  let currentIndex = sessionsData.length, temporaryValue, randomIndex;
-  while (0 !== currentIndex) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
+            let currentIndex = sessionsData.length, temporaryValue, randomIndex;
+            while (0 !== currentIndex) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex -= 1;
                 temporaryValue = sessionsData[currentIndex];
-    sessionsData[currentIndex] = sessionsData[randomIndex];
-    sessionsData[randomIndex] = temporaryValue;
+                sessionsData[currentIndex] = sessionsData[randomIndex];
+                sessionsData[randomIndex] = temporaryValue;
             }
             return sessionsData;
         },
