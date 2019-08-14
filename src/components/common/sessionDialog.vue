@@ -27,24 +27,27 @@
             <p class="google-font mt-0 mb-0" style="font-size:110%"><b>Type:</b> {{data.vdata.subtype}} </p>   
             <p class="google-font mt-0 mb-0" style="font-size:110%" v-if="data.vdata.complexity"><b>Content level:</b> {{data.vdata.complexity}} </p>                  
 
-            <p class="google-font mt-3" style="font-size:105%">{{data.vdata.description}}</p>
+            <p class="google-font mt-3" style="font-size:105%">{{data.vdata.description}} <br> </p>
 
           
        
-          <v-flex xs12 md12 v-for="(item, index) in SpeakersData" :key="index">
-            <v-list two-line subheader class="pa-0 ma-0">
-                <v-list-item>
+          <v-flex xs12 md12 v-for="(item,index) in data.vdata.speakers" :key="index">
+            <div v-for="(speaker,j) in SpeakersDetails" :key="j">
+              <div v-if="speaker.id == item">    
+                <v-list two-line subheader class="pa-0 ma-0">
+                  <v-list-item>
                     <v-list-item-avatar>
-                        <img :src="getImgUrl(item.image)">
+                        <img :src="getImgUrl(speaker.image)"> 
                     </v-list-item-avatar>
-
                     <v-list-item-content>
-                        <v-list-item-title class="google-font" style="color:#424242">{{ item.name }}</v-list-item-title>
-                        <v-list-item-subtitle class="google-font">{{ item.designation }}, {{item.company.name}} 
-                        </v-list-item-subtitle>
+                      <v-list-item-title class="google-font" style="color:#424242">{{ speaker.name }}</v-list-item-title>
+                      <v-list-item-subtitle class="google-font">{{ speaker.designation }}, {{speaker.company.name}}
+                      </v-list-item-subtitle>
                     </v-list-item-content>
-                </v-list-item>
-            </v-list>
+                  </v-list-item>
+                  </v-list>               
+              </div>
+            </div>
           </v-flex>
       
         </v-card-text>
@@ -76,18 +79,8 @@ import SpeakersDetails from '@/assets/data/speaker.json'
     data () {
       return {
         dialog: false,
-        SpeakersDetails:SpeakersDetails,
-        SpeakersData:[]
+        SpeakersDetails:SpeakersDetails
       }
-    },
-    mounted(){
-      this.SpeakersDetails.map(res=>{
-        res.sessionId.map(d=>{
-          if(d == this.data.vdata.id){
-            this.SpeakersData.push(res)
-          }
-        })
-      })
     },
     methods:{
       getImgUrl(pic) {
