@@ -14,7 +14,7 @@
                     style="border-radius: 5px; border:1px solid #e0e0e0;min-height:180px"
                     :class="`elevation-${hover ? 0 : 0}`"
                     class="ma-1 pa-3 my-0" >
-                    <v-chip :color="item.tag.color" label outlined class="mt-1 mb-0" small>{{item.tag.name}}</v-chip>
+                    <!-- <v-chip :color="item.tag.color" label outlined class="mt-1 mb-0" small>{{item.tag.name}}</v-chip> -->
                     <SessionDialog :data="{vdata: item}" />
                 </div>
                 </v-hover>
