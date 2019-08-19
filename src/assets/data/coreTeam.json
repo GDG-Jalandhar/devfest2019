@@ -19,5 +19,19 @@
         "twitter":"https://twitter.com/1997_pramod",
         "facebook":"https://facebook.com/pramod.mahato.14",
         "profileImage":"pramod.jpeg"
-    }
+    },
+    {
+        "name":"Ayush Sharma",
+        "designation":"GDG",
+        "twitter":"",
+        "facebook":"",
+        "profileImage":""
+    },
+    {
+        "name":"Yatin Nayyar",
+        "designation":"GDG",
+        "twitter":"",
+        "facebook":"",
+        "profileImage":""
+    },
 ]
