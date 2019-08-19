@@ -1,1 +1,0 @@
-# Upload your Speakers Images

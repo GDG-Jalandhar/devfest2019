@@ -5,18 +5,20 @@
     >
       <template v-slot:activator="{ on }">
           <div v-on="on" style="cursor: pointer;">
+              <v-chip :color="data.vdata.tag.color" label outlined class="mt-1 mb-0" small>{{data.vdata.tag.name}}</v-chip>
               <p class="google-font ma-0 mt-2" style="font-size:110%;" >{{data.vdata.title | summery(25)}}</p>
               <p class="google-font mt-1 mb-0" style="font-size:90%">{{data.vdata.description | summery(90)}}</p>
               <p class="google-font mt-1 mb-0" style="font-size:80%;color:#424242">{{data.vdata.timeDuration}} min | {{data.vdata.place}}</p>
           </div>
       </template>
 
-      <v-card color="">
+      <v-card color="" v-if="dialog">
         <v-card-title
-          class="px-5 grey lighten-4 google-font"
-          primary-title
+          class="px-5 py-5 grey lighten-4 google-font"
+          :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}"
+          style="background-position:right bottom;"
         >
-         {{data.vdata.title}} 
+          {{data.vdata.title}} 
         </v-card-title>
 
         <v-card-text class="pa-5">

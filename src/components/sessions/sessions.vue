@@ -1,10 +1,12 @@
 <template>
-    <v-container class=" px-3" >
+    <v-container class="px-3" >
         <v-layout wrap align-center justify-center row fill-heights>
 
             <v-flex xs12 sm12 md12 lg12 xl12 class="pa-5">
               <v-layout>
-                  <v-flex xs12 md4 class="px-1">
+                  
+                  <v-flex xs12 md5 class="px-1">              
+
                     <v-select
                         v-model="SelectedItem"
                         :items="items"
@@ -13,9 +15,9 @@
                         small-chips
                         multiple
                         outlined
-                        v-on:change="FilterData"
+                        v-on:change="FilterData()"
                     >
-                            <template v-slot:prepend-item>
+                        <template v-slot:prepend-item>
                                 <v-list-item
                                     ripple
                                     @click="toggle"
@@ -56,14 +58,13 @@
                                 </v-list-item>
                                 </template>
                     </v-select>
-
                   </v-flex>
               </v-layout>
               <v-layout row wrap class="px-3">
                   <v-flex xs12 sm4 md4 lg3 v-for="(item,index) in FilterData()" :key="index">
                     <div style="border-radius: 5px; border:1px solid #e0e0e0;min-height:180px" class="ma-1 pa-5">
-                        <v-chip :color="item.tag.color" label outlined class="mt-1 mb-0" small>{{item.tag.name}}</v-chip>
-                        <sessionDialog class="mx-0 mb-0 pa-0" :data="{vdata:item}" />
+                        <sessionDialog :data="{vdata:item}" />
+                        <!-- <sessionDialogMobile class="hidden-sm-and-up" :data="{vdata:item}" /> -->
                     </div>
                   </v-flex>
               </v-layout>
@@ -75,36 +76,40 @@
 <script>
 import sessionsData from '@/assets/data/sessions.json'
 import sessionDialog from '@/components/common/sessionDialog'
+import sessionDialogMobile from '@/components/common/sessionDialogMobile'
 export default {
     components:{
-        sessionDialog
+        sessionDialog,
+        sessionDialogMobile
     },
-    data() {
-        return {
-            sessionsData:sessionsData,
-            items:[],
-            SelectedItem:[]
-        }
-    },
+    data:()=>({
+        sessionsData:sessionsData,
+        items:[],
+        SelectedItem:[]
+    }),
     computed: {
-      selectAllTag () {
+      selectAllTag() {
         return this.SelectedItem.length === this.items.length
       },
-      selectSomeTag () {
+      selectSomeTag() {
         return this.SelectedItem.length > 0 && !this.selectAllTag
       },
-      icon () {
+      icon() {
         if (this.selectAllTag) return 'mdi-close-box'
         if (this.selectSomeTag) return 'mdi-minus-box'
         return 'mdi-checkbox-blank-outline'
       },
     },
+    mounted(){
+        this.items = [...new Set(this.sessionsData.map(res=>res.tag.name))];
+    },
     methods:{
-        toggle () {
+
+        toggle() {
             this.$nextTick(() => {
-                if (this.selectAllTag) {
+                if(this.selectAllTag) {
                     this.SelectedItem = []
-                } else {
+                } else{
                     this.SelectedItem = this.items.slice()
                 }
             })
@@ -122,6 +127,7 @@ export default {
         },
         FilterData(){
             if(this.SelectedItem.length>0){
+                // this.SelectedItem = [...new Set(names)];
                 let asData = []
                 this.SelectedItem.map(val=>{
                     this.sessionsData.filter(res=>{
@@ -130,16 +136,11 @@ export default {
                         }
                     })
                 })
-                return asData
+                return this.ShuffleData(asData)
             }else{
                 return this.ShuffleData(this.sessionsData)
             }
         }
-    },
-    mounted(){
-        this.sessionsData.map(res=>{
-            this.items.push(res.tag.name)
-        })
     }
 }
 </script>

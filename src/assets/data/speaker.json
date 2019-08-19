@@ -7,7 +7,7 @@
             "name":"Google",
             "url":""
         },
-        "bio": "",
+        "bio": "Nikita Gandhi is a Program coordinate Google's EngEdu's Machine Learning Program in India. She specially look forward to train the enthusiastic university students with concepts in ML. Extremely passionate about spreading technical knowledge with masses online and offline, her source of bread and butter and hobbies run in parallel. Satisfaction of office work helps her to do a little extra for the society.",
         "city":"Bangalore",
         "country":"India",
         "image":"nikita.jpg",
@@ -111,7 +111,7 @@
     },
     {
         "id":"110",
-        "name":"Siddhant Agarwal",
+        "name":"Speaker",
         "designation":"Program Co-Ordinator",
         "company":{
             "name":"Google",
@@ -120,12 +120,12 @@
         "bio":"",
         "city":"Bangalore",
         "country":"India",
-        "image":"sid.jpg",
+        "image":"",
         "sessionId": [210],
         "social":{
             "facebook":"",
-            "twitter":"https://twitter.com/sidagarwal04",
-            "linkedin":"https://www.linkedin.com/in/siddhantagarwal/",
+            "twitter":"https://twitter.com/",
+            "linkedin":"https://www.linkedin.com/in/",
             "github":"",
             "website":"",
             "medium": ""
@@ -161,7 +161,7 @@
             "name":"Instinct Media",
             "url":""
         },
-        "bio":"",
+        "bio":"Started as MCP (Microsoft Certified Professional) and MCTS (Microsoft Certified Technology Specialist) in 2007; have evolved into building on complete open source technology stacks like PHP & MEAN. Have had the opportunity to work from conventional web hosting servers to GCP and AWS today. Hands-on knowledge on CND and media based cloud deployment for scalability, low latency and for creating seamless content streaming experience for OTT. Currently co-founder of agrahyah.com, a software + content company building products on voice and vernacular for India and NBU markets. Core team member and co-lead fo Google’s startups community - gbgmumbai.org since 2013, have spoken at over 25 tech talks and conducted many workshops on Google’s products including AdWords, Analytics and recently on Cloud. Pro-bono consultation for startups on GCP deployment in India region.",
         "city":"Mumbai",
         "country":"India",
         "image":"rush.jpg",
@@ -294,7 +294,7 @@
             "url":""
         },
         "bio": "",
-        "city":"",
+        "city":"New Delhi",
         "country":"India",
         "image":"sonakshi.jpg",
         "sessionId": [214,215],
