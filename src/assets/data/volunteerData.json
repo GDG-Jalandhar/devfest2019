@@ -9,15 +9,15 @@
     {
         "name":"Deepak Gupta",
         "designation":"DSC Lead",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"https://mobile.twitter.com/DeepakY42049388",
+        "facebook":"https://m.facebook.com/iDee723",
         "profileImage":""
     },
     {
         "name":"Arsh Goyal",
         "designation":"DSC Lead",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"",
+        "facebook":"www.facebook.com/arsh.goyal.3",
         "profileImage":""
     },
     {
@@ -51,8 +51,8 @@
     {
         "name":"Priyanka Sharma",
         "designation":"DSC",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
@@ -65,8 +65,8 @@
     {
         "name":"Yatin Nayyar",
         "designation":"GDG",
-        "twitter":"#",
-        "facebook":"sdf",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
@@ -79,8 +79,8 @@
     {
         "name":"Ayush Sharma",
         "designation":"GDG",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
@@ -107,29 +107,36 @@
     {
         "name":"Shreya Gupta",
         "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
         "name":"Anushka Beri",
         "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
         "name":"Smile Gupta",
         "designation":"GirlScript Jalandhar",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
-        "name":"Pranavi",
+        "name":"Pranavi Jain",
         "designation":"GirlScript",
-        "twitter":"#",
-        "facebook":"#",
+        "twitter":"",
+        "facebook":"",
+        "profileImage":""
+    },
+    {
+        "name":"Bharat Agarwal",
+        "designation":"DSC",
+        "twitter":"https://twitter.com/bharatagsrwal",
+        "facebook":"https://facebook.com/bharatagsrwal",
         "profileImage":""
     }
 ]
