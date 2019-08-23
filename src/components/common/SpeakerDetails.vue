@@ -42,7 +42,7 @@
 
         <v-card-text class="px-5">
           <v-layout row wrap class="my-3">
-            <v-flex xs12 md4 class="text-center pa-2">
+            <v-flex xs12 md4 sm4 class="text-center pa-2">
               <v-avatar size="100">
                 <v-img
                 :src="getImgUrl(data.vdata.image)"
@@ -65,7 +65,7 @@
             <socialMediaDetails :data="{vdata:data.vdata.social}"/>
             </v-flex>
 
-            <v-flex xs12 md8 class="pa-2">
+            <v-flex xs12 md8 sm8 class="pa-2">
               <p class="google-font my-0" style="font-size:110%;color:#424242">{{data.vdata.city}}, {{data.vdata.country}}</p>
               <p class="google-font my-0" style="font-size:110%">{{data.vdata.designation}}</p>
               <p class="google-font my-4" style="font-size:110%">

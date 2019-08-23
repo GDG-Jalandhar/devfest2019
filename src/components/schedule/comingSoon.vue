@@ -7,7 +7,7 @@
                     <span style="color: #1a73e8;">Coming Soon...</span></b> 
                 </p>
                 <p class="google-font mt-0">
-                    We'll update the Schedule by 18th August 2019.
+                    We'll update the Schedule by 7th Sept 2019.
                 </p>
             </v-flex> 
         </v-layout>

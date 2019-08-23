@@ -128,21 +128,7 @@
         "complexity":"Intermediate",
         "speakers":[109]
     },
-    {
-        "id":"210",
-        "title":"Community Introduction",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
-        "place":"Hall",
-        "tag": {
-            "name":"Keynote",
-            "color":"pink"
-        },
-        "timeDuration": "30",
-        "subtype":"Presentation",
-        "language":"",
-        "complexity":"",
-        "speakers":[110]
-    },
+   
     {
         "id":"211",
         "title":"Kotlin Everywhere",

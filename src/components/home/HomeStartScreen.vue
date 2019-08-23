@@ -3,8 +3,8 @@
         <v-layout wrap align-center justify-center row fill-height  >
            <v-flex xs12 sm5 md3 lg4 xl4 class="text-xs-center ">
                 <v-img
-                    :src="require('@/assets/img/devfest-logo.jpg')"
-                    :lazy-src="require('@/assets/img/devfest-logo.jpg')"
+                    :src="require('@/assets/img/main.webp')"
+                    :lazy-src="require('@/assets/img/main.webp')"
                     width="100%">
                     <v-layout
                         slot="placeholder"

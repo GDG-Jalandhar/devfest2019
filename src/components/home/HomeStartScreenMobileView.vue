@@ -1,14 +1,16 @@
 <template>
+  <div>
   <v-card
     flat
-    class="mx-auto my-1 "
+    class="mx-auto my-1 elevation-0"
     max-width="374"
     height="90%"
+    style="border:1px solid #EEEEEE;border-radius:8px"
   >
     <v-img
       height="250"
-      :src="require('@/assets/img/devfest-logo.jpg')"
-      :lazy-src="require('@/assets/img/devfest-logo.jpg')"
+      :src="require('@/assets/img/main.webp')"
+      :lazy-src="require('@/assets/img/main.webp')"
     ></v-img>
 
     <v-card-title class="google-font">GDG DevFest Punjab 2019</v-card-title>
@@ -24,10 +26,11 @@
 
     <v-card-text class="google-font">
       <div class="subtitle-1 text--primary">28th Setember, Chandigarh</div>
+      <div class="subtitle-2 text--primary">The LaLit, Chandigarh</div>
       <v-chip-group
         small
       >
-        <v-chip >#DevFestPunjab</v-chip>
+        <v-chip>#DevFestPunjab</v-chip>
         <v-chip >#DevFest</v-chip>
         <!-- <v-chip small outlined>#GDGJalandhar</v-chip>
         <v-chip small outlined>#GDGChandigarh</v-chip> -->
@@ -50,6 +53,16 @@
       </v-btn> -->
     </v-card-actions>
   </v-card>
+
+  <v-flex xs12>
+    <v-img
+      height="1x50"
+      :src="require('@/assets/img/svg/footer.svg')"
+      :lazy-src="require('@/assets/img/svg/footer.svg')"
+    ></v-img>
+  </v-flex>
+
+  </div>
 </template>
 
 <script>
