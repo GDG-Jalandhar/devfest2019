@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <v-flex xs12 class="pa-0 ma-0">
         <v-btn small class="mt-0 mx-0" icon v-if="data.vdata.twitter" :href="data.vdata.twitter" target="_blank">
             <v-icon small style="color:#1da1f2">fab fa-twitter</v-icon>
         </v-btn>
@@ -12,7 +12,7 @@
             <v-icon small style="color:#333">fab fa-github</v-icon>
         </v-btn>
         
-        <br>
+        <!-- <br class="hidden-sm-and-up"> -->
 
         <v-btn small class="mt-0 mx-0" icon v-if="data.vdata.website" :href="data.vdata.website" target="_blank">
             <v-icon style="color:#333">mdi-link</v-icon>
@@ -21,7 +21,7 @@
         <v-btn small class="mt-0 mx-0" icon v-if="data.vdata.medium" :href="data.vdata.medium" target="_blank">
             <v-icon small style="color:#1da1f2">fab fa-medium</v-icon>
         </v-btn>
-    </div>
+    </v-flex>
 </template>
 
 <script>
