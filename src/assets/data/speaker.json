@@ -76,7 +76,7 @@
         "bio": "",
         "city":"Ahmedabad",
         "country":"India",
-        "image":"paresh.jpg",
+        "image":"paresh.jpeg",
         "sessionId": [204],
         "social":{
             "facebook":"",
@@ -98,7 +98,7 @@
         "bio": "",
         "city":"Goa",
         "country":"India",
-        "image":"",
+        "image":"parjyot.jpg",
         "sessionId": [205],
         "social":{
             "facebook":"",
@@ -109,28 +109,7 @@
             "medium": ""
         }
     },
-    {
-        "id":"110",
-        "name":"Speaker",
-        "designation":"Program Co-Ordinator",
-        "company":{
-            "name":"Google",
-            "url":""
-        },
-        "bio":"",
-        "city":"Bangalore",
-        "country":"India",
-        "image":"",
-        "sessionId": [210],
-        "social":{
-            "facebook":"",
-            "twitter":"https://twitter.com/",
-            "linkedin":"https://www.linkedin.com/in/",
-            "github":"",
-            "website":"",
-            "medium": ""
-        }
-    },
+    
     {
         "id":"106",
         "name":"Jaldeep Asodariya",
@@ -230,7 +209,7 @@
         "bio":"",
         "city":"Chandigarh",
         "country":"India",
-        "image":"",
+        "image":"kamal.jpg",
         "sessionId": [211],
         "social":{
             "facebook":"",
@@ -340,7 +319,7 @@
         "bio": "",
         "city":"Gurugram",
         "country":"India",
-        "image":"",
+        "image":"pooja.jpg",
         "sessionId": [214,216],
         "social":{
             "facebook":"",
