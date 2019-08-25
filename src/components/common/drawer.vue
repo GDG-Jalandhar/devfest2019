@@ -6,8 +6,13 @@
     temporary
   >
     
-    <v-flex xs12 class="pl-3 pt-5 pb-2">
-      <p class="google-font mt-2" style="font-size:130%">DevFest Punjab</p>
+    <v-flex xs12 class="pa-0">
+      <v-img
+        height="170"
+        :src="require('@/assets/img/main.webp')"
+        :lazy-src="require('@/assets/img/main.webp')"
+      ></v-img>
+      <!-- <p class="google-font mt-2" style="font-size:130%">DevFest Punjab</p> -->
     </v-flex>
 
     <v-list dense nav shaped>

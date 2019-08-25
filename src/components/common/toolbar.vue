@@ -40,6 +40,9 @@ import {
     mapMutations
   } from 'vuex'
 export default {
+    props:{
+      color:String
+    },
     components:{
       share
     },

@@ -3,9 +3,8 @@
   
     <v-tabs
       v-model="tab"
-      background-color="blue darken-1"
+      background-color="grey lighten-3"
       centered
-      dark
     >
       <v-tabs-slider></v-tabs-slider>
 

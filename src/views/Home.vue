@@ -88,7 +88,7 @@
   import partners from '@/components/home/partners'
   // import comingSoon from '@/components/common/comingSoon'
   import HomeStartScreenMobileView from '@/components/home/HomeStartScreenMobileView'
-  import mobileAnnouncement from '@/components/home/mobile-announcement'
+  // import mobileAnnouncement from '@/components/home/mobile-announcement'
   // import AboutGDGChapter from '@/components/home/AboutGDGChapter'
   // import eventshowcase from '@/components/home/eventshowcase'
   // // import wtmInfo from '@/components/home/wtmInfo'
@@ -106,7 +106,7 @@
       partners,
       // card,
       HomeStartScreenMobileView,
-      mobileAnnouncement,
+      // mobileAnnouncement,
       // whatWeDo,
       // AboutGDGChapter,
       // eventshowcase,

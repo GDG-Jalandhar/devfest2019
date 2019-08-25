@@ -10,22 +10,22 @@
         </v-btn>
       </template>
 
-      <v-card class="px-5 google-font" >
+      <v-card class="px-2 google-font" >
         <v-card-title
           class="google-font"
-          style="font-size:120%"
+          style="font-size:110%"
         >
           What's New in #DevFestPunjab?          
         </v-card-title>
 
         <v-card-text class="">
-          <p class="google-font mt-0" style="font-size:80%">Version: 1.0.0</p>
+          <p class="google-font mt-0" style="font-size:80%">Version: 2.1.3</p>
           
           <v-layout row wrap class="mb-3">
             <v-flex xs12 class="">
               <p class="google-font mb-1 px-4" style="font-size:120%"><b>Now Available on:</b></p>
             </v-flex>
-            <v-flex xs12 sm6 md6 class="pl-0" v-for="(item,i) in appAvailableData" :key="i">
+            <v-flex xs12 sm6 md6 class="px-2" v-for="(item,i) in appAvailableData" :key="i">
               <div class="ma-1">
                 <v-card
                   class="mx-auto"
@@ -59,8 +59,8 @@
             <v-flex xs12 class="">
               <p class="google-font mb-1 px-4" style="font-size:120%"><b>Announcements</b></p>
             </v-flex>
-            <v-flex xs12 sm6 md4 v-for="(item,i) in updatesData" :key="i" class="px-1">
-              <div style="border-radius: 5px; border:1px solid #e0e0e0;" class="ma-1 pa-4">
+            <v-flex xs12 sm6 md6 v-for="(item,i) in updatesData" :key="i" class="px-3">
+              <div style="border-radius: 5px; border:1px solid #e0e0e0; width:100%" class="ma-1 pa-3">
                 <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
                 <a :href="item.link" style="text-decoration:none;" target="_blank">See More</a>
               </div>

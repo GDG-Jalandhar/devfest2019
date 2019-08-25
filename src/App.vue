@@ -27,7 +27,7 @@
 
 
     <!-- v-if="!$route.meta.hideNavigation" -->
-    <CoreToolbar  />
+    <CoreToolbar :color="$route.meta.color" />
     <!-- <mobileToolbar class="hidden-sm-and-up" title="This is title"/> -->
     <CoreDrawer/>
     <CoreView />
