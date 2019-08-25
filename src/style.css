@@ -3,7 +3,7 @@
 @font-face {
     font-family: google-sans;
     font-display: auto;
-    src: url(assets/fonts/GoogleSans-Regular.ttf);
+    src: url(assets/fonts/google-font.woff2);
 }
 .google-font{
     font-family: google-sans
