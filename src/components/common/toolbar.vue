@@ -19,37 +19,17 @@
         style="text-transform: capitalize;" 
         @click="onClick($event, link)"
         v-if="link.visible"
+        aria-label="Nav Button"
       >
         {{ link.text }}
     </v-btn>
 
     <share/>
 
-    <v-btn icon v-on:click="shareMe" class="hidden-sm-and-up">
+    <v-btn aria-label="Share Button" icon v-on:click="shareMe" class="hidden-sm-and-up">
       <v-icon>mdi-share-variant</v-icon>
     </v-btn>
 
-    <!-- <v-menu
-      left
-      bottom
-       v-if="$vuetify.breakpoint.smAndUp"
-    >
-      <template v-slot:activator="{ on }">
-        <v-btn icon v-on="on">
-          <v-icon>mdi-dots-vertical</v-icon>
-        </v-btn>
-      </template>
-
-      <v-list>
-        <v-list-item
-          v-for="n in 5"
-          :key="n"
-          @click="() => {}"
-        >
-          <v-list-item-title>Option {{ n }}</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-menu> -->
   </v-app-bar>
 </template>
 

@@ -5,7 +5,7 @@
       width="800"
     >
       <template v-slot:activator="{ on }">
-        <v-btn icon  v-on="on">
+        <v-btn icon  v-on="on" aria-label="What's New Button">
           <v-icon>mdi-apps</v-icon>
         </v-btn>
       </template>

@@ -44,6 +44,7 @@
         href="https://devfestpunjab.page.link/registration"
         target="_blank"
         color="primary"
+        aria-label="Registration Button"
       >
         Request for an Invitation 
       </v-btn>
