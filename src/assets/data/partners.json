@@ -1,5 +1,5 @@
 {
-    "In collaboration with":[
+    "Organized By":[
         {
             "name":"GDG Jalandhar",
             "link":"https://www.womentechmakers.com/",
@@ -41,11 +41,16 @@
             "img":"wtm.svg"
         }
     ],
-    "CommunityPartners":[
+    "Community Partners":[
         {
             "name":"JetBrains",
             "link":"https://www.womentechmakers.com/",
             "img":"jetbrains.png"
+        },
+        {
+            "name":"CodinGurukul",
+            "link":"https://codingurukul.com/",
+            "img":"cg.png"
         }
     ],
     "PlatinumSponsors":[

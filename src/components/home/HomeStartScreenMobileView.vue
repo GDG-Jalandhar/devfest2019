@@ -37,15 +37,17 @@
       </v-chip-group>
     </v-card-text>
 
-    <v-card-actions class="text-center px-4">
-        <p class="google-font">Registration Comming Soon...</p>
-      <!-- <v-btn
+    <v-card-actions class="text-center px-4 mb-5">
+        <!-- <p class="google-font">Registration Comming Soon...</p> -->
+      <v-btn
         dark
+        href="https://devfestpunjab.page.link/registration"
+        target="_blank"
         color="primary"
       >
         Request for an Invitation 
       </v-btn>
-      <v-btn
+      <!-- <v-btn
         text
         color="deep-purple accent-4"
       >
