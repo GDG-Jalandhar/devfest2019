@@ -2,6 +2,7 @@
 
 @font-face {
     font-family: google-sans;
+    font-display: auto;
     src: url(assets/fonts/GoogleSans-Regular.ttf);
 }
 .google-font{
