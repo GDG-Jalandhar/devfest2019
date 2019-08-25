@@ -3,12 +3,12 @@
         {
             "name":"GDG Jalandhar",
             "link":"https://www.womentechmakers.com/",
-            "img":"gdgjalandhar.png"
+            "img":"gdgjalandhar.webp"
         },
         {
             "name":"GDG Chandigarh",
             "link":"https://github.com/gdg-x",
-            "img":"gdgchd.png"
+            "img":"gdgchd.webp"
         }
     ],
 
@@ -28,12 +28,12 @@
         {
             "name":"Google Developers",
             "link":"https://developers.google.com/groups",
-            "img":"googledevs.png"
+            "img":"googledevs.webp"
         },
         {
             "name":"GDG",
             "link":"https://developers.google.com/groups",
-            "img":"gdglogo.png"
+            "img":"gdglogo.webp"
         },
         {
             "name":"WomenTechmakers",
@@ -45,12 +45,12 @@
         {
             "name":"JetBrains",
             "link":"https://www.womentechmakers.com/",
-            "img":"jetbrains.png"
+            "img":"jetbrains.webp"
         },
         {
             "name":"CodinGurukul",
             "link":"https://codingurukul.com/",
-            "img":"cg.png"
+            "img":"cg.webp"
         }
     ],
     "PlatinumSponsors":[
@@ -69,7 +69,7 @@
         {
             "name":"GDG Jalandhar",
             "link":"https://developers.google.com/groups",
-            "img":"gdgjalandhar.png"
+            "img":"gdgjalandhar.webp"
         }
     ]    
 
