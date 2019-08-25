@@ -1,9 +1,10 @@
 <template>
   <v-card class="elevation-0">
+  
     <v-tabs
       v-model="tab"
       background-color="blue darken-1"
-      grow
+      centered
       dark
     >
       <v-tabs-slider></v-tabs-slider>
