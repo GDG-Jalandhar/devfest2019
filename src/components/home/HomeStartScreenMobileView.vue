@@ -30,8 +30,8 @@
       <v-chip-group
         small
       >
-        <v-chip>#DevFestPunjab</v-chip>
-        <v-chip >#DevFest</v-chip>
+        <v-chip href="https://twitter.com/hashtag/devfestpunjab" target="_blank">#DevFestPunjab</v-chip>
+        <v-chip href="https://twitter.com/hashtag/devfest" target="_blank">#DevFest</v-chip>
         <!-- <v-chip small outlined>#GDGJalandhar</v-chip>
         <v-chip small outlined>#GDGChandigarh</v-chip> -->
       </v-chip-group>
