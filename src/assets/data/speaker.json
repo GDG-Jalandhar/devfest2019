@@ -135,12 +135,12 @@
     {
         "id":"107",
         "name":"Rushabh Vasa",
-        "designation":"GDE for Cloud & Chief Executive Officer",
+        "designation":"GDE for Cloud, Co-Lead, GBG Mumbai & Chief Executive Officer",
         "company":{
             "name":"Instinct Media",
             "url":""
         },
-        "bio":"Started as MCP (Microsoft Certified Professional) and MCTS (Microsoft Certified Technology Specialist) in 2007; have evolved into building on complete open source technology stacks like PHP & MEAN. Have had the opportunity to work from conventional web hosting servers to GCP and AWS today. Hands-on knowledge on CND and media based cloud deployment for scalability, low latency and for creating seamless content streaming experience for OTT. Currently co-founder of agrahyah.com, a software + content company building products on voice and vernacular for India and NBU markets. Core team member and co-lead fo Google’s startups community - gbgmumbai.org since 2013, have spoken at over 25 tech talks and conducted many workshops on Google’s products including AdWords, Analytics and recently on Cloud. Pro-bono consultation for startups on GCP deployment in India region.",
+        "bio": "Rushabh Vasa is a technology entrepreneur. A computer engineer by qualification, he always challenges himself and his team to build technology enabled solutions that can solve problems at scale. in 2009 he founded Instinct Media, a company that pioneered in digital and web technology solutions when India had less than 50 million internet users. Today, it is ranked among top 50 Google certified digital agency in India. Rushabh's recent venture is Agrahyah Technologies, India's First Voice Agency & preferred  partner for Amazon Alexa & Google Assistant. Beside being a busy entrepreneur, Rushabh always finds time to give back. As the maxim goes, 'to teach a man fishing', Rushabh believes giving back knowledge is more important than merely distributing wealth.",
         "city":"Mumbai",
         "country":"India",
         "image":"rush.webp",
