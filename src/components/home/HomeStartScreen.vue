@@ -25,7 +25,7 @@
                 <p class="google-font mb-0 mt-0" style="font-size:140%">GDG Jalandhar <v-icon>mdi-unfold-more-vertical mdi-36px</v-icon> GDG Chandigarh</p>
                 <p class="google-font mb-0" style="font-size:100%">DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building and learning about Google’s technologies. </p>
                 <p class="google-font my-0" style="font-size:100%;color:#424242">
-                    Date | Time | Venue
+                    The LaLit Chandigarh | 28th Sept
                 </p> 
                 <p class="google-font" style="font-size:110%;color:#9e9e9e">
                     <span v-for="(item,i) in chapterDetails.ChapterHashTags" :key="i">
