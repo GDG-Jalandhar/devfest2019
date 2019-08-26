@@ -2,7 +2,7 @@
     {
         "id":"201",
         "title":"Lightening Talk on ML",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "",
         "place":"Hall 1",
         "tag":{
             "name":"ML",
@@ -16,7 +16,7 @@
     {
         "id":"202",
         "title":"Web Security",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "",
         "place":"Hall 1",
         "tag": {
             "name":"Web",
@@ -85,14 +85,14 @@
     },{
         "id":"207",
         "title":"Dirty Hands with Cloud",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "",
         "place":"Hall",
         "tag": {
             "name":"Cloud",
             "color":"blue"
         },
         "timeDuration": "45",
-        "subtype":"presentation",
+        "subtype":"Presentation",
         "complexity":"",
         "speakers":[107]
     },{
@@ -126,7 +126,7 @@
     {
         "id":"210",
         "title":"Community Introduction",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "A close look of what is the community and how it works for the welfare of the people in and around the globe. What are the various steps/options to get into these communities and enjoy the amazing learning opportunities.",
         "place":"Hall",
         "tag": {
             "name":"Keynote",
@@ -134,13 +134,13 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Everyone will attend",
         "speakers":[110]
     },
     {
         "id":"211",
         "title":"Kotlin Everywhere",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "",
         "place":"Hall",
         "tag": {
             "name":"Mobile",
@@ -182,7 +182,7 @@
     {
         "id":"214",
         "title":"Women Oriented Session",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "Some mind-blowing stuffs have been planned for our awesome women attendees with lots of exposure.",
         "place":"Hall",
         "tag": {
             "name":"Insights",
@@ -190,13 +190,13 @@
         },
         "timeDuration": "30",
         "subtype":"Workshop",
-        "complexity":"",
+        "complexity":"Anyone can attend",
         "speakers":[114,116]
     },
     {
         "id":"215",
         "title":"Welcome Keynote",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "This session will be an lightening session about the agenda and other things related to DevFest Punjab. We are very much excited to welcome you people.",
         "place":"Hall",
         "tag": {
             "name":"Keynote",
@@ -204,13 +204,13 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Everyone will attend",
         "speakers":[114,115]
     },
     {
         "id":"216",
         "title":"Closing Keynote",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "Things never finish well without a proper thank you note, or you can say, conclusion is must after day long festival.",
         "place":"Hall",
         "tag": {
             "name":"Keynote",
@@ -218,7 +218,7 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Everyone will attend",
         "speakers":[113,116]
     }
 ]
