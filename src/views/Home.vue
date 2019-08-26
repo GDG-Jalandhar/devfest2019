@@ -10,8 +10,8 @@
       </v-layout>
     </v-container>
 
-    <!-- <v-container fluid class="my-0 py-0 hidden-sm-and-up" >
-      <v-layout wrap align-center justify-center row fill-height class="mt-0">
+    <!-- <v-container fluid class="my-0 py-0 hidden-sm-and-up mt-3" >
+      <v-layout wrap align-center justify-center row fill-height class="mx-0">
         <v-flex xs12 md10 >
           <mobileAnnouncement />
         </v-flex>
@@ -19,8 +19,9 @@
     </v-container> -->
 
     <!-- mobileAnnouncement -->
+    <!-- :style="{'background-image':'url('+require('@/assets/img/svg/footer.svg')+')'}" style="background-size:800px;background-position: right bottom" -->
 
-    <v-container fluid class="my-0 py-5 hidden-sm-and-down">
+    <v-container fluid class="my-0 py-5 d-none d-sm-block" >
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
           <HomeStartScreen />
@@ -28,7 +29,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="hidden-sm-and-down grey lighten-4 py-5">
+    <v-container fluid class="d-none d-sm-block grey lighten-4 py-5">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10 class="">
           <stats />
@@ -37,7 +38,7 @@
     </v-container>
 
 
-    <v-container fluid class="my-0 py-3 hidden-sm-and-down">
+    <v-container fluid class="my-0 py-3 d-none d-sm-block">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
           <whatToDo />
@@ -45,7 +46,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-3 hidden-sm-and-down ">
+    <v-container fluid class="my-0 py-3 d-none d-sm-block ">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
           <FeatureSpeakers />
@@ -53,7 +54,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="my-0 py-3 hidden-sm-and-down ">
+    <v-container fluid class="my-0 py-3 d-none d-sm-block ">
       <v-layout wrap align-center justify-center row fill-height class="mt-0">
         <v-flex xs12 md10 >
           <FeatureSessions />
@@ -61,7 +62,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid class="hidden-sm-and-down " >
+    <v-container fluid class="d-none d-sm-block " >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <partners />

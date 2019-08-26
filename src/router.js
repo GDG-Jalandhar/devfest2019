@@ -17,7 +17,8 @@ const  router =  new Router({
       name: 'home',
       component: Home,
       meta:{
-        title:'Home | DevFest Punjab 2019'
+        title:'Home | DevFest Punjab 2019',
+        color:'white'
       }
     },
     {
@@ -25,7 +26,8 @@ const  router =  new Router({
       name: 'home',
       component: Home,
       meta:{
-        title:'Home | DevFest Punjab 2019'
+        title:'Home | DevFest Punjab 2019',
+        color:'white'
       }
     },
     {
@@ -33,7 +35,8 @@ const  router =  new Router({
       name: 'about',
       component: () => import('./views/About.vue'),
       meta:{
-        title:'About | DevFest Punjab 2019'
+        title:'About | DevFest Punjab 2019',
+        color:'green'
       }
     },
     {
@@ -42,7 +45,8 @@ const  router =  new Router({
       component: () => import('./views/Team.vue'),
       meta: { 
         title:"Team | DevFest Punjab 2019",
-        hideNavigation: true 
+        hideNavigation: true,
+        color:'yellow'
       }
     },
     {
@@ -50,7 +54,8 @@ const  router =  new Router({
       name: 'speakers',
       component: () => import('./views/Speakers.vue'),
       meta:{
-        title:'Speakers | DevFest Punjab 2019'
+        title:'Speakers | DevFest Punjab 2019',
+        color:'blue'
       }
     },
     {
@@ -58,7 +63,8 @@ const  router =  new Router({
       name: 'schedule',
       component: () => import('./views/Schedule.vue'),
       meta:{
-        title:'Schedule | DevFest Punjab 2019'
+        title:'Schedule | DevFest Punjab 2019',
+        color:'red'
       }
     },
     {
@@ -66,7 +72,8 @@ const  router =  new Router({
       name: 'sessions',
       component: () => import('./views/Sessions.vue'),
       meta:{
-        title:'Sessions | DevFest Punjab 2019'
+        title:'Sessions | DevFest Punjab 2019',
+        color:'indigo'
       }
     },
     {
@@ -74,7 +81,8 @@ const  router =  new Router({
       name: 'contact',
       component: () => import('./views/Contact.vue'),
       meta:{
-        title:'Contact | DevFest Punjab 2019'
+        title:'Contact | DevFest Punjab 2019',
+        color:'red'
       }
     },
     {
@@ -82,7 +90,8 @@ const  router =  new Router({
       name:'community-guidelines',
       component: () => import('./views/CommunityGuidelines.vue'),
       meta:{
-        title:'Community Guidelines | DevFest Punjab 2019'
+        title:'Community Guidelines | DevFest Punjab 2019',
+        color:'red'
       }
     },
     {
@@ -90,7 +99,8 @@ const  router =  new Router({
       name:'sponsors',
       component: () => import('./views/Sponsors.vue'),
       meta:{
-        title:'Sponsors | DevFest Punjab 2019'
+        title:'Sponsors | DevFest Punjab 2019',
+        color:'red'
       }
     }
   ],

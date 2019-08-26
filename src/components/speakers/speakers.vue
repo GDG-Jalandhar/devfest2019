@@ -5,7 +5,7 @@
                 <v-layout row wrap class="pa-0">
                     <v-flex xs6 sm3 md3 lg2 v-for="(item,i) in ShuffleData(speakerData)" :key="i" 
                     class="pa-1" style="text-align:center">
-                        <speakerDetails class="hidden-sm-and-down" :data="{vdata: item}"/>   
+                        <speakerDetails class="d-none d-sm-block" :data="{vdata: item}"/>   
                         <speakerDetailsMobile class="hidden-sm-and-up" :data="{vdata: item}"/>                 
                     </v-flex>    
                 </v-layout> 

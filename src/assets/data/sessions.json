@@ -2,7 +2,7 @@
     {
         "id":"201",
         "title":"Lightening Talk on ML",
-        "description": "",
+        "description":"The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
         "place":"Hall 1",
         "tag":{
             "name":"ML",
@@ -16,7 +16,7 @@
     {
         "id":"202",
         "title":"Web Security",
-        "description": "",
+        "description":"Accessibility is integral part of the web and products. By default, web is accessible but we developer mess with the code. This talk will tell devs what, how and where to do make your code accessible and secure.",
         "place":"Hall 1",
         "tag": {
             "name":"Web",
@@ -85,7 +85,7 @@
     },{
         "id":"207",
         "title":"Dirty Hands with Cloud",
-        "description": "",
+        "description":"Session on Google Cloud Platform for making High Scalable Apps over the network.",
         "place":"Hall",
         "tag": {
             "name":"Cloud",
@@ -196,7 +196,7 @@
     {
         "id":"215",
         "title":"Welcome Keynote",
-        "description": "This session will be an lightening session about the agenda and other things related to DevFest Punjab. We are very much excited to welcome you people.",
+        "description": "Official start of the conference. Greetings from the organizers. This session will be an lightening session about the agenda and other things related to DevFest Punjab. We are very much excited to welcome you people.",
         "place":"Hall",
         "tag": {
             "name":"Keynote",
@@ -210,7 +210,7 @@
     {
         "id":"216",
         "title":"Closing Keynote",
-        "description": "Things never finish well without a proper thank you note, or you can say, conclusion is must after day long festival.",
+        "description": "Things never finish well without a proper thank you note, or you can say, conclusion is must after day long festival. Make sure you won't miss ending notes & Success Stories from Community.",
         "place":"Hall",
         "tag": {
             "name":"Keynote",

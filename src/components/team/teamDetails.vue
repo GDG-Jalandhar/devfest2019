@@ -4,7 +4,7 @@
       width="600"
     >
       <template v-slot:activator="{ on }">
-          <div v-on="on" style="cursor: pointer;">
+          <div v-on="on" style="cursor: pointer;" class="d-none d-sm-block">
               <v-avatar size="100">
                     <v-img
                     :src="getImgUrl(data.vdata.image)"
@@ -25,7 +25,34 @@
                 <p class="mt-3 mb-0 google-font" style="font-size:120%">{{data.vdata.name}}</p>
                 <p class="mt-1 mb-0 google-font" style="font-size:80%">{{data.vdata.designation}}</p>
                 <socialMediaDetails :data="{vdata:data.vdata.social}"/>
-                
+          </div>
+          <div v-on="on" style="cursor: pointer;" class="hidden-sm-and-up px-3 my-0">
+              <v-layout row wrap class="px-0 ma-0" style="border:1px solid #EEEEEE;border-radius:8px">
+                <v-flex xs4 class="pa-0">
+                  <v-img
+                    style="height:100%"
+                    :src="getImgUrl(data.vdata.image)"
+                    :lazy-src="getImgUrl(data.vdata.image)">
+                        <v-layout
+                            slot="placeholder"
+                            fill-height
+                            align-center
+                            justify-center
+                            coverd
+                            class="grey"
+                            ma-0
+                        >
+                            <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                        </v-layout>
+                    
+                    </v-img>
+                </v-flex>
+                <v-flex xs8 class="pa-2">
+                  <p class="mt-3 mb-0 google-font" style="font-size:120%">{{data.vdata.name}}</p>
+                  <p class="mt-1 mb-0 google-font" style="font-size:80%">{{data.vdata.designation}}</p>
+                  <socialMediaDetails :data="{vdata:data.vdata.social}"/>
+                </v-flex>
+              </v-layout>
           </div>
       </template>
 

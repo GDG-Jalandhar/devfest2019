@@ -2,8 +2,8 @@
    {
         "name":"Kamal Vaid",
         "designation":"Organizer, GDG Chandigarh & GDE (Actions On Google)",
-        "image":"",
-        "bio":"Kamal is still writing his bio :D ;) ",
+        "image":"kamal.webp",
+        "bio":"I love to work and explore Android. By profession I am working as Technology Lead with 6+ years of experience. I believe in the theory of sharing whatever you have learnt from everywhere. I am a blogger too and write whenever I feel I have learnt something new and that needs to be shared. I love cars and Bikes, So during my spare time I like to ride",
         "social":{
             "facebook":"",
             "twitter":"https://twitter.com/cammykamal",
@@ -16,7 +16,7 @@
     {
         "name":"Vrijraj Singh",
         "designation":"Organizer, GDG Jalandhar & GDE (Web Technologies)",
-        "image":"vrij.jpg",
+        "image":"vrij.webp",
         "bio":"Vrijraj is a front-end developer by profession and an outstanding person in daily life. Thinking out of the box is what he believes in doing. He states that learning is a process that never stops, even if you are old enough, there will be things that you can still learn. He is always eager to learn new technologies and develop new things based on it.",
         "social":{
             "facebook":"https://www.facebook.com/vrijrajsingh",
@@ -30,7 +30,7 @@
     {
         "name":"Varsha Jaiswal",
         "designation":"Co-Organizer, GDG Jalandhar & WTM Ambassador",
-        "image":"varsha.jpg",
+        "image":"varsha.webp",
         "bio":"Varsha is a girl with a bag full of hardwork and determination to fulfill her responsibilities. Working as a Software Engineer, she has a keen interest in working on new technologies. Being a facilitator of #IamRemarkable Workshop, she always gives her best to motivate her surrounding. Despite busy schedules, she never misses any chance to travel and eat.",
         "social":{
             "facebook":"https://www.facebook.com/varsha2716",
@@ -44,8 +44,8 @@
     {
         "name":"Sonakshi Shukla",
         "designation":"WTM Ambassador, GDG Jalandhar",
-        "image":"sonakshi.jpg",
-        "bio":"Sonakshi is still writing her bio :D :P ",
+        "image":"sonakshi.webp",
+        "bio":"As a tech enthusiast, new technologies has always fascinated me. Belonging to a non technical background, it was hard for me to get any idea that how I should start my technical journey. Then after joining GDG I learnt about new technologies and now I have good experience with Firebase, web development and also on Cloud. I have also made application on Google Assistance. I have managed many events with my team like DevFest, IWD, Tensorflow DevSummit and many more. Managing these events developed my interpersonal skills and made me help my community more and more. I like to take sessions on different technologies so that I can make my community well aware about the same. Whether its about using cloud APIs of creating a Firebase login form on web, I love to deliver sessions on different technologies. In my free time, i like to explore new technologies and sometimes exploring new places.",
         "social":{
             "facebook":"",
             "twitter":"https://twitter.com/Sonakshishukla1",
@@ -58,7 +58,7 @@
     {
         "name":"Tushar Srivastava",
         "designation":"GDG Chandigarh",
-        "image":"tushar.jpg",
+        "image":"tushar.webp",
         "bio":"Tushar is an Android developer by profession having 5+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers, writing blogs. He is an YouTuber in his spare time.",
         "social":{
             "facebook":"https://www.facebook.com/tshrsri",
@@ -72,8 +72,8 @@
     {
         "name":"Pooja Guleria",
         "designation":"WTM Ambassador, GDG Chandigarh",
-        "image":"",
-        "bio":"Pooja is still writing her bio :P ;) ",
+        "image":"pooja.webp",
+        "bio":"By profession I'm working as senior associate in Nagarro where I'm exploring native Android development. Apart from this i am also exploring firebase.",
         "social":{
             "facebook":"",
             "twitter":"https://twitter.com/PoojaGuleria13",

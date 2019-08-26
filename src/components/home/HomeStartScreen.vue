@@ -3,8 +3,8 @@
         <v-layout wrap align-center justify-center row fill-height  >
            <v-flex xs12 sm5 md3 lg4 xl4 class="text-xs-center ">
                 <v-img
-                    :src="require('@/assets/img/devfest-logo.jpg')"
-                    :lazy-src="require('@/assets/img/devfest-logo.jpg')"
+                    :src="require('@/assets/img/main.webp')"
+                    :lazy-src="require('@/assets/img/main.webp')"
                     width="100%">
                     <v-layout
                         slot="placeholder"
@@ -33,11 +33,11 @@
                     </span>
                 </p>
 
-                <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Request for an Invitation</v-btn>
+                <v-btn aria-label="Registration Button" href="https://devfestpunjab.page.link/registration" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Request for an Invitation</v-btn>
 
-                &nbsp;
+                <!-- &nbsp;
 
-                <v-btn :href="chapterDetails.GDGProgramWebsite" target="_blank" rounded color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outlined  class="ml-0" dark>Learn More</v-btn>
+                <v-btn :href="chapterDetails.GDGProgramWebsite" target="_blank" rounded color="cyan" style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outlined  class="ml-0" dark>Learn More</v-btn> -->
 
             </v-flex>
         </v-layout>

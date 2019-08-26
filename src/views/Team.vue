@@ -1,6 +1,6 @@
 <template>
   <v-content class="pa-0">
-    <v-container fluid class="mb-4">
+    <v-container fluid class="mb-4 d-none d-sm-block">
       <v-layout wrap align-center justify-center row fill-height class="my-0">
         <v-flex xs12 md10 class="my-0 pa-5">
             <p class="google-font mb-0" style="font-size:200%;color:#1a73e8">Our lineup of big thinkers and even bigger doers</p>
@@ -12,7 +12,15 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid >
+    <v-container fluid class="ma-0 pa-0 hidden-sm-and-up">
+      <v-layout wrap row fill-height>
+        <v-flex xs12 md10>
+          <mobileTeam/>
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="d-none d-sm-block" >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <organizingTeam/>
@@ -20,7 +28,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid >
+    <v-container fluid class="d-none d-sm-block">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <coreTeam/>
@@ -28,7 +36,7 @@
       </v-layout>
     </v-container>
 
-    <v-container fluid >
+    <v-container fluid class="d-none d-sm-block">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <volunteerDetails/>
@@ -44,11 +52,13 @@
 import coreTeam from '@/components/team/coreTeam'
 import volunteerDetails from '@/components/team/volunteerTeam'
 import organizingTeam from '@/components/team/organizingTeam'
+import mobileTeam from '@/components/team/mobileTeam'
   export default {
     components: {
       coreTeam,
       organizingTeam,
-      volunteerDetails
+      volunteerDetails,
+      mobileTeam
     },
     data() {
       return {

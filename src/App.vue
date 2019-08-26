@@ -21,13 +21,14 @@
           icon
           @click="snackWithButtons = false"
         >
-          <v-icon>mdi-close-outline</v-icon>
+          <v-icon>mdi-close</v-icon>
         </v-btn>
     </v-snackbar>
 
 
     <!-- v-if="!$route.meta.hideNavigation" -->
-    <CoreToolbar />
+    <CoreToolbar :color="$route.meta.color" />
+    <!-- <mobileToolbar class="hidden-sm-and-up" title="This is title"/> -->
     <CoreDrawer/>
     <CoreView />
     <CoreFooter class="pa-0"/>
@@ -40,6 +41,7 @@
 
 import CoreToolbar from '@/components/common/toolbar'
 import CoreView from '@/components/common/view'
+// import mobileToolbar from '@/components/common/mobileToolbar'
 // import CoreBottonNav from '@/components/common/bottomNav'
 import CoreDrawer from '@/components/common/drawer'
 import CoreFooter from '@/components/common/footer'
@@ -49,6 +51,7 @@ export default {
   components: {
     CoreToolbar,
     CoreView,
+    // mobileToolbar,
     // CoreBottonNav,
     CoreFooter,
     CoreDrawer

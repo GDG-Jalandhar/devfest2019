@@ -64,6 +64,7 @@
                   class="ml-0 google-font hidden-sm-and-down"
                   style="text-transform: capitalize;font-size:110%" 
                   text
+                  aria-label="Footer Bottom Button"
                 >
                   {{ item.LinkName }}
               </v-btn>
