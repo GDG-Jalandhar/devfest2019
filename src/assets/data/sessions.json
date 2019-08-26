@@ -45,7 +45,7 @@
     {
         "id":"204",
         "title":"How to be a Ninja Developer",
-        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo dolores facilis ut quo doloremque? Natus repellat inventore, illo dolores dolorum omnis, harum quis cum voluptas velit sapiente tempore nihil iure.",
+        "description": "All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding.         ",
         "place":"Hall",
         "tag": {
             "name":"Insights",
@@ -53,7 +53,7 @@
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Neutral",
         "speakers":[104]
     },
     {
