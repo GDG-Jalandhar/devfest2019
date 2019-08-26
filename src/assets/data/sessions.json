@@ -84,8 +84,8 @@
         "speakers":[106]
     },{
         "id":"207",
-        "title":"Dirty Hands with Cloud",
-        "description":"Session on Google Cloud Platform for making High Scalable Apps over the network.",
+        "title":"Google Cloud for India",
+        "description":" This talk will help you understand overall landscape of Google Cloud Platform (GCP). Here, we will take a brief look at some of the commonly used features and most relevant for Indian developers.",
         "place":"Hall",
         "tag": {
             "name":"Cloud",
@@ -93,7 +93,7 @@
         },
         "timeDuration": "45",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Beginner",
         "speakers":[107]
     },{
         "id":"208",
