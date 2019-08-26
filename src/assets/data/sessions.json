@@ -24,7 +24,6 @@
         },
         "timeDuration": "45",
         "subtype":"presentation",
-        "language":"",
         "complexity":"",
         "speakers":[102]
     },
@@ -53,7 +52,7 @@
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "complexity":"Neutral",
+        "complexity":"Anyone can attend",
         "speakers":[104]
     },
     {
@@ -81,7 +80,6 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"Intermediate",
         "speakers":[106]
     },{
@@ -95,7 +93,6 @@
         },
         "timeDuration": "45",
         "subtype":"presentation",
-        "language":"",
         "complexity":"",
         "speakers":[107]
     },{
@@ -109,7 +106,6 @@
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"Intermediate",
         "speakers":[108]
     },
@@ -124,7 +120,6 @@
         },
         "timeDuration": "45",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"Intermediate",
         "speakers":[109]
     },
@@ -139,7 +134,6 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"",
         "speakers":[110]
     },
@@ -154,7 +148,6 @@
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"",
         "speakers":[111]
     },
@@ -169,7 +162,6 @@
         },
         "timeDuration": "60",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"Beginner",
         "speakers":[112]
     },
@@ -184,8 +176,7 @@
         },
         "timeDuration": "60",
         "subtype":"Workshop",
-        "language":"",
-        "complexity":"",
+        "complexity":"Anyone can attend",
         "speakers":[113]
     },
     {
@@ -199,7 +190,6 @@
         },
         "timeDuration": "30",
         "subtype":"Workshop",
-        "language":"",
         "complexity":"",
         "speakers":[114,116]
     },
@@ -214,7 +204,6 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"",
         "speakers":[114,115]
     },
@@ -229,7 +218,6 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "language":"",
         "complexity":"",
         "speakers":[113,116]
     }
