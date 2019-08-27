@@ -11,27 +11,27 @@
         "designation":"DSC Lead",
         "twitter":"https://mobile.twitter.com/DeepakY42049388",
         "facebook":"https://m.facebook.com/iDee723",
-        "profileImage":""
+        "profileImage":"deepak.jpg"
     },
     {
         "name":"Arsh Goyal",
         "designation":"DSC Lead",
         "twitter":"",
         "facebook":"www.facebook.com/arsh.goyal.3",
-        "profileImage":""
+        "profileImage":"arsh.jpg"
     },
     {
         "name":"Shubhank Saxena",
         "designation":"DSC Lead",
-        "twitter":"#",
-        "facebook":"#",
-        "profileImage":""
+        "twitter":"",
+        "facebook":"",
+        "profileImage":"shubhank.jpg"
     },
     {
-        "name":"Siddharth",
-        "designation":"DSC Lead",
-        "twitter":"#",
-        "facebook":"#",
+        "name":"Ashwani Kumar",
+        "designation":"",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
@@ -39,7 +39,7 @@
         "designation":"DSC",
         "twitter":"https://twitter.com/patidarparas13",
         "facebook":"https://www.facebook.com/paras.patidar.923",
-        "profileImage":"par.jpg"
+        "profileImage":"paras.jpg"
     },
     {
         "name":"Anjun S Kumar",
@@ -53,7 +53,7 @@
         "designation":"DSC",
         "twitter":"https://www.twitter.com/priya1497",
         "facebook":"https://www.facebook.com/profile.php?id=100026284313893",
-        "profileImage":""
+        "profileImage":"priyanka.jpg"
     },
     {
         "name":"Yash Pathak",
@@ -67,7 +67,7 @@
         "designation":"DSC",
         "twitter":"https://www.twitter.com/haxonicofficial",
         "facebook":"https://www.facebook.com/haxonic1337",
-        "profileImage":"bhasker.jpg"
+        "profileImage":"bhaskar.jpg"
     },
     {
         "name":"Priya Upadhyay",
@@ -78,24 +78,24 @@
     },
     {
         "name":"Neha Sharma",
-        "designation":"GirlScript Punjab",
-        "twitter":"#",
-        "facebook":"#",
+        "designation":"GirlScript",
+        "twitter":"",
+        "facebook":"",
         "profileImage":""
     },
     {
         "name":"Siv Ram Shastri",
-        "designation":"GirlScript Jalandhar",
+        "designation":"GirlScript",
         "twitter":"https://twitter.com/prince_shivaram?s=09",
         "facebook":"https://www.facebook.com/jonnalagadda.shivaram",
-        "profileImage":""
+        "profileImage":"sivram.jpeg"
     },
     {
         "name":"Shreya Gupta",
         "designation":"GirlScript",
         "twitter":"",
         "facebook":"",
-        "profileImage":""
+        "profileImage":"shreya.jpg"
     },
     {
         "name":"Anushka Beri",
@@ -105,8 +105,8 @@
         "profileImage":""
     },
     {
-        "name":"Smile Gupta",
-        "designation":"GirlScript Jalandhar",
+        "name":"Nand Kishor",
+        "designation":"",
         "twitter":"",
         "facebook":"",
         "profileImage":""
@@ -116,7 +116,7 @@
         "designation":"GirlScript",
         "twitter":"",
         "facebook":"",
-        "profileImage":""
+        "profileImage":"pranavi.jpg"
     },
     {
         "name":"Bharat Agarwal",
