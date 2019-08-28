@@ -1,11 +1,65 @@
 <template>
     <v-container fluid class="pa-0">
-        <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0">
-            <v-flex xs12 class="mb-3 px-5">
+        <v-layout wrap align-start justify-start row fill-height class="mt-0 mb-0 mx-3">
+            <v-flex xs12 class="mb-3 px-5  d-none d-sm-block">
                 <p class="google-font mb-1" style="font-size:130%;color:#1a73e8">Volunteer Details</p>
             </v-flex>
-            <v-flex xs12 md3 lg3 v-for="(item,i) in ShuffleData(TeamDetails)" :key="i" class="px-5">
-                <v-list three-line class="py-0 ma-0">
+            <v-flex xs12 md3 sm4 lg3 v-for="(item,i) in ShuffleData(TeamDetails)" :key="i" class="px-5 mb-3">
+                <div style="border:1px solid #EEEEEE;border-radius:8px;min-height:100px;max-height:100px">
+                    <v-layout row wrap class="px-0 ma-0">
+                        <v-flex xs4 sm5 class="pa-0">
+                            <v-img
+                            v-if="item.profileImage"
+                            style="height:100px"
+                            :src="getImgUrl(item.profileImage)"
+                            :lazy-src="getImgUrl(item.profileImage)">
+                                <v-layout
+                                    slot="placeholder"
+                                    fill-height
+                                    align-center
+                                    justify-center
+                                    coverd
+                                    class="grey"
+                                    ma-0
+                                >
+                                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                </v-layout>
+                            
+                            </v-img>
+
+                            <v-img
+                            v-else
+                            style="height:100px"
+                            :src="require('@/assets/img/common/avatar.png')"
+                            :lazy-src="require('@/assets/img/common/avatar.png')">
+                                <v-layout
+                                    slot="placeholder"
+                                    fill-height
+                                    align-center
+                                    justify-center
+                                    coverd
+                                    class="grey"
+                                    ma-0
+                                >
+                                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                </v-layout>
+                            
+                            </v-img>
+                            
+                        </v-flex>
+                        <v-flex xs8 sm7 class="pa-2">
+                            <p class="mt-3 mb-0 google-font" style="font-size:110%">{{item.name}}</p>
+                            <v-btn class="mt-0 mx-0" x-small icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
+                                <v-icon x-small style="color:#BDBDBD">fab fa-twitter</v-icon>
+                            </v-btn>
+
+                            <v-btn class="mt-0 mx-0" x-small icon v-if="(item.facebook).length>0" :href="item.facebook" target="_blank">
+                                <v-icon x-small style="color:#BDBDBD">fab fa-facebook</v-icon>
+                            </v-btn>
+                        </v-flex>
+                    </v-layout>
+                </div>
+                <!-- <v-list three-line class="py-0 ma-0">
                     <template >
                     <v-list-item
                         :key="item.name"
@@ -36,7 +90,7 @@
                         </v-list-item-content>
                     </v-list-item>
                     </template>
-                </v-list>
+                </v-list> -->
             </v-flex>
          
         </v-layout>

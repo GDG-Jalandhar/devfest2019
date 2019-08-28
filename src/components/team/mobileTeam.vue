@@ -50,8 +50,8 @@
 </template>
 
 <script>
-import coreTeam from '@/components/team/mobile/coreTeam'
-import volunteerDetails from '@/components/team/mobile/volunteerTeam'
+import coreTeam from '@/components/team/coreTeam'
+import volunteerDetails from '@/components/team/volunteerTeam'
 import organizingTeam from '@/components/team/mobile/organizingTeam'
 
   export default {
