@@ -8,10 +8,10 @@
             <v-flex xs12 md3 lg3 v-for="(item,i) in ShuffleData(TeamDetails)" :key="i" class="px-5 mb-3">
                 <div style="border:1px solid #EEEEEE;border-radius:8px;min-height:100px;max-height:100px">
                     <v-layout row wrap class="px-0 ma-0">
-                        <v-flex xs4 sm5 class="pa-0">
+                        <v-flex xs4 sm5 md4 class="pa-0">
                             <v-img
                             v-if="item.profileImage"
-                            style="height:100px"
+                            style="height:100px;border:1px;border-radius:8px;"
                             :src="getImgUrl(item.profileImage)"
                             :lazy-src="getImgUrl(item.profileImage)">
                                 <v-layout
@@ -30,7 +30,7 @@
 
                             <v-img
                             v-else
-                            style="height:100px"
+                            style="height:100px;border:1px;border-radius:8px;"
                             :src="require('@/assets/img/common/avatar.png')"
                             :lazy-src="require('@/assets/img/common/avatar.png')">
                                 <v-layout
@@ -48,7 +48,7 @@
                             </v-img>
                             
                         </v-flex>
-                        <v-flex xs8 sm7 class="pa-2">
+                        <v-flex xs8 sm7 md8 class="pa-2">
                             <p class="mt-3 mb-0 google-font" style="font-size:110%">{{item.name}}</p>
                             <v-btn class="mt-0 mx-0" x-small icon v-if="(item.twitter).length>0" :href="item.twitter" target="_blank">
                                 <v-icon x-small style="color:#BDBDBD">fab fa-twitter</v-icon>
