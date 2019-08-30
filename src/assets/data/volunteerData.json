@@ -79,8 +79,8 @@
     {
         "name":"Neha Sharma",
         "designation":"GirlScript",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"https://twitter.com/nehavatsyan",
+        "facebook":"https://facebook.com/ernehasharma",
         "profileImage":""
     },
     {
@@ -93,22 +93,22 @@
     {
         "name":"Shreya Gupta",
         "designation":"GirlScript",
-        "twitter":"",
+        "twitter":"https://twitter.com/shreya_gupta30",
         "facebook":"",
         "profileImage":"shreya.webp"
     },
     {
         "name":"Anushka Beri",
         "designation":"GirlScript",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"https://twitter.com/thisbutterfly",
+        "facebook":"https://www.facebook.com/thisbutterfly",
         "profileImage":""
     },
     {
         "name":"Nand Kishor",
         "designation":"",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"https://twitter.com/nandkk05",
+        "facebook":"https://facebook.com/nandkk05",
         "profileImage":""
     },
     {
@@ -124,5 +124,26 @@
         "twitter":"https://twitter.com/bharatagsrwal",
         "facebook":"https://facebook.com/bharatagsrwal",
         "profileImage":""
+    },
+    {
+        "name": "Sai Kiran Reddy",
+        "designation": "",
+        "twitter": "",
+        "facebook": "",
+        "profileImage": ""
+    },
+    {
+        "name": "Kamal Padhan",
+        "designation": "",
+        "twitter": "",
+        "facebook": "",
+        "profileImage": ""
+    },
+    {
+        "name": "Binayak Kumar Sethi",
+        "designation": "",
+        "twitter": "https://mobile.twitter.com/BinayakSethi",
+        "facebook": "https://m.facebook.com/binayak.sethi.3",
+        "profileImage": ""
     }
 ]
