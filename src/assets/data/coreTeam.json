@@ -23,15 +23,15 @@
     {
         "name":"Ayush Sharma",
         "designation":"GDG",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"https://www.twitter.com/i_ayush_sharma",
+        "facebook":"https://www.facebook.com/rishant.sharma.14",
         "profileImage":"ayush.webp"
     },
     {
         "name":"Yatin Nayyar",
         "designation":"GDG",
-        "twitter":"",
-        "facebook":"",
+        "twitter":"https://twitter.com/hifiveyatin",
+        "facebook":"https://facebook.com/hifiveyatin",
         "profileImage":"yatin.webp"
     }
 ]
