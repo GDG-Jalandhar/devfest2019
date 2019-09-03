@@ -9,7 +9,7 @@
                     GDG DevFest Punjab brings together people who shape the future of Android, ML, Web and Cloud technologies with a day full of sessions, workshops and networking. Described by many as 'Google I/O of Punjab', our team creates DevFest to be the best place for inspiration and experience sharing.
                 </p>
                 
-                <v-btn href="#" color="#1a73e8" target="_blank" rounded style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outlined  class="ml-0 google-font mt-3" dark>How it was in 2018</v-btn>
+                <v-btn href="https://www.youtube.com/watch?v=w6Nf2r2xvK8" color="#1a73e8" target="_blank" rounded style="text-transform: capitalize;border-radius:5px;text-transform: capitalize;" outlined  class="ml-0 google-font mt-3" dark>How it was in 2018</v-btn>
 
             </v-flex> 
 
