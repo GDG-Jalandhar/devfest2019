@@ -3,7 +3,7 @@
         "id":"201",
         "title":"Lightening Talk on ML",
         "description":"The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world.",
-        "place":"Hall 1",
+        "place":"Main Hall",
         "tag":{
             "name":"ML",
             "color":"brown"
@@ -17,7 +17,7 @@
         "id":"202",
         "title":"Web Security",
         "description":"Accessibility is integral part of the web and products. By default, web is accessible but we developer mess with the code. This talk will tell devs what, how and where to do make your code accessible and secure.",
-        "place":"Hall 1",
+        "place":"Main Hall",
         "tag": {
             "name":"Web",
             "color":"red"
@@ -31,7 +31,7 @@
         "id":"203",
         "title":"Impacts of Depthwise CNN on Embedded Systems for early stage chronic disease detections",
         "description":"Depth wise separable Convolutional Neural Network is an important class of CNN. Significant applications of these type of CNN’s are MobileNet, Xception which are proposed by Google. ",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"ML",
             "color":"brown"
@@ -45,7 +45,7 @@
         "id":"204",
         "title":"How to be a Ninja Developer",
         "description": "All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding.         ",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Insights",
             "color":"black"
@@ -59,7 +59,7 @@
         "id":"205",
         "title":"Supercharging your idea",
         "description":"Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe.",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Insights",
             "color":"black"
@@ -73,7 +73,7 @@
         "id":"206",
         "title":"Hey Google, Turn on the light",
         "description":"It will cover 1) How to start with Android Things, Flash OS on development board and Connect devices with NXP Pico i.MX7D board, 2) Control home appliances using Android mobile & Google Assistant application. You will be learn about Android Things, control home appliances with Google Assistant, and many more.",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Assistant",
             "color":"green"
@@ -87,7 +87,7 @@
         "id":"207",
         "title":"Google Cloud for India",
         "description":" This talk will help you understand overall landscape of Google Cloud Platform (GCP). Here, we will take a brief look at some of the commonly used features and most relevant for Indian developers.",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Cloud",
             "color":"blue"
@@ -101,7 +101,7 @@
         "id":"208",
         "title":"Scale your Web Application on Compute Engine",
         "description":"A session with a demo explaining the multi-tier web app on Compute Engine. It will cover the information related to: IAAS Market stats, choosing right compute services, Multi-tier application with their role, Load Testing, Demo on autoscaling, etc.",
-        "place":"Hall",
+        "place":"Hall 2",
         "tag": {
             "name":"Cloud",
             "color":"blue"
@@ -115,7 +115,7 @@
         "id":"209",
         "title":"Migrating to TypeScript at scale",
         "description":"Big changes at big organizations are hard to manage and tricky to maintain, this talk is to tell you how I brought TypeScript to Naukri.",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Web",
             "color":"red"
@@ -129,7 +129,7 @@
         "id":"210",
         "title":"Community Introduction",
         "description": "A close look of what is the community and how it works for the welfare of the people in and around the globe. What are the various steps/options to get into these communities and enjoy the amazing learning opportunities.",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Keynote",
             "color":"pink"
@@ -143,7 +143,7 @@
         "id":"211",
         "title":"Kotlin Everywhere",
         "description": "",
-        "place":"Hall",
+        "place":"Hall 2",
         "tag": {
             "name":"Mobile",
             "color":"yellow"
@@ -157,7 +157,7 @@
         "id":"212",
         "title":"Firebase for Web",
         "description":" This session will focus on the concepts of Firebase and how it can be used for web. It will be a workshop/codelab on How to make a web app using Firebase with Vanila JavaScript.",
-        "place":"Hall",
+        "place":"Hall 2",
         "tag": {
             "name":"Web",
             "color":"red"
@@ -171,7 +171,7 @@
         "id":"213",
         "title":"#IamRemarkable Workshop",
         "description":"#IamRemarkable is a Google initiative empowering women and underrepresented groups to celebrate their achievements in the workplace and beyond having goals to 1) Improve the self promotion motivation and skills of women and underrepresented groups and 2) Challenge the social perception around self promotion.",
-        "place":"Hall",
+        "place":"Hall 2",
         "tag": {
             "name":"Insights",
             "color":"black"
@@ -185,7 +185,7 @@
         "id":"214",
         "title":"Women Oriented Session",
         "description": "Some mind-blowing stuffs have been planned for our awesome women attendees with lots of exposure.",
-        "place":"Hall",
+        "place":"Hall 2",
         "tag": {
             "name":"Insights",
             "color":"black"
@@ -199,7 +199,7 @@
         "id":"215",
         "title":"Welcome Keynote",
         "description": "Official start of the conference. Greetings from the organizers. This session will be an lightening session about the agenda and other things related to DevFest Punjab. We are very much excited to welcome you people.",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Keynote",
             "color":"pink"
@@ -213,7 +213,7 @@
         "id":"216",
         "title":"Closing Keynote",
         "description": "Things never finish well without a proper thank you note, or you can say, conclusion is must after day long festival. Make sure you won't miss ending notes & Success Stories from Community.",
-        "place":"Hall",
+        "place":"Main Hall",
         "tag": {
             "name":"Keynote",
             "color":"pink"
