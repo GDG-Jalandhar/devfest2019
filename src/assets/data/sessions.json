@@ -10,7 +10,7 @@
         },
         "timeDuration": "30",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Intermediate",
         "speakers":[101]
     },
     {
@@ -24,7 +24,7 @@
         },
         "timeDuration": "45",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Intermediate",
         "speakers":[102]
     },
     {
@@ -114,7 +114,7 @@
     {
         "id":"209",
         "title":"Migrating to TypeScript at scale",
-        "description":"Big changes at big organizations are hard to manage and tricky to maintain, this talk is to tell you how I brought TypeScript to Naukri",
+        "description":"Big changes at big organizations are hard to manage and tricky to maintain, this talk is to tell you how I brought TypeScript to Naukri.",
         "place":"Hall",
         "tag": {
             "name":"Web",
@@ -150,7 +150,7 @@
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "complexity":"",
+        "complexity":"Intermediate",
         "speakers":[111]
     },
     {
