@@ -32,7 +32,7 @@
         "designation":"",
         "twitter":"https://twitter.com/Ashwani44877357",
         "facebook":"https://www.facebook.com/profile.php?id=100005229858770",
-        "profileImage":""
+        "profileImage":"ashwani.jpg"
     },
     {
         "name":"Paras Patidar",
@@ -81,7 +81,7 @@
         "designation":"GirlScript",
         "twitter":"https://twitter.com/nehavatsyan",
         "facebook":"https://facebook.com/ernehasharma",
-        "profileImage":""
+        "profileImage":"neha.jpg"
     },
     {
         "name":"Siv Ram Shastri",
@@ -102,14 +102,14 @@
         "designation":"GirlScript",
         "twitter":"https://twitter.com/thisbutterfly",
         "facebook":"https://www.facebook.com/thisbutterfly",
-        "profileImage":""
+        "profileImage":"anushka.jpg"
     },
     {
         "name":"Nand Kishor",
         "designation":"",
         "twitter":"https://twitter.com/nandkk05",
         "facebook":"https://facebook.com/nandkk05",
-        "profileImage":""
+        "profileImage":"nand.webp"
     },
     {
         "name":"Pranavi Jain",
@@ -123,27 +123,27 @@
         "designation":"DSC",
         "twitter":"https://twitter.com/bharatagsrwal",
         "facebook":"https://facebook.com/bharatagsrwal",
-        "profileImage":""
+        "profileImage":"bharat.jpeg"
     },
     {
         "name": "Sai Kiran Reddy",
         "designation": "",
-        "twitter": "",
-        "facebook": "",
-        "profileImage": ""
+        "twitter": "https://mobile.twitter.com/Uppulasaikiran",
+        "facebook": "https://m.facebook.com/uppula.saikiranreddy.3",
+        "profileImage": "saireddy.png"
     },
     {
         "name": "Kamal Lochan Padhan",
         "designation": "",
         "twitter": "https://twitter.com/Odishawala?s=08",
         "facebook": "https://www.facebook.com/kamal.padhan.735",
-        "profileImage": ""
+        "profileImage": "kamalp.jpeg"
     },
     {
         "name": "Binayak Kumar Sethi",
         "designation": "",
         "twitter": "https://mobile.twitter.com/BinayakSethi",
         "facebook": "https://m.facebook.com/binayak.sethi.3",
-        "profileImage": ""
+        "profileImage": "binayak.webp"
     }
 ]
