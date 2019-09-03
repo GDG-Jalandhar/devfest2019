@@ -3,10 +3,11 @@
 
 
     <v-row class="mx-3"  v-for="(item,index) in scheduleData" :key="index">
-      <v-col cols="12" md="1" class="pa-3" >
-        <p style="font-size:120%">{{item.startTime}}</p>
+      <v-col cols="12" md="1" class="px-3" >
+        <p style="font-size:120%" class="mb-0">{{item.startTime}}</p>
+        <p style="font-size:80%" class="ma-0">{{item.endTime}}</p>
       </v-col>
-      <v-col xs10 v-if="item.sessions.length">
+      <v-col xs10 v-if="item.sessions.length" class=" ma-0 pa-0">
         <v-row class=" ">
           <v-col  v-for="(n,index) in item.sessions.length"  :key="index" class="pa-2 ma-1" >
             <v-row v-for="(itemp,index) in item.sessions[index]" :key="index" class="pa-0">
@@ -34,7 +35,7 @@
           </v-col>
         </v-row>
       </v-col>
-      <v-col v-else class="" style="border-radius: 0px; border:1px solid #e0e0e0;">
+      <v-col v-else class=" ma-0" style="border-radius: 0px; border:1px solid #e0e0e0;">
         <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
         <p class="google-font" style="font-size:90%">{{item.des}}</p>
         <v-chip class="white--text ml-0" color="indigo" label v-if="item.timeDuration<60" small> {{ item.timeDuration }} min</v-chip>
