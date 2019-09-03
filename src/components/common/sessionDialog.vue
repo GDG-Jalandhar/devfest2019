@@ -7,8 +7,8 @@
           <div v-on="on" 
           style="cursor: pointer;">
               <v-chip :color="data.vdata.tag.color" label outlined class="mt-1 mb-0" small>{{data.vdata.tag.name}}</v-chip>
-              <p class="google-font ma-0 mt-2" style="font-size:110%;" >{{data.vdata.title | summery(25)}}</p>
-              <p class="google-font mt-1 mb-0" style="font-size:90%">{{data.vdata.description | summery(80)}}</p>
+              <p class="google-font ma-0 mt-2" style="font-size:110%;" >{{data.vdata.title | summary(25)}}</p>
+              <p class="google-font mt-1 mb-0" style="font-size:90%">{{data.vdata.description | summary(80)}}</p>
               <p class="google-font mt-1 mb-0" style="font-size:80%;color:#424242">{{data.vdata.timeDuration}} min | {{data.vdata.place}}</p>
           </div>
       </template>
@@ -95,7 +95,7 @@ import SpeakersDetails from '@/assets/data/speaker.json'
       },
     },
     filters:{
-        summery: (val,num)=>{
+        summary: (val,num)=>{
           if(val.length > num){
             return val.substring(0,num)+".."
           }else{
