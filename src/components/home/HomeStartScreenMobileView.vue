@@ -25,7 +25,7 @@
     <v-divider class="mx-4"></v-divider>
 
     <v-card-text class="google-font">
-      <div class="subtitle-1 text--primary">28th Setember, Chandigarh</div>
+      <div class="subtitle-1 text--primary">28th September, 2019</div>
       <div class="subtitle-2 text--primary">The LaLit, Chandigarh</div>
       <v-chip-group
         small
