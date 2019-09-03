@@ -1,0 +1,122 @@
+[
+    {
+        "startTime":"09:00",
+        "endTime":"09:30",
+        "sessions":[],
+        "title":"Registration",
+        "timeDuration":"30",
+        "place": "Help Desk",
+        "des":"Register yourself and confirm your participation on the Help-desks."
+    },
+    {
+        "startTime":"09:30",
+        "endTime":"10:00",
+        "sessions":[
+            {
+                "item":[215]
+            }
+        ],
+        "des":""
+    },
+    {
+        "startTime":"10:00",
+        "endTime":"10:30",
+        "sessions":[
+            {
+                "item":[210]
+            }
+        ]
+    },
+    {
+        "startTime":"10:30",
+        "endTime":"11:00",
+        "sessions":[
+            {
+                "item":[201]
+            }
+        ]
+    },
+    {
+        "startTime":"11:00",
+        "endTime":"11:45",
+        "sessions":[
+            {
+                "item":[202]
+            }
+        ]
+    },
+    {
+        "startTime":"11:50",
+        "endTime":"12:50",
+        "sessions":[
+            {
+                "item":[206,203]
+            },
+            {
+                "item":[212]
+            }
+        ]
+    },
+    {
+        "startTime":"01:00",
+        "endTime":"02:00",
+        "sessions":[],
+        "title":"Lunch & Networking",
+        "timeDuration":"60",
+        "place": "Lunch Area",
+        "des":"Re-fill the energy level to enjoy some awesome workshops post-lunch."
+    },
+    {
+        "startTime":"02:00",
+        "endTime":"03:30",
+        "sessions":[
+            {
+                "item":[204,205]
+            },
+            {
+                "item":[208,211]
+            }
+        ]
+    },
+   
+    {
+        "startTime":"03:45",
+        "endTime":"05:15",
+        "sessions":[
+            {
+                "item":[207,209]
+            },
+            {
+                "item":[213,214]
+            }
+        ]
+    },
+    {
+        "startTime":"05:15",
+        "endTime":"05:30",
+        "sessions":[],
+        "title":"Tea Break",
+        "timeDuration":"15",
+        "place": "Lunch Area",
+        "des":"Refill yourself and comeback for amazing bind-up."
+    },
+    {
+        "startTime":"05:30",
+        "endTime":"06:00",
+        "sessions":[],
+        "title":"Success Story",
+        "timeDuration":"30",
+        "place": "Main Hall",
+        "des":"Let's share the platform to the people who once attended our workshop and are willing to share their success story."
+    },
+    {
+        "startTime":"06:00",
+        "endTime":"06:30",
+        "sessions":[
+            {
+                "item":[216]
+            }
+        ]
+    }
+    
+]
