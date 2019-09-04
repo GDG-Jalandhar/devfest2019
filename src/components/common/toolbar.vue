@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app
     color="white"
-    elevate-on-scroll
+    hide-on-scroll
     scroll-off-screen
   >
     <v-app-bar-nav-icon @click="toggleDrawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
