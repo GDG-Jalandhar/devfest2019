@@ -3,7 +3,7 @@
     <v-dialog
       v-model="dialog"
       hide-on-leave
-      width="700"
+      width="900"
     >
       <template v-slot:activator="{ on }">
         <div v-on="on" style="cursor: pointer;">
