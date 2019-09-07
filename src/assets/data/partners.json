@@ -51,13 +51,31 @@
             "name":"CodinGurukul",
             "link":"https://codingurukul.com/",
             "img":"cg.webp"
+        },
+        {
+            "name":"Mozilla",
+            "link":"https://foundation.mozilla.org/en/",
+            "img":"mozilla.webp"
         }
     ],
-    "PlatinumSponsors":[
-       
+    "Giga Sponsors":[
+        {
+            "name":"Coding Blocks",
+            "link":"https://codingblocks.com/",
+            "img":"cb.webp"
+        },
+        {
+            "name":"Github",
+            "link":"https://github.com/",
+            "img":"github.webp"
+        }
     ],
-    "Gold Sponsors":[
-        
+    "Mega Sponsors":[
+        {
+            "name":"Swami Devi Dyal Group of Professional Institutes",
+            "link":"http://swamidevidyal.ac.in/",
+            "img":"sdd.webp"
+        }
     ],
     "Silver Sponsors":[
 
