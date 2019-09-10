@@ -41,12 +41,12 @@
         <!-- <p class="google-font">Registration Comming Soon...</p> -->
       <v-btn
         dark
-        href="https://devfestpunjab.page.link/registration"
+        disabled
         target="_blank"
         color="primary"
         aria-label="Registration Button"
       >
-        Request for an Invitation 
+        Registration Closed 
       </v-btn>
       <!-- <v-btn
         text
