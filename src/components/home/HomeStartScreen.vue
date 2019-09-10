@@ -33,7 +33,7 @@
                     </span>
                 </p>
 
-                <v-btn aria-label="Registration Button" href="https://devfestpunjab.page.link/registration" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Request for an Invitation</v-btn>
+                <v-btn aria-label="Registration Button" disabled  target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">Registration Closed</v-btn>
 
                 <!-- &nbsp;
 
