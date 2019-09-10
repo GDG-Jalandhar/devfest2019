@@ -328,5 +328,49 @@
             "website":"",
             "medium": ""
         }
+    },
+    {
+        "id":"117",
+        "name":"Sarthak Jain",
+        "designation":"Tester and Company Growth Strategist",
+        "company":{
+            "name":"Coding Blocks",
+            "url":""
+        },
+        "bio": "Sarthak is an Active OnePlus Community Expert, a recognised XDA Developer and Contributor. He was an Intern at AIR. He is a Keen Tester for Mobile ROMs of OnePlus and ZUK Z1. He has also been an Associate Mentor at LPU,Jalandhar. He was also a speaker at Google I/O Extended 2019",
+        "city":"New Delhi",
+        "country":"India",
+        "image":"",
+        "sessionId": [],
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/sarcastic_sark",
+            "linkedin":"https://www.linkedin.com/in/sarthak-jain24apr98/",
+            "github":"https://github.com/sarthak-1998",
+            "website":"",
+            "medium": ""
+        }
+    },
+    {
+        "id":"118",
+        "name":"Rishabh Bansal",
+        "designation":"GitHub Campus Expert",
+        "company":{
+            "name":"GitHub Campus Expert",
+            "url":""
+        },
+        "bio": "",
+        "city":"New Delhi",
+        "country":"India",
+        "image":"",
+        "sessionId": [],
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/rishabhbansal97",
+            "linkedin":"https://www.linkedin.com/in/rishabhbansal97",
+            "github":"",
+            "website":"",
+            "medium": ""
+        }
     }
 ]
