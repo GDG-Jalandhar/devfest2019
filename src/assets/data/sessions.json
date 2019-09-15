@@ -13,20 +13,7 @@
         "complexity":"Intermediate",
         "speakers":[101]
     },
-    {
-        "id":"202",
-        "title":"Web Security",
-        "description":"Accessibility is integral part of the web and products. By default, web is accessible but we developer mess with the code. This talk will tell devs what, how and where to do make your code accessible and secure.",
-        "place":"Main Hall",
-        "tag": {
-            "name":"Web",
-            "color":"red"
-        },
-        "timeDuration": "45",
-        "subtype":"Presentation",
-        "complexity":"Intermediate",
-        "speakers":[102]
-    },
+   
     {
         "id":"203",
         "title":"Impacts of Depthwise CNN on Embedded Systems for early stage chronic disease detections",
@@ -141,8 +128,8 @@
     },
     {
         "id":"211",
-        "title":"Kotlin Everywhere",
-        "description": "",
+        "title":"Kotlin for Android - Best Practices & Extensions",
+        "description": "Kotlin for Android development (official language) brings in a lot of power to developers. This session covers Kotlin programming best practices, Reactive Extensions & Android KTX extensions to make your Android code more efficient, scalable & readable.",
         "place":"Hall 2",
         "tag": {
             "name":"Mobile",
@@ -151,7 +138,7 @@
         "timeDuration": "40",
         "subtype":"Presentation",
         "complexity":"Intermediate",
-        "speakers":[111]
+        "speakers":[111,120]
     },
     {
         "id":"212",

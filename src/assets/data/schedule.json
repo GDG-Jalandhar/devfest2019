@@ -39,11 +39,10 @@
     {
         "startTime":"11:00",
         "endTime":"11:45",
-        "sessions":[
-            {
-                "item":[202]
-            }
-        ]
+        "sessions":[],
+        "des":"Coming Soon...",
+        "place": "Main Hall",
+        "timeDuration":"45"
     },
     {
         "startTime":"11:50",

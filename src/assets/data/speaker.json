@@ -22,28 +22,6 @@
         }
     },
     {
-        "id":"102",
-        "name":"Pratyusha Simharaju",
-        "designation":"Google Search Outreach Strategist",
-        "company":{
-            "name":"Google",
-            "url":""
-        },
-        "bio": "Pratyusha is a Outreach Strategist at Google in India & help businesses and developers to have better presence on Google search. Earlier she was Program Coordinator For Machine Learning Education at Google. Also WomenTechmakers Lead for Hyderabad.",
-        "city":"Bangalore",
-        "country":"India",
-        "image":"pra.webp",
-        "sessionId": [202],
-        "social":{
-            "facebook":"",
-            "twitter":"https://twitter.com/pratyusha7",
-            "linkedin":"https://www.linkedin.com/in/pratyusha-simharaju-79aa8128/",
-            "github":"",
-            "website":"",
-            "medium": ""
-        }
-    },
-    {
         "id":"103",
         "name":"Sabyasachi Mukhopadhyay",
         "designation":"GDE for ML & Chief Research Officer",
@@ -390,7 +368,29 @@
             "facebook":"",
             "twitter":"https://twitter.com/imthepk",
             "linkedin":"https://www.linkedin.com/in/imthepk/",
-            "github":"https://twitter.com/imthepk",
+            "github":"https://github.com/imthepk",
+            "website":"",
+            "medium": ""
+        }
+    },
+    {
+        "id":"120",
+        "name":"Birender Singh",
+        "designation":"Senior Technology Architect",
+        "company":{
+            "name":"Infosys",
+            "url":""
+        },
+        "bio": "Birender has 15+ years of Software Development Life Cycle experience in IT Services Industry. Being associated with Mobile Solutions Practice and Android being primary development platform, he gained diverse experience while working for leading Global clients.",
+        "city":"Chandigarh",
+        "country":"India",
+        "image":"bira.jpg",
+        "sessionId": [],
+        "social":{
+            "facebook":"",
+            "twitter":"https://twitter.com/Birender_Singhz",
+            "linkedin":"https://www.linkedin.com/in/birenders",
+            "github":"",
             "website":"",
             "medium": ""
         }

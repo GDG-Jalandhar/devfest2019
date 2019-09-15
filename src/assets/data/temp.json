@@ -37,3 +37,43 @@
     "complexity":"",
     "speakers":[110]
 },
+
+
+{
+    //     "id":"102",
+    //     "name":"Pratyusha Simharaju",
+    //     "designation":"Google Search Outreach Strategist",
+    //     "company":{
+    //         "name":"Google",
+    //         "url":""
+    //     },
+    //     "bio": "Pratyusha is a Outreach Strategist at Google in India & help businesses and developers to have better presence on Google search. Earlier she was Program Coordinator For Machine Learning Education at Google. Also WomenTechmakers Lead for Hyderabad.",
+    //     "city":"Bangalore",
+    //     "country":"India",
+    //     "image":"pra.webp",
+    //     "sessionId": [202],
+    //     "social":{
+    //         "facebook":"",
+    //         "twitter":"https://twitter.com/pratyusha7",
+    //         "linkedin":"https://www.linkedin.com/in/pratyusha-simharaju-79aa8128/",
+    //         "github":"",
+    //         "website":"",
+    //         "medium": ""
+    //     }
+    // },
+
+
+    {
+        "id":"202",
+        "title":"Web Security",
+        "description":"Accessibility is integral part of the web and products. By default, web is accessible but we developer mess with the code. This talk will tell devs what, how and where to do make your code accessible and secure.",
+        "place":"Main Hall",
+        "tag": {
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "45",
+        "subtype":"Presentation",
+        "complexity":"Intermediate",
+        "speakers":[102]
+    },
