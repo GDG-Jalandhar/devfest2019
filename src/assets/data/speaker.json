@@ -286,28 +286,6 @@
         }
     },
     {
-        "id":"116",
-        "name":"Pooja Guleria",
-        "designation":"WTM Ambassador & Software Developer",
-        "company":{
-            "name":"Nagarro",
-            "url":""
-        },
-        "bio": "Pooja is a senior associate in Nagarro, exploring native Android development. Apart from that, she posses interest in Firebase too.",
-        "city":"Gurugram",
-        "country":"India",
-        "image":"pooja.webp",
-        "sessionId": [214,216],
-        "social":{
-            "facebook":"",
-            "twitter":"https://twitter.com/PoojaGuleria13",
-            "linkedin":"https://www.linkedin.com/in/pooja-guleria-8a321a150/",
-            "github":"",
-            "website":"",
-            "medium": ""
-        }
-    },
-    {
         "id":"117",
         "name":"Sarthak Jain",
         "designation":"Tester and Company Growth Strategist",
@@ -330,25 +308,25 @@
         }
     },
     {
-        "id":"118",
-        "name":"Rishabh Bansal",
-        "designation":"GitHub Campus Expert",
-        "company":{
-            "name":"GitHub Campus Expert",
-            "url":""
+        "id": "118",
+        "name": "Suhail Singh Bains",
+        "designation": "",
+        "company": {
+            "name":"Mozilla Reps",
+            "url": ""
         },
-        "bio": "Rishabh is the student program manager at Coding Blocks and Campus Expert at GitHub, helping the next generation of tech leaders create inclusive and diverse communities. He’s a strong believer in the educational benefits of hacker culture, and supports student hackers through both his professional work and community leadership.",
-        "city":"New Delhi",
+        "bio": "Suhail is an active contributor in mozilla in projects such as addons, pontoon and firefox reality. He gave a talk on Aframe io and Addons earlier this year. He has helped and encouraged his local community to build unique addons through his experience.",
+        "city": "New Delhi",
         "country":"India",
-        "image":"rishg.webp",
-        "sessionId": [],
+        "image":"suhail.jpeg",
+        "sessionId":[],
         "social":{
-            "facebook":"",
-            "twitter":"https://twitter.com/rishabhbansal97",
-            "linkedin":"https://www.linkedin.com/in/rishabhbansal97",
-            "github":"",
-            "website":"",
-            "medium": ""
+            "facebook": "",
+            "twitter": "https://twitter.com/coder_jatt",
+            "github": "",
+            "linkedin": "https://www.linkedin.com/in/suhailsinghbains/",
+            "medium": "",
+            "website": ""
         }
     },
     {

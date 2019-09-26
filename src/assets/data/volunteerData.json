@@ -7,25 +7,11 @@
         "profileImage":"simran.webp"
     },
     {
-        "name":"Deepak Yadav",
-        "designation":"DSC Lead",
-        "twitter":"https://mobile.twitter.com/DeepakY42049388",
-        "facebook":"https://m.facebook.com/iDee723",
-        "profileImage":"deepak.webp"
-    },
-    {
         "name":"Arsh Goyal",
         "designation":"DSC Lead",
         "twitter":"",
         "facebook":"www.facebook.com/arsh.goyal.3",
         "profileImage":"arsh.webp"
-    },
-    {
-        "name":"Shubhank Saxena",
-        "designation":"DSC Lead",
-        "twitter":"https://twitter.com/19-saxena",
-        "facebook":"https://www.facebook.com/shubhank.saxena2",
-        "profileImage":"shubhank.webp"
     },
     {
         "name":"Ashwani Kumar",
@@ -42,7 +28,7 @@
         "profileImage":"paras.webp"
     },
     {
-        "name":"Anjun S Kumar",
+        "name":"Arjun S Kumar",
         "designation":"DSC",
         "twitter":"https://twitter.com/ArjunInventor",
         "facebook":"https://facebook.com/arjun.inventor",
@@ -112,13 +98,6 @@
         "profileImage":"nand.webp"
     },
     {
-        "name":"Pranavi Jain",
-        "designation":"GirlScript",
-        "twitter":"https://twitter.com/WanderngXplorer",
-        "facebook":"https://www.facebook.com/PranaviJain18",
-        "profileImage":"pranavi.webp"
-    },
-    {
         "name":"Bharat Agarwal",
         "designation":"DSC",
         "twitter":"https://twitter.com/bharatagsrwal",
@@ -145,5 +124,12 @@
         "twitter": "https://mobile.twitter.com/BinayakSethi",
         "facebook": "https://m.facebook.com/binayak.sethi.3",
         "profileImage": "binayak.webp"
+    },
+    {
+        "name": "Sajal Gupta",
+        "designation": "",
+        "twitter": "",
+        "facebook": "",
+        "profileImage": ""
     }
 ]

@@ -17,14 +17,14 @@
     },
     {
         "startTime":"10:00 AM",
-        "duration": "30",
+        "duration": "15",
         "venue": "Main Hall",
         "color": "teal",
         "topic":"Community Introduction",
         "des":"A close look of what is the community and how it works for the welfare of the people in and around the globe. What are the various steps/options to get into these communities and enjoy the amazing learning opportunities. "
     },
     {
-        "startTime":"10:30 AM",
+        "startTime":"10:15 AM",
         "duration": "30",
         "venue": "Main Hall",
         "color": "teal",
@@ -32,15 +32,15 @@
         "des":"The talk discusses few design and fairness principles to keep in mind while building solutions augmented with ML as a core engine with examples around the world."
     },
     {
-        "startTime":"11:00 AM",
-        "duration": "45",
+        "startTime":"10:45 AM",
+        "duration": "35",
         "venue": "Main Hall",
         "color": "teal",
-        "topic":"Web Security",
-        "des":"Accessibility is integral part of the web and products. By default, web is accessible but we developer mess with the code. This talk will tell devs what, how and where to do make your code accessible and secure."
+        "topic":"Flutter",
+        "des":""
     },
     {
-        "startTime":"11:50 AM",
+        "startTime":"11:30 AM",
         "duration": "30",
         "venue": "Main Hall",
         "color": "teal",
@@ -48,7 +48,7 @@
         "des":"It will cover 1) How to start with Android Things, Flash OS on development board and Connect devices with NXP Pico i.MX7D board, 2) Control home appliances using Android mobile & Google Assistant application. You will be learn about Android Things, control home appliances with Google Assistant, and many more. "
     },
     {
-        "startTime":"12:20 PM",
+        "startTime":"12:00 PM",
         "duration": "30",
         "venue": "Main Hall",
         "color": "teal",
@@ -56,15 +56,15 @@
         "des":"Depth wise separable Convolutional Neural Network is an important class of CNN. Significant applications of these type of CNN’s are MobileNet, Xception which are proposed by Google."
     },
     {
-        "startTime":"11:50 AM",
+        "startTime":"11:30 AM",
         "duration": "60",
         "venue": "Hall 2",
         "color": "pink",
-        "topic":"Firebase for Web",
-        "des":"This session will focus on the concepts of Firebase and how it can be used for web. It will be a workshop/codelab on How to make a web app using Firebase with Vanila JavaScript. "
+        "topic":"How to be a Ninja Developer",
+        "des":"All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding."
     },
     {
-        "startTime":"01:00 PM",
+        "startTime":"12:30 PM",
         "duration": "60",
         "venue": "Lunch Area",
         "color": "brown",
@@ -72,39 +72,39 @@
         "des":"Re-fill the energy level to enjoy some awesome workshops post-lunch."
     },
     {
-        "startTime":"02:10 PM",
-        "duration": "40",
+        "startTime":"01:30 PM",
+        "duration": "30",
         "venue": "Main Hall",
         "color": "teal",
-        "topic":"How to be a Ninja Developer",
-        "des":"All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding."
+        "topic":"Firebase for Web",
+        "des":"This session will focus on the concepts of Firebase and how it can be used for web. It will be a workshop/codelab on How to make a web app using Firebase with Vanila JavaScript. "
     },
     {
-        "startTime":"02:50 PM",
-        "duration": "40",
+        "startTime":"02:00 PM",
+        "duration": "30",
         "venue": "Main Hall",
         "color": "teal",
         "topic":"Supercharging your idea",
         "des":"Typically startup founders, 'wanna-be' entrepreneurs, Someone who has an idea, but finding it tough to startup. I will share my experience in advising many startups across the globe."
     },
     {
-        "startTime":"02:10 PM",
-        "duration": "40",
+        "startTime":"01:30 PM",
+        "duration": "30",
         "venue": "Hall 2",
         "color": "pink",
         "topic":"Scale your Web Application on Compute Engine",
         "des":"A session with a demo explaining the multi-tier web app on Compute Engine. It will cover the information related to: IAAS Market stats, choosing right compute services, Multi-tier application with their role, Load Testing, Demo on autoscaling, etc."
     },
     {
-        "startTime":"02:50 PM",
-        "duration": "40",
+        "startTime":"02:00 PM",
+        "duration": "30",
         "venue": "Hall 2",
         "color": "pink",
         "topic":"Kotlin Everywhere",
         "des":"A note on Kotlin"
     },
     {
-        "startTime":"03:45 PM",
+        "startTime":"02:40 PM",
         "duration": "45",
         "venue": "Main Hall",
         "color": "teal",
@@ -112,7 +112,7 @@
         "des":"This talk will help you understand overall landscape of Google Cloud Platform (GCP). Here, we will take a brief look at some of the commonly used features and most relevant for Indian developers."
     },
     {
-        "startTime":"04:30 PM",
+        "startTime":"03:30 PM",
         "duration": "45",
         "venue": "Main Hall",
         "color": "teal",
@@ -120,7 +120,7 @@
         "des":"Big changes at big organizations are hard to manage and tricky to maintain, this talk is to tell you how I brought TypeScript to Naukri."
     },
     {
-        "startTime":"03:45 PM",
+        "startTime":"02:40 PM",
         "duration": "30",
         "venue": "Hall 2",
         "color": "pink",
@@ -128,15 +128,15 @@
         "des":"Some mind-blowing stuffs have been planned for our awesome women attendees with lots of exposure."
     },
     {
-        "startTime":"04:15 PM",
-        "duration": "60",
+        "startTime":"03:10 PM",
+        "duration": "65",
         "venue": "Hall 2",
         "color": "pink",
         "topic":"#IamRemarkable Session",
-        "des":"The 90 minute workshop will highlight to participants the importance of self promotion in their careers and provide them with the tools to start developing this skill."
+        "des":"The 60 minute workshop will highlight to participants the importance of self promotion in their careers and provide them with the tools to start developing this skill."
     },
     {
-        "startTime": "05:15 PM",
+        "startTime": "04:15 PM",
         "duration": "15",
         "venue": "Foad Stall",
         "color": "brown",
@@ -144,7 +144,7 @@
         "des": "Refill yourself and comeback for amazing bind-up."
     },
     {
-        "startTime":"05:30 PM",
+        "startTime":"04:30 PM",
         "duration": "30",
         "venue": "Main Hall",
         "color": "teal",
@@ -152,12 +152,11 @@
         "des":"Let's share the platform to the people who once attended our workshop and are willing to share their success story."
     },
     {
-        "startTime":"06:00 PM",
+        "startTime":"05:00 PM",
         "duration": "30",
         "venue": "Main Hall",
         "color": "teal",
         "topic":"Closing Note",
         "des":"Things never finish well without a proper thank you note, or you can say, conclusion is must after day long festival. Make sure you won't miss ending notes & Success Stories from Community."
     }
-
 ]

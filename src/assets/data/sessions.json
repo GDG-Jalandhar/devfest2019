@@ -32,12 +32,12 @@
         "id":"204",
         "title":"How to be a Ninja Developer",
         "description": "All the developers used to write code then who is Ninja developer? Why do you consider a person as a Ninja developer? “Because he/she knows a lot of things about development”, you say. How do we know? Ninja developers are those who just not write the code but do a lot of other activities along with writing code. Be it delivering talks or helping fellow developers over stack overflow and forums or writing blogs. In this talk, Paresh will be sharing his decade long experience being into the IT industry. He will be sharing his experience, ninja practices and the things that we all developers should be doing along with managing regular job and coding.         ",
-        "place":"Main Hall",
+        "place":"Hall 2",
         "tag": {
             "name":"Insights",
             "color":"black"
         },
-        "timeDuration": "40",
+        "timeDuration": "60",
         "subtype":"Presentation",
         "complexity":"Anyone can attend",
         "speakers":[104]
@@ -51,7 +51,7 @@
             "name":"Insights",
             "color":"black"
         },
-        "timeDuration": "40",
+        "timeDuration": "30",
         "subtype":"Presentation",
         "complexity":"Anyone can attend",
         "speakers":[105]
@@ -93,7 +93,7 @@
             "name":"Cloud",
             "color":"blue"
         },
-        "timeDuration": "40",
+        "timeDuration": "30",
         "subtype":"Presentation",
         "complexity":"Intermediate",
         "speakers":[108]
@@ -121,10 +121,10 @@
             "name":"Keynote",
             "color":"pink"
         },
-        "timeDuration": "30",
+        "timeDuration": "15",
         "subtype":"Presentation",
         "complexity":"Everyone will attend",
-        "speakers":[110]
+        "speakers":[112, 111]
     },
     {
         "id":"211",
@@ -135,7 +135,7 @@
             "name":"Mobile",
             "color":"yellow"
         },
-        "timeDuration": "40",
+        "timeDuration": "30",
         "subtype":"Presentation",
         "complexity":"Intermediate",
         "speakers":[111,120]
@@ -144,12 +144,12 @@
         "id":"212",
         "title":"Firebase for Web",
         "description":" This session will focus on the concepts of Firebase and how it can be used for web. It will be a workshop/codelab on How to make a web app using Firebase with Vanila JavaScript.",
-        "place":"Hall 2",
+        "place":"Main Hall",
         "tag": {
             "name":"Web",
             "color":"red"
         },
-        "timeDuration": "60",
+        "timeDuration": "30",
         "subtype":"Presentation",
         "complexity":"Beginner",
         "speakers":[112]
@@ -208,6 +208,20 @@
         "timeDuration": "30",
         "subtype":"Presentation",
         "complexity":"Everyone will attend",
-        "speakers":[113,116]
+        "speakers":[113]
+    },
+    {
+        "id": "217",
+        "title":"Flutter & Flutter for Web",
+        "description": "Flutter....",
+        "place": "Main Hall",
+        "tag": {
+            "name":"Mobile",
+            "color": "yellow"
+        },
+        "timeDuration": "35",
+        "subtype": "Presentation",
+        "complexity":"Everyone will attend",
+        "speakers": [119]
     }
 ]
